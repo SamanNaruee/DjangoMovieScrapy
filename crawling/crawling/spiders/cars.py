@@ -1,10 +1,10 @@
 import scrapy
 from divar_crawler.models import Cars
 
-class CarsSpider(scrapy.Spider):
-    name = 'cars'  # This name must match what you use in crawl command
-    allowed_domains = ['your-domain.com']  # Replace with actual domain
-    start_urls = ['https://your-domain.com/cars']  # Replace with actual URL
+class CarSpider(scrapy.Spider):
+    name = 'cars' 
+    allowed_domains = ['divar.ir']
+    start_urls = ['https://divar.ir/s/tehran/car']  
 
     def parse(self, response):
         self.log(f'Response status: {response.status}') 

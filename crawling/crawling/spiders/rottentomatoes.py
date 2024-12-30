@@ -6,7 +6,7 @@ from datetime import datetime
 class RottenTomatoesSpider(scrapy.Spider):
     name = 'rottentomatoes'
     allowed_domains = ['rottentomatoes.com']
-    start_urls = ['https://www.rottentomatoes.com/top/bestofrt/?year=2018']
+    start_urls = ['https://www.rottentomatoes.com/browse/movies_at_home/affiliates:netflix~genres:action']
 
     def parse(self, response):
         movies = response.css('table.table tr')[1:]
