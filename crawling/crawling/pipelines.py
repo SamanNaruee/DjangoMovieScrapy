@@ -6,7 +6,7 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
-from movie.model import Movie
+from movie.models import Movie
 
 class CrawlingPipeline:
     def process_item(self, item, spider):
@@ -20,7 +20,7 @@ class MovePipeline:
             genre=item['genre'],
             rating=item['score'],
             year=2018,
-            release_date=time['release_date'],
+            release_date=item['release_date'],
             director=item['director'],
         ).save()
         return item

@@ -106,6 +106,6 @@ IMAGES_STORE = MEDIA_ROOT
 
 
 ITEM_PIPELINES = {
-    'scrapy.piplines.images.ImagesPipeline': 100,
-    'crawling.piplines.CrawlingPipeline': 100,
+    'scrapy.pipelines.images.ImagesPipeline': 100,
+    'crawling.pipelines.CrawlingPipeline': 100,
 }
