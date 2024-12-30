@@ -128,3 +128,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import os
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Add these to your Django settings
+SCRAPY_SETTINGS = {
+    'BOT_NAME': 'crawling',
+    'SPIDER_MODULES': ['crawling.spiders'],
+    'NEWSPIDER_MODULE': 'crawling.spiders',
+    'ROBOTSTXT_OBEY': True,
+}
+
+TELNETCONSOLE_ENABLED = False
