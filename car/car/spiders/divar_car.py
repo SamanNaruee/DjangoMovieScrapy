@@ -1,7 +1,7 @@
 import scrapy
-from divar_crawler.models import DivarCars
+from django_car.models import Car
 
-class DivarCarSpider(scrapy.Spider):
+class CarSpider(scrapy.Spider):
     name = "divar_car"
     allowed_domains = ["divar.ir"]
     start_urls = ["https://divar.ir"]
