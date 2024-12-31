@@ -15,13 +15,18 @@ class CarSpider(scrapy.Spider):
             title = car.css('h2.kt-post-card__title::text').get()
             price = car.css('div.kt-post-card__description::text').get()
             details = car.css('span.kt-post-card__detail::text').getall()
-            
-            car = Car(
-                title=title,
-                price=price,
-                year=details[0] if details else '',
-                image_url=car.css('img::attr(src)').get(),
-                source_url=response.urljoin(car.css('a::attr(href)').get()),
-                extra_data={'details': details}
-            )
-            yield car
+            print_to_log(title)
+            car_data = {
+                'title': title,
+                'price': price,
+                'year': details[0] if details else '',
+                'source_url': response.urljoin(car.css('a::attr(href)').get()),
+                'extra_data': {'details': details}
+            }
+            yield car_data
+
+
+def print_to_log(value):
+    print('########################')
+    print(value)
+    print('########################')
