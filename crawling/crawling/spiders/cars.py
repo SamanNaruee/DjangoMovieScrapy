@@ -21,3 +21,4 @@ class CarSpider(scrapy.Spider):
         if price_str:
             return int(price_str.replace('تومان', '').replace(',', '').strip())
         return None
+
