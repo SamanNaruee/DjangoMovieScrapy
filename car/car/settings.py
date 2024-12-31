@@ -90,35 +90,18 @@ ROBOTSTXT_OBEY = True
 # Set settings whose default value is deprecated to a future-proof value
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
-
-
-# import sys
-# import os
-# import django
-
-# sys.path.append(os.path.dirname(os.path.abspath('.')))
-# os.environ['DJANGO_SETTINGS_MODULE'] = 'best_movies2.settings'
-# django.setup()
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(os.path.dirname(os.path.dirname(os.path.abspath('.'))), 'db.sqlite3'),
-#     }
-# }
-
  
 
 import sys  
 import os  
 import django  
 
-DJANGO_PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))  
+DJANGO_PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 sys.path.append(DJANGO_PROJECT_PATH)  
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'best_movies2.settings')  
 
 django.setup()  
 
 ITEM_PIPELINES = {  
-    'car.pipelines.CarPipeline': 300,  # Adjust the path  
+    'car.pipelines.CarPipeline': 300,
 }

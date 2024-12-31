@@ -40,8 +40,7 @@ INSTALLED_APPS = [
     
     # local apps:
     'movie',
-    'divar_crawler',
-    'django_car'
+    'django_car',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'best_movies.urls'
+ROOT_URLCONF = 'best_movies2.urls'
 
 TEMPLATES = [
     {

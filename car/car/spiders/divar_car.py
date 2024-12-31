@@ -1,5 +1,5 @@
 import scrapy
-from divar_crawler.models import Car
+from divar_crawler.models import DivarCars
 
 class DivarCarSpider(scrapy.Spider):
     name = "divar_car"
