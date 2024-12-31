@@ -7,7 +7,7 @@ class CarSpider(scrapy.Spider):
     start_urls = ["https://divar.ir"]
 
     def parse(self, response):
-        for car in rasponse.css('div.post'):
+        for car in response.css('div.post'):
             yield {
                 'title': car.css('div.post-title a::text').get(),
                 'price': car.css('div.post-price::text').get(),
