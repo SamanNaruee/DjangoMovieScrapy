@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'best_movies.wsgi.application'
+WSGI_APPLICATION = 'best_movies2.wsgi.application'
 
 
 # Database
