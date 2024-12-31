@@ -6,18 +6,20 @@
 
 # useful for handling different item types with a single interface
 from django_car.models import Car
-
+import logging
 
 class CarPipeline:
     def process_item(self, item, spider):
+        logging.info(f"Processing item: {item}")
         model_instance = Car(
-            title = item.get('title'),
-            price = item.get('price'),
-            year = item.get('year'),
-            image_url = item.get('image_url'),
-            source_url = item.get('source_url'),
-            extra_data = item.get('extra_data'),
+            title=item['title'],
+            price=item['price'],
+            year=item['year'],
+            image_url=item['image_url'],
+            source_url=item['source_url'],
+            extra_data=item['extra_data']
         )
         model_instance.save()
+        logging.info(f"Saved car: {model_instance.title}")
         return item
     
