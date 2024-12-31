@@ -1,0 +1,7 @@
+It is important to note that when we use django combined scrapy
+it is a good practice to use custom commands to run crawlers.
+
+to do that we need to create a file called management/commands/'your_favorite_file_name.py
+
+and run the command:
+    python manage.py your_favorite_file_name
