@@ -9,13 +9,12 @@ class CarSpider(scrapy.Spider):
     def parse(self, response):
         self.log(f'Response status: {response.status}') 
         for car in response.css('.post-card-item'):
-            item = Cars(
-                titel=car.css('title-selector::text').get(),
+            Cars.objects.create(
+                title=car.css('title-selector::text').get(),
                 price=self.convert_price(car.css('price-selector::text').get()),
-                linK=car.css('link-selector::attr(href)').get()
+                link=car.css('link-selector::attr(href)').get()
             )
-            item.save()
-
+            
     def convert_price(self, price_str):
         """Convert price from string to integer."""
         if price_str:
