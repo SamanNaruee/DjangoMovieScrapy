@@ -11,3 +11,4 @@ class Command(BaseCommand):
         process.crawl(CarSpider)
         process.start()
         self.stdout.write(self.style.SUCCESS('Successfully scraped Divar car data'))
+
