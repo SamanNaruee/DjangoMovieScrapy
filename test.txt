@@ -1,6 +1,6 @@
 import scrapy
 import json
-from car.items import LaptopItem
+from car.car.items import LaptopItem
 
 class AsusLaptopsSpider(scrapy.Spider):
     """
@@ -12,6 +12,7 @@ class AsusLaptopsSpider(scrapy.Spider):
        - 'hp': /categories/notebook-netbook-ultrabook/brands/hp/search/
        - 'dell': /categories/notebook-netbook-ultrabook/brands/dell/search/
        - 'acer': /categories/notebook-netbook-ultrabook/brands/acer/search/
+    2. Or make this spider more generic by accepting brand name as an argument
     """
     
     name = "asus_laptops"
@@ -42,7 +43,7 @@ class AsusLaptopsSpider(scrapy.Spider):
                 laptop['extra_data'] = product.get('extra_data', {})
                 yield laptop
             except Exception as e:
-                custom_log(f"asus_laptopspy:\n\n{e}", )
+                custom_log(f"asus_laptopspy:\n\n{e}")
 
         # Get current page number from the URL
         current_page = int(response.url.split('page=')[1])
