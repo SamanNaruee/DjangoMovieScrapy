@@ -37,7 +37,16 @@ class LoptopPipeline:
             specs=item['specs'],
             image_url=item['image_url'],
             source_url=item['source_url'],
+            year = item['year'],
+            extra_data=item['extra_data']
         )
         model_instance.save()
         logging.info(f'Saved loptop: {model_instance.title}')
+        custom_log(f"Saved loptop: {model_instance.title}")
         return item
+
+
+def custom_log(value):
+    print("##################################################")
+    print(value)
+    print("##################################################")

@@ -15,19 +15,24 @@ class AsusLaptopsSpider(scrapy.Spider):
 
     def parse(self, response):
         data = json.loads(response.body)
-        # products = data.get('data', {}).get('products', [])
+        products = data.get('data', {}).get('products', [])
         
-        # for product in products:
-        #     laptop = LaptopItem()
-        #     laptop['title'] = product.get('title_fa', '')
-        #     laptop['price'] = product.get('default_variant', {}).get('price', {}).get('selling_price', '')
-        #     laptop['brand'] = 'ASUS'
-        #     laptop['model'] = product.get('title_en', '')
-        #     laptop['specs'] = product.get('specifications', {})
-        #     laptop['image_url'] = product.get('image', {}).get('url', '')
-        #     laptop['source_url'] = f"https://digikala.com/product/{product.get('id')}"
-        #     yield laptop
-        
-        yield {
-            'data' : data
-        }
+        for product in products:
+            laptop = LaptopItem()
+            laptop['title'] = product.get('title_fa', '')
+            laptop['price'] = product.get('default_variant', {}).get('price', {}).get('selling_price', '')
+            laptop['brand'] = 'ASUS'
+            laptop['model'] = product.get('title_en', '')
+            laptop['specs'] = product.get('specifications', {})
+            laptop['image_url'] = product.get('image', {}).get('url', '')
+            laptop['source_url'] = f"https://digikala.com/product/{product.get('id')}"
+            laptop['year'] = product.get('year', '')
+            laptop['extra_data'] = product.get('extra_data', {})
+            custom_log(laptop)
+            yield laptop
+
+
+def custom_log(value):
+    print("##################################################")
+    print(value)
+    print("##################################################")
