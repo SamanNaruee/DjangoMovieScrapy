@@ -11,3 +11,12 @@ class CarItem(scrapy.Item):
     price = scrapy.Field()
     location = scrapy.Field()
     link = scrapy.Field()
+    
+class LaptopItem(scrapy.Item):
+    title = scrapy.Field()
+    price = scrapy.Field()
+    brand = scrapy.Field()
+    model = scrapy.Field()
+    specs = scrapy.Field()
+    image_url = scrapy.Field()
+    source_url = scrapy.Field()
