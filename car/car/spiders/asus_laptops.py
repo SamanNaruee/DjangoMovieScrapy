@@ -1,6 +1,6 @@
 import scrapy
 import json
-from car.items import LaptopItem
+from car.car.items import LaptopItem
 
 class AsusLaptopsSpider(scrapy.Spider):
     name = "asus_laptops"
