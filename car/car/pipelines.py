@@ -6,7 +6,11 @@
 
 # useful for handling different item types with a single interface
 from django_car.models import Car
+from django_loptop.models import Loptop
 import logging
+
+from django.db import transaction
+from asgiref.sync import sync_to_async
 
 class CarPipeline:
     def process_item(self, item, spider):
@@ -23,30 +27,36 @@ class CarPipeline:
         logging.info(f"Saved car: {model_instance.title}")
         return item
 
-from django_loptop.models import Loptop
-import logging
 
-class LoptopPipeline:
-    def process_item(self, item, spider):
-        logging.info(f"Processing item: {item}")
-        model_instance = Loptop(
-            title=item['title'],
-            price=item['price'],
-            brand=item['brand'],
-            model=item['model'],
-            specs=item['specs'],
-            image_url=item['image_url'],
-            source_url=item['source_url'],
-            year = item['year'],
-            extra_data=item['extra_data']
-        )
-        model_instance.save()
-        logging.info(f'Saved loptop: {model_instance.title}')
-        custom_log(f"Saved loptop: {model_instance.title}")
+class LaptopPipeline:
+    @sync_to_async
+    def save_item(self, item):
+        with transaction.atomic():
+            model_instance = Loptop(
+                title=item['title'],
+                price=item['price'],
+                brand=item['brand'],
+                model=item['model'],
+                specs=item['specs'],
+                image_url=item['image_url'],
+                source_url=item['source_url'],
+                extra_data=item['extra_data'],
+                year=item['year']
+            )
+            model_instance.save()
+            return model_instance
+
+    async def process_item(self, item, spider):
+        if spider.name == "asus_laptops":
+            try:
+                await self.save_item(item)
+                custom_log(f"Successfully saved laptop: {item['title']}")
+            except Exception as e:
+                custom_log(f"Error saving laptop: {str(e)}")
         return item
 
 
 def custom_log(value):
     print("##################################################")
-    print(value)
+    print("pipelines.py:\n\n", value)
     print("##################################################")

@@ -105,3 +105,8 @@ django.setup()
 ITEM_PIPELINES = {  
     'car.pipelines.CarPipeline': 300,
 }
+ITEM_PIPELINES = {
+    'car.pipelines.LaptopPipeline': 300,
+}
+
+# TWISTED_REACTOR = 'twisted.internet.asyncio.AsyncioSelectorReactor'
