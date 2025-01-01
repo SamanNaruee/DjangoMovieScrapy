@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # local apps:
     'movie',
     'django_car',
+    'django_loptop',
 ]
 
 MIDDLEWARE = [
