@@ -8,4 +8,7 @@ class Loptop(models.Model):
         specs = models.TextField()
         image_url = models.URLField()
         source_url = models.URLField()
-    
+        extra_data = models.JSONField(default=dict)
+        
+        def __str__(self):
+            return f"{self.title} : {self.price}"
