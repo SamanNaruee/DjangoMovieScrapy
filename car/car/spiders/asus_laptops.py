@@ -3,7 +3,16 @@ import json
 from car.items import LaptopItem
 from django_loptop.models import Loptop
 from customs.Flexibles import custom_log
+
 class AsusLaptopsSpider(scrapy.Spider):
+    """
+    Extra help:
+        1. unic all products to ensure will not recieve duplicate data.
+        2. scrawl extra unset django.model fields in extra_data JsonField.
+        3. Fix jumping bug related to empty or buggy pages.
+        4. Make this logic more Flexible. break it to the small pices.
+        5. Fix shuffled data that scrawled in non-order by paginations and brands.
+    """
     name = "asus_laptops"
     allowed_domains = [
         "api.digikala.com",
@@ -30,9 +39,9 @@ class AsusLaptopsSpider(scrapy.Spider):
                         laptop['model'] = product.get('title_en', '')
                         laptop['specs'] = product.get('specifications', {})
                         laptop['image_url'] = product.get('image', {}).get('url', '')
-                        laptop['source_url'] = f"https://digikala.com/product/{product.get('id')}"
+                        laptop['source_url'] = f"https://digikala.com/product/{product.get('id')}" # Make this one unic
                         laptop['year'] = product.get('year', '2000/01/01')
-                        laptop['extra_data'] = product.get('extra_data', {})
+                        laptop['extra_data'] = product.get('extra_data', {}) 
                         yield laptop
                     except Exception as e:
                         custom_log(f"asus_laptopspy:\n\n{e}", )
