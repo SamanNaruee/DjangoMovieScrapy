@@ -5,27 +5,12 @@
 
 
 # useful for handling different item types with a single interface
-from django_car.models import Car
 from django_loptop.models import Loptop
 import logging
 
 from django.db import transaction
 from asgiref.sync import sync_to_async
 
-class CarPipeline:
-    def process_item(self, item, spider):
-        logging.info(f"Processing item: {item}")
-        model_instance = Car(
-            title=item['title'],
-            price=item['price'],
-            year=item['year'],
-            image_url=item['image_url'],
-            source_url=item['source_url'],
-            extra_data=item['extra_data']
-        )
-        model_instance.save()
-        logging.info(f"Saved car: {model_instance.title}")
-        return item
 
 
 class LaptopPipeline:
