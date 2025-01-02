@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class DivarCrawlerConfig(AppConfig):
+class DjangoLoptopConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'divar_crawler'
+    name = 'django_loptop'

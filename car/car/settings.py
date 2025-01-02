@@ -1,4 +1,4 @@
-# Scrapy settings for crawling project
+# Scrapy settings for car project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "crawling"
+BOT_NAME = "car"
 
-SPIDER_MODULES = ["crawling.spiders"]
-NEWSPIDER_MODULE = "crawling.spiders"
+SPIDER_MODULES = ["car.spiders"]
+NEWSPIDER_MODULE = "car.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "crawling (+http://www.yourdomain.com)"
+#USER_AGENT = "car (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "crawling.middlewares.CrawlingSpiderMiddleware": 543,
+#    "car.middlewares.CarSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "crawling.middlewares.CrawlingDownloaderMiddleware": 543,
+#    "car.middlewares.CarDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "crawling.pipelines.CrawlingPipeline": 300,
+#    "car.pipelines.CarPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -90,22 +90,23 @@ ROBOTSTXT_OBEY = True
 # Set settings whose default value is deprecated to a future-proof value
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+ 
 
+import sys  
+import os  
+import django  
 
-import os 
-import sys
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '..'))
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'best_movies.settings')
-import django
-django.setup()
-DOWNLOAD_DELAY = 3
+DJANGO_PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+sys.path.append(DJANGO_PROJECT_PATH)  
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'best_movies2.settings')  
 
+django.setup()  
 
-from best_movies.settings import MEDIA_ROOT
-IMAGES_STORE = MEDIA_ROOT
-
-
-ITEM_PIPELINES = {
-    'scrapy.pipelines.images.ImagesPipeline': 100,
-    'crawling.pipelines.CrawlingPipeline': 100,
+ITEM_PIPELINES = {  
+    'car.pipelines.CarPipeline': 300,
 }
+ITEM_PIPELINES = {
+    'car.pipelines.LaptopPipeline': 300,
+}
+
+# TWISTED_REACTOR = 'twisted.internet.asyncio.AsyncioSelectorReactor'
