@@ -17,7 +17,7 @@ class LaptopPipeline:
     @sync_to_async
     def save_item(self, item):
         with transaction.atomic():
-            model_instance = Loptop(
+            obj = Loptop.objects.get_or_create(
                 title=item['title'],
                 price=item['price'],
                 brand=item['brand'],
@@ -28,8 +28,7 @@ class LaptopPipeline:
                 extra_data=item['extra_data'],
                 year=item['year']
             )
-            model_instance.save()
-            return model_instance
+            return obj
 
     async def process_item(self, item, spider):
         if spider.name == "asus_laptops":
