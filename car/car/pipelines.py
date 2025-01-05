@@ -45,8 +45,12 @@ class LaptopPipeline:
     async def process_item(self, item, spider):
         if spider.name == "asus_laptops":
             try:
+                if 'price' not in item or not item['price']:
+                    custom_log(f"Missing or invalid price for laptop: {item['title']}", "price_validation")
+                    return
+                    
                 await self.save_item(item)
-                custom_log(f"Successfully saved laptop: {item['title']}", item['title'])
             except Exception as e:
                 custom_log(f"Error saving laptop: {str(e)}", str(e))
+                return
         return item
