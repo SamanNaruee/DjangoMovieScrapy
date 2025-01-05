@@ -6,27 +6,42 @@
 
 # useful for handling different item types with a single interface
 from django_loptop.models import Loptop
-import logging
-
+from datetime import datetime
+from customs.Flexibles import CustomLogger
 from django.db import transaction
 from asgiref.sync import sync_to_async
 
 
-
 class LaptopPipeline:
+    
+    def __init__(self):
+        self.logger = CustomLogger()
+    
+    def format_date(self, date_str):
+        try:    
+            return datetime.strptime(date_str, "%Y/%m/%d")
+        except ValueError:
+            return datetime.now()
+        
     @sync_to_async
     def save_item(self, item):
         with transaction.atomic():
-            obj = Loptop.objects.get_or_create(
+            item['created_at'] = self.format_date(item.get('created_at', '2000/01/01'))
+
+            obj, created = Loptop.objects.get_or_create(
                 title=item['title'],
-                price=item['price'],
-                brand=item['brand'],
-                model=item['model'],
-                specs=item['specs'],
-                image_url=item['image_url'],
-                source_url=item['source_url'],
-                extra_data=item['extra_data'],
-                year=item['year']
+                defaults={
+                    'price': item['price'],
+                    'brand': item['brand'],
+                    'category': item['category'],
+                    'model': item['model'],
+                    'specs': item['specs'],
+                    'image_url': item['image_url'],
+                    'source_url': item['source_url'],
+                    'extra_data': item['extra_data'],
+                    'created_at': item['created_at'],
+                    'crawled_at': item['crawled_at'],
+                }
             )
             return obj
 
@@ -34,13 +49,7 @@ class LaptopPipeline:
         if spider.name == "asus_laptops":
             try:
                 await self.save_item(item)
-                custom_log(f"Successfully saved laptop: {item['title']}")
+                self.logger.custom_log(f"Successfully saved laptop: {item['title']}", item['title'])
             except Exception as e:
-                custom_log(f"Error saving laptop: {str(e)}")
+                self.logger.custom_log(f"Error saving laptop: {str(e)}", str(e))
         return item
-
-
-def custom_log(value):
-    print("##################################################")
-    print("pipelines.py:\n\n", value)
-    print("##################################################")
