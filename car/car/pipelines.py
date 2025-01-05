@@ -7,15 +7,12 @@
 # useful for handling different item types with a single interface
 from django_loptop.models import Loptop
 from datetime import datetime
-from customs.Flexibles import CustomLogger
+from customs.Flexibles import custom_log
 from django.db import transaction
 from asgiref.sync import sync_to_async
 
 
 class LaptopPipeline:
-    
-    def __init__(self):
-        self.logger = CustomLogger()
     
     def format_date(self, date_str):
         try:    
@@ -49,7 +46,7 @@ class LaptopPipeline:
         if spider.name == "asus_laptops":
             try:
                 await self.save_item(item)
-                self.logger.custom_log(f"Successfully saved laptop: {item['title']}", item['title'])
+                custom_log(f"Successfully saved laptop: {item['title']}", item['title'])
             except Exception as e:
-                self.logger.custom_log(f"Error saving laptop: {str(e)}", str(e))
+                custom_log(f"Error saving laptop: {str(e)}", str(e))
         return item

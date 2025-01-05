@@ -2,7 +2,7 @@ import scrapy
 import json
 from ..items import LaptopItem
 from scrapy.http import Request
-from customs.Flexibles import CustomLogger
+from customs.Flexibles import custom_log
 from django.utils import timezone
 
 class AsusLaptopsSpider(scrapy.Spider):
@@ -12,17 +12,19 @@ class AsusLaptopsSpider(scrapy.Spider):
         "https://api.digikala.com/v1/categories/notebook-netbook-ultrabook/brands/asus/search/?page=1",
     ]
     crawled_urls = set()
-    logger = CustomLogger()
     async def parse(self, response):
         data = json.loads(response.body)
         products = data.get('data', {}).get('products', [])
         brand = "asus"
         if not products:
-            self.logger.custom_log(f"No products found on page {current_page}. Stopping crawl.", self)
+            custom_log(f"No products found on page {current_page}. Stopping crawl.", self)
             return
 
         for product in products:
             try:
+                if not product:
+                    custom_log(f"There is no product: {e}", str(e))
+                    continue
                 source_url = f"https://digikala.com/product/{product.get('id', '')}"
                 if source_url in self.crawled_urls:
                     continue
@@ -43,7 +45,7 @@ class AsusLaptopsSpider(scrapy.Spider):
                 laptop['crawled_at'] = product.get('crawled_at', str(timezone.now()))
                 yield laptop
             except Exception as e:
-                self.logger.custom_log(f"Error parsing product: {e}", str(e))
+                custom_log(f"Error parsing product After assigning : {e}", str(e))
 
         current_page = int(response.url.split('page=')[1])
         if products:
