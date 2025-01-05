@@ -10,7 +10,7 @@ class Loptop(models.Model):
         model = models.CharField(max_length=255)
         category = models.CharField(max_length=255)
         specs = models.TextField()
-        image_urls = models.JSONField(default=list, blank=True)
+        image_urls = models.JSONField(default=dict, blank=True)
         source_url = models.URLField()
         created_at = models.DateTimeField(null=True, blank=True, default=timezone.now)
         extra_data = models.JSONField(default=dict, null=True, blank=True)

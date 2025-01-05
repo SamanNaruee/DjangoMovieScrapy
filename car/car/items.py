@@ -19,7 +19,7 @@ class LaptopItem(scrapy.Item):
     category = scrapy.Field()
     model = scrapy.Field()
     specs = scrapy.Field()
-    image_url = scrapy.Field()
+    image_urls = scrapy.Field()
     source_url = scrapy.Field()
     created_at = scrapy.Field()
     crawled_at = scrapy.Field()

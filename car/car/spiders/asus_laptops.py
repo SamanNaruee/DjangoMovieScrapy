@@ -14,7 +14,7 @@ class AsusLaptopsSpider(scrapy.Spider):
     crawled_urls = set()
     async def parse(self, response):
         data = json.loads(response.body)
-        products = data.get('data', {}).get('products', [])
+        products = data.get('data', {}).get('products', []) if data else []
         brand = "asus"
         if not products:
             custom_log(f"No products found on page {current_page}. Stopping crawl.", self)
@@ -31,18 +31,56 @@ class AsusLaptopsSpider(scrapy.Spider):
 
                 self.crawled_urls.add(source_url)
 
-                laptop = LaptopItem()
-                laptop['title'] = product.get('title_fa', 'بدون نام.')
-                laptop['price'] = product.get('default_variant', {}).get('price', {}).get('selling_price', 0)
-                laptop['brand'] = brand.upper()
-                laptop['category'] = 'notebook-netbook-ultrabook'
-                laptop['model'] = product.get('title_en', 'Unknown Model')
-                laptop['specs'] = product.get('specifications', {})
-                laptop['image_url'] = product.get('image', {}).get('url', '')
-                laptop['source_url'] = source_url
-                laptop['created_at'] = product.get('year', '2000/01/01')
-                laptop['extra_data'] = product.get('extra_data', {})
-                laptop['crawled_at'] = product.get('crawled_at', str(timezone.now()))
+                try:
+                    laptop = LaptopItem()
+                    laptop['title'] = product.get('title_fa', 'بدون نام.')
+                except Exception as e:
+                    custom_log(f"Error getting title: {e}", str(e))
+                try:
+                    laptop['price'] = product.get('default_variant', {}).get('price', {}).get('selling_price', 0)
+                except Exception as e:
+                    custom_log(f"Error getting price: {e}", str(e))
+                try:
+                    laptop['brand'] = brand.upper()
+                except Exception as e:
+                    custom_log(f"Error getting brand: {e}", str(e))
+                try:
+                    laptop['category'] = 'notebook-netbook-ultrabook'
+                except Exception as e:
+                    custom_log(f"Error getting category: {e}", str(e))
+                try:
+                    laptop['model'] = product.get('title_en', 'Unknown Model')
+                except Exception as e:
+                    custom_log(f"Error getting model: {e}", str(e))
+                try:
+                    laptop['specs'] = product.get('specifications', {})
+                except Exception as e:
+                    custom_log(f"Error getting specs: {e}", str(e))
+                    
+                try:
+                    images = product.get('images', {})
+                    laptop['image_urls'] = {
+                        "url": images.get("main", {}).get("url", []),
+                        "webp_url": images.get("main", {}).get("webp_url", []),
+                    }
+                except Exception as e:
+                    custom_log(f"Error getting images: {e}", str(e))
+                try:
+                    laptop['source_url'] = source_url
+                except Exception as e:
+                    custom_log(f"Error getting source_url: {e}", str(e))
+                try:
+                    laptop['created_at'] = product.get('year', '2000/01/01')
+                except Exception as e:
+                    custom_log(f"Error getting created_at: {e}", str(e))
+                try:
+                    laptop['extra_data'] = product.get('extra_data', {})
+                except Exception as e:
+                    custom_log(f"Error getting extra_data: {e}", str(e))
+                try:
+                    laptop['crawled_at'] = product.get('crawled_at', str(timezone.now()))
+                except Exception as e:
+                    custom_log(f"Error getting crawled_at: {e}", str(e))
                 yield laptop
             except Exception as e:
                 custom_log(f"Error parsing product After assigning : {e}", str(e))

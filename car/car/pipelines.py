@@ -33,7 +33,7 @@ class LaptopPipeline:
                     'category': item['category'],
                     'model': item['model'],
                     'specs': item['specs'],
-                    'image_url': item['image_url'],
+                    'image_urls': item['image_urls'],
                     'source_url': item['source_url'],
                     'extra_data': item['extra_data'],
                     'created_at': item['created_at'],
