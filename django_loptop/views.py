@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.permissions import IsAdminUser, IsAuthenticated, AllowAny
 from rest_framework.pagination import PageNumberPagination
-from .models import Loptop
+from .models import Laptop
 from .serializers import LoptopSerializer
 
 
@@ -17,11 +17,11 @@ class AcerLaptopListApiView(APIView):
         return [AllowAny()]  
 
     def get_queryset(self):  
-        return Loptop.objects.filter(brand='ACER')  
+        return Laptop.objects.filter(brand='ACER')  
 
     def get(self, request, id=None):  
         if id:  
-            laptop = get_object_or_404(Loptop, id=id)  
+            laptop = get_object_or_404(Laptop, id=id)  
             serializer = LoptopSerializer(laptop)  
             return Response(serializer.data, status=status.HTTP_200_OK)  
 
@@ -39,7 +39,7 @@ class AcerLaptopListApiView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)  
 
     def put(self, request, id):  
-        laptop = get_object_or_404(Loptop, id=id)  
+        laptop = get_object_or_404(Laptop, id=id)  
         serializer = LoptopSerializer(laptop, data=request.data)  
         if serializer.is_valid():  
             serializer.save()  
@@ -47,6 +47,6 @@ class AcerLaptopListApiView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)  
     
     def delete(self, request, id):  
-        laptop = get_object_or_404(Loptop, id=id)  
+        laptop = get_object_or_404(Laptop, id=id)  
         laptop.delete()  
         return Response(status=status.HTTP_204_NO_CONTENT)

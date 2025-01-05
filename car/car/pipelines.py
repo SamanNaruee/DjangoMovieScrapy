@@ -5,7 +5,7 @@
 
 
 # useful for handling different item types with a single interface
-from django_loptop.models import Loptop
+from django_loptop.models import Laptop
 from datetime import datetime
 from customs.Flexibles import custom_log
 from django.db import transaction
@@ -25,7 +25,7 @@ class LaptopPipeline:
         with transaction.atomic():
             item['created_at'] = self.format_date(item.get('created_at', '2000/01/01'))
 
-            obj, created = Loptop.objects.get_or_create(
+            obj, created = Laptop.objects.get_or_create(
                 title=item['title'],
                 defaults={
                     'price': item['price'],

@@ -1,3 +1,3 @@
 from django.contrib import admin
-from django_loptop.models import Loptop
-admin.site.register(Loptop)
+from django_loptop.models import Laptop
+admin.site.register(Laptop)

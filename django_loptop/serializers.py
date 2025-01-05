@@ -1,8 +1,8 @@
-from .models import Loptop
+from .models import Laptop
 from rest_framework import serializers
 
 class LoptopSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Loptop
+        model = Laptop
         fields = '__all__'
         read_only_fields = ['id', 'source_url']
