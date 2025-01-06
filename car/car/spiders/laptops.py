@@ -12,7 +12,6 @@ class LaptopsSpider(scrapy.Spider):
     crawled_urls = set()  
 
     def start_requests(self):  
-        # Loop through all brands and create requests for the first page of each brand  
         for brand in self.all_brands:  
             url = f"https://api.digikala.com/v1/categories/notebook-netbook-ultrabook/brands/{brand}/search/?page=1"  
             yield scrapy.Request(url, callback=self.parse, meta={'brand': brand, 'current_page': 1})  
