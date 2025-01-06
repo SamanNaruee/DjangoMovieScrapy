@@ -7,7 +7,7 @@
 # useful for handling different item types with a single interface
 from django_loptop.models import Laptop
 from datetime import datetime
-from customs.Flexibles import custom_log
+from .log import custom_log
 from django.db import transaction
 from asgiref.sync import sync_to_async
 
@@ -23,7 +23,7 @@ class LaptopPipeline:
     @sync_to_async
     def save_item(self, item):
         with transaction.atomic():
-            item['created_at'] = self.format_date(item.get('created_at', '2000/01/01'))
+            item['created_at'] = self.format_date(item.get('created_at'))
 
             obj, created = Laptop.objects.get_or_create(
                 title=item['title'],
@@ -50,6 +50,7 @@ class LaptopPipeline:
                     return
                     
                 await self.save_item(item)
+                custom_log(f"Saved laptop: {item['title']}", "save_laptop")
             except Exception as e:
                 custom_log(f"Error saving laptop: {str(e)}", str(e))
                 return

@@ -109,4 +109,11 @@ ITEM_PIPELINES = {
     'car.pipelines.LaptopPipeline': 300,
 }
 
-# TWISTED_REACTOR = 'twisted.internet.asyncio.AsyncioSelectorReactor'
+FEEDS = {
+    'laptops.json': {
+        'format': 'json',
+        'encoding': 'utf8',
+        'store_empty': False,
+        'indent': 4,
+    }
+}

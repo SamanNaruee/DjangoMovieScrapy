@@ -2,7 +2,7 @@ import scrapy
 import json  
 from ..items import LaptopItem  
 from scrapy.http import Request  
-from customs.Flexibles import custom_log  
+from ..log import custom_log 
 from django.utils import timezone  
 
 class LaptopsSpider(scrapy.Spider):  
@@ -65,6 +65,7 @@ class LaptopsSpider(scrapy.Spider):
                     }  
                 except Exception as e:  
                     custom_log(f"Error getting images: {e}", str(e))  
+                    continue
                     
                 laptop['source_url'] = source_url  
                 laptop['created_at'] = product.get('year', '2000/01/01')  
