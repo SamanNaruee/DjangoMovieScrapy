@@ -43,7 +43,7 @@ class LaptopPipeline:
             return obj
 
     async def process_item(self, item, spider):
-        if spider.name == "asus_laptops":
+        if spider.name == "laptops":
             try:
                 if 'price' not in item or not item['price']:
                     custom_log(f"Missing or invalid price for laptop: {item['title']}", "price_validation")
