@@ -50,3 +50,5 @@ class AcerLaptopListApiView(APIView):
         laptop = get_object_or_404(Laptop, id=id)  
         laptop.delete()  
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+

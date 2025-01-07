@@ -8,6 +8,7 @@ class LaptopAdmin(admin.ModelAdmin):
     search_fields = ('title', 'brand', 'model', 'category')
     ordering = ('-created_at',)
 
+
 @admin.register(Phones)
 class PhoneAdmin(admin.ModelAdmin):
     list_display = ('title', 'price', 'brand', 'model', 'category', 'image_urls', 'source_url', 'created_at', 'extra_data', 'crawled_at')
