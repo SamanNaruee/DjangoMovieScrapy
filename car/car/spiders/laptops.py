@@ -68,7 +68,7 @@ class LaptopsSpider(scrapy.Spider):
         
 
         default_variant = product.get('default_variant', {})  
-        if default_variant and isinstance(default_variant, dict):  
+        if default_variant != None and isinstance(default_variant, dict):  
             price = default_variant.get('price', {}).get('selling_price', 0)  
             laptop['price'] = price if price else 0  
         else:  
@@ -77,8 +77,9 @@ class LaptopsSpider(scrapy.Spider):
             
         laptop['brand'] = brand.upper()  
         laptop['category'] = 'notebook-netbook-ultrabook'  
-        laptop['model'] = product.get('title_en', 'Unknown Model')  
-        laptop['specs'] = product.get('specifications', {})   
+        laptop['model'] = product.get('title_en', 'Unknown Model') 
+        specs = product.get('specifications')
+        laptop['specs'] = specs if len(specs)!=0 else {'None':"None"}
               
         images = product.get('images', {})  
         laptop['image_urls'] = {  

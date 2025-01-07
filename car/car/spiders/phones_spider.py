@@ -4,6 +4,7 @@ from ..items import PhoneItem
 from scrapy.http import Request  
 from ..log import custom_log 
 from django.utils import timezone  
+from colorama import Fore
 
 class PhonesSpider(scrapy.Spider):  
     name = "phones"  
@@ -20,6 +21,7 @@ class PhonesSpider(scrapy.Spider):
         brand = response.meta['brand']  
         current_page = response.meta['current_page']  
         data = json.loads(response.body)  
+        custom_log(data['data']['products'][0]['specifications'], color=Fore.BLUE)
         products = data.get('data', {}).get('products', []) if data else []  
 
         if not products:  
@@ -75,7 +77,7 @@ class PhonesSpider(scrapy.Spider):
                 price = default_variant.get('price', {}).get('selling_price', 0)  
                 phone['price'] = price if price else 0  
             else:  
-                custom_log("default_variant is not a dictionary, means empty inventory.", self)
+                custom_log("default_variant is not a dictionary, means empty inventory.", default_variant)
                 return   
         except Exception as e:  
             custom_log(f"Error getting price: {e}", str(e))  

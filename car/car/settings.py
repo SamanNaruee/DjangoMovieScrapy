@@ -102,16 +102,11 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'best_movies2.settings')
 
 django.setup()  
 
-ITEM_PIPELINES = {  
-    'car.pipelines.CarPipeline': 300,
-}
 ITEM_PIPELINES = {
     'car.pipelines.LaptopPipeline': 300,
-}
-
-ITEM_PIPELINES = {
     'car.pipelines.PhonePipeline': 300,
 }
+
 
 FEEDS = {
     'laptops.json': {
