@@ -2,6 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("acer/", views.AcerLaptopListApiView.as_view(), name='acer-laptops'),
-    path("acer/<int:id>/", views.AcerLaptopListApiView.as_view(), name='acer-laptops-detail'),
+    path("", views.LaptopListApiView.as_view(), name='laptops'),
+    path("<int:id>/", views.LaptopListApiView.as_view(), name='laptop-detail'),
 ]

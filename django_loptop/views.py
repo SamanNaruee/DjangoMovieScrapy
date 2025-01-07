@@ -21,7 +21,7 @@ class LaptopFilter(filters.FilterSet):
         fields = ['brand', 'model', 'title', 'specs', 'min_price', 'max_price']
 
 
-class AcerLaptopListApiView(ListAPIView):  
+class LaptopListApiView(ListAPIView):  
     serializer_class = LoptopSerializer 
     pagination_class = PageNumberPagination
     filter_backends = (filters.DjangoFilterBackend,)

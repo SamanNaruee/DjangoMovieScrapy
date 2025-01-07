@@ -26,7 +26,7 @@ from rest_framework_simplejwt.views import (
 urlpatterns = [
     # main apps
     path('admin/', admin.site.urls),
-    path('api/laptops/brands/', include('django_loptop.urls')),
+    path('api/laptops/', include('django_loptop.urls')),
     
     # simplejwt api's
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
