@@ -32,46 +32,23 @@ class LaptopsSpider(scrapy.Spider):
                     custom_log(f"There is no product.", self)  
                     continue  
                 
-                source_url = f"https://digikala.com/product/{product.get('id', '')}"  
+                product_id = product.get('id', '')
+                source_url = f"https://digikala.com/product/dkp-{product_id}"
                 if source_url in self.crawled_urls:  
                     continue  
                 
                 self.crawled_urls.add(source_url)  
-                laptop = LaptopItem()  
-                laptop['title'] = product.get('title_fa', 'بدون نام.')  
-
-                try:  
-                    default_variant = product.get('default_variant', {})  
-                    if isinstance(default_variant, dict):  
-                        price = default_variant.get('price', {}).get('selling_price', 0)  
-                        laptop['price'] = price if price else 0  
-                    else:  
-                        custom_log("default_variant is not a dictionary, means empty product", self)  
-                        return   
-                except Exception as e:  
-                    custom_log(f"Error getting price: {e}", str(e))  
-                        
-                laptop['brand'] = brand.upper()  
-                laptop['category'] = 'notebook-netbook-ultrabook'  
-                laptop['model'] = product.get('title_en', 'Unknown Model')  
-                laptop['specs'] = product.get('specifications', {})  
-                    
-                try:  
-                    images = product.get('images', {})  
-                    laptop['image_urls'] = {  
-                        "url": images.get("main", {}).get("url", []),  
-                        "webp_url": images.get("main", {}).get("webp_url", []),  
-                    }  
-                except Exception as e:  
-                    custom_log(f"Error getting images: {e}", str(e))  
-                    continue
-                    
-                laptop['source_url'] = source_url  
-                laptop['created_at'] = product.get('year', '2000/01/01')  
-                laptop['extra_data'] = product.get('extra_data', {})  
-                laptop['crawled_at'] = str(timezone.now())  
-                
-                yield laptop  
+                detailed_api = f'https://api.digikala.com/v2/product/{product_id}/'
+                yield scrapy.Request(
+                    detailed_api,
+                    callback=self.parse_laptop_details,
+                    meta={
+                        'brand': brand,
+                        'basic_product': product,
+                        'source_url': source_url,
+                        'product_id': product_id,
+                    }
+                )
             except Exception as e:  
                 custom_log(f"Error parsing product: {e}", str(e))  
 
@@ -80,3 +57,47 @@ class LaptopsSpider(scrapy.Spider):
             if next_page not in self.crawled_urls:  
                 self.crawled_urls.add(next_page)  
                 yield scrapy.Request(next_page, callback=self.parse, meta={'brand': brand, 'current_page': current_page + 1})
+    def parse_laptop_details(self, response):
+        data = json.loads(response.body)
+        product = response.meta['basic_product']
+        brand = response.meta['brand']
+        source_url = response.meta['source_url']
+        product_id = response.meta['product_id']
+
+        laptop = LaptopItem()  
+        laptop['title'] = product.get('title_fa', 'بدون نام.')  
+        custom_log(f"\nproduct: {product}")
+        
+        try:  
+            default_variant = product.get('default_variant', {})  
+            if isinstance(default_variant, dict):  
+                price = default_variant.get('price', {}).get('selling_price', 0)  
+                laptop['price'] = price if price else 0  
+            else:  
+                custom_log("default_variant is not a dictionary, means empty product")  
+                return   
+        except Exception as e:  
+            custom_log(f"Error getting price: {e}", str(e))  
+                
+        laptop['brand'] = brand.upper()  
+        laptop['category'] = 'notebook-netbook-ultrabook'  
+        laptop['model'] = product.get('title_en', 'Unknown Model')  
+        laptop['specs'] = product.get('specifications', {})   
+            
+        try:  
+            images = product.get('images', {})  
+            laptop['image_urls'] = {  
+                "url": images.get("main", {}).get("url", []),  
+                "webp_url": images.get("main", {}).get("webp_url", []),  
+            }  
+        except Exception as e:  
+            custom_log(f"Error getting images: {e}", str(e))  
+            return
+        laptop['product_id'] = product_id
+        laptop['source_url'] = source_url  
+        laptop['created_at'] = product.get('year', '2000/01/01')  
+        laptop['comments'] = product.get('last_comments', [])
+        laptop['extra_data'] = product.get('extra_data', {})  
+        laptop['crawled_at'] = str(timezone.now())  
+        
+        yield laptop  

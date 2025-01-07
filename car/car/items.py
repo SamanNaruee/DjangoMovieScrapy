@@ -8,8 +8,10 @@ from scrapy import Item, Field
 
 
 class LaptopItem(Item): 
+    product_id = Field()
     title = Field()
     price = Field()
+    comments = Field()
     brand = Field()
     category = Field()
     model = Field()
@@ -23,6 +25,7 @@ class LaptopItem(Item):
 
 
 class PhoneItem(Item):
+    product_id = Field()
     title = Field()
     price = Field()
     brand = Field()

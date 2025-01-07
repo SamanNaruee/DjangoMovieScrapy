@@ -28,8 +28,10 @@ class LaptopPipeline:
             obj, created = Laptop.objects.get_or_create(
                 title=item['title'],
                 defaults={
+                    'product_id' : item['product_id'],
                     'price': item['price'],
                     'brand': item['brand'],
+                    'comments': item['comments'],
                     'category': item['category'],
                     'model': item['model'],
                     'specs': item['specs'],
@@ -72,6 +74,7 @@ class PhonePipeline:
             obj, created = Phones.objects.get_or_create(
                 title=item['title'],
                 defaults={
+                    'product_id' : item['product_id'],
                     'price': item['price'],
                     'brand': item['brand'],
                     'category': item['category'],

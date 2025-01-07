@@ -4,8 +4,10 @@ from django.dispatch import receiver
 from django.utils import timezone
 
 class Laptop(models.Model):
+        product_id = models.CharField(max_length=255)
         title = models.CharField(max_length=255)
         price = models.PositiveBigIntegerField(default=0)
+        comments = models.JSONField(default=dict, blank=True, null=True)
         brand = models.CharField(max_length=255)
         model = models.CharField(max_length=255)
         category = models.CharField(max_length=255)
@@ -22,6 +24,7 @@ class Laptop(models.Model):
 
 
 class Phones(models.Model):
+    product_id = models.CharField(max_length=255)
     title = models.CharField(max_length=255)
     price = models.PositiveBigIntegerField(default=0)
     brand = models.CharField(max_length=255)
