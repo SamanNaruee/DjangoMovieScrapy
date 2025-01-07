@@ -21,17 +21,14 @@ class PhonesSpider(scrapy.Spider):
         brand = response.meta['brand']  
         current_page = response.meta['current_page']  
         data = json.loads(response.body)  
-        custom_log(data['data']['products'][0]['specifications'], color=Fore.BLUE)
         products = data.get('data', {}).get('products', []) if data else []  
 
         if not products:  
-            custom_log(f"No products found for {brand} on page {current_page}. Stopping crawl.", self)  
             return  
 
         for product in products:  
             try:  
                 if not product:  
-                    custom_log(f"There is no product.", self)  
                     continue  
                 
                 product_id = product.get('id', '')
@@ -54,7 +51,7 @@ class PhonesSpider(scrapy.Spider):
                 )
 
             except Exception as e:  
-                custom_log(f"Error parsing product: {e}", str(e))  
+                return  
 
         if products:  
             next_page = f"https://api.digikala.com/v1/categories/mobile-phone/brands/{brand}/search/?page={current_page + 1}"  
@@ -77,15 +74,15 @@ class PhonesSpider(scrapy.Spider):
                 price = default_variant.get('price', {}).get('selling_price', 0)  
                 phone['price'] = price if price else 0  
             else:  
-                custom_log("default_variant is not a dictionary, means empty inventory.", default_variant)
                 return   
         except Exception as e:  
             custom_log(f"Error getting price: {e}", str(e))  
-                
+            return 
+        
         phone['brand'] = brand.upper()  
         phone['category'] = 'mobile-phone'  
         phone['model'] = product.get('title_en', 'Unknown Model')  
-        phone['specs'] = data.get('data', {}).get('product', {}).get('specifications', {})  
+        phone['specs'] = product.get('specifications', {})  
             
         try:  
             images = product.get('images', {})  
@@ -94,7 +91,6 @@ class PhonesSpider(scrapy.Spider):
                 "webp_url": images.get("main", {}).get("webp_url", []),  
             }  
         except Exception as e:  
-            custom_log(f"Error getting images: {e}", str(e))  
             return
             
         phone['source_url'] = source_url  

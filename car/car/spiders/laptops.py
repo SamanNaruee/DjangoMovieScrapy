@@ -3,7 +3,10 @@ import json
 from ..items import LaptopItem  
 from scrapy.http import Request  
 from ..log import custom_log 
-from django.utils import timezone  
+from django.utils import timezone
+from colorama import Fore
+
+
 
 class LaptopsSpider(scrapy.Spider):  
     name = "laptops"  
@@ -23,7 +26,6 @@ class LaptopsSpider(scrapy.Spider):
         products = data.get('data', {}).get('products', []) if data else []  
 
         if not products:  
-            custom_log(f"No products found for {brand} on page {current_page}. Stopping crawl.", self)  
             return  
 
         for product in products:  
@@ -49,7 +51,7 @@ class LaptopsSpider(scrapy.Spider):
                     }
                 )
             except Exception as e:  
-                custom_log(f"Error parsing product: {e}", str(e))  
+                return 
 
         if products:  
             next_page = f"https://api.digikala.com/v1/categories/notebook-netbook-ultrabook/brands/{brand}/search/?page={current_page + 1}"  
@@ -57,7 +59,6 @@ class LaptopsSpider(scrapy.Spider):
                 self.crawled_urls.add(next_page)  
                 yield scrapy.Request(next_page, callback=self.parse, meta={'brand': brand, 'current_page': current_page + 1})
     def parse_laptop_details(self, response):
-        data = json.loads(response.body)
         product = response.meta['basic_product']
         brand = response.meta['brand']
         source_url = response.meta['source_url']
@@ -74,12 +75,12 @@ class LaptopsSpider(scrapy.Spider):
         else:  
             return   
 
-            
+        laptop['product_id'] = product_id
         laptop['brand'] = brand.upper()  
         laptop['category'] = 'notebook-netbook-ultrabook'  
         laptop['model'] = product.get('title_en', 'Unknown Model') 
         specs = product.get('specifications')
-        laptop['specs'] = specs if len(specs)!=0 else {'None':"None"}
+        laptop['specs'] = specs if specs else {'None':"None"} # TODO TypeError: object of type 'NoneType' has no len()
               
         images = product.get('images', {})  
         laptop['image_urls'] = {  

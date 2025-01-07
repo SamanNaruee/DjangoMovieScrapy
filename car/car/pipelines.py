@@ -10,7 +10,7 @@ from datetime import datetime
 from .log import custom_log
 from django.db import transaction
 from asgiref.sync import sync_to_async
-
+from colorama import Fore
 
 class LaptopPipeline:
     
@@ -52,9 +52,8 @@ class LaptopPipeline:
                     return
                     
                 await self.save_item(item)
-                custom_log(f"Saved laptop: {item['title']}", "save_laptop")
+                custom_log(f"Saved laptop: {item['title']}", "save_laptop", color=Fore.RED)
             except Exception as e:
-                custom_log(f"Error saving laptop: {str(e)}", str(e))
                 return
         return item
 
@@ -87,6 +86,7 @@ class PhonePipeline:
                     'crawled_at': item['crawled_at'],
                 }
             )
+            return obj
     async def process_item(self, item, spider):
         if spider.name == "phones":
             try:
@@ -94,8 +94,7 @@ class PhonePipeline:
                     custom_log(f"Missing or invalid price for phone: {item['title']}", "price_validation")
                     return
                 await self.save_item(item)
-                custom_log(f"Saved phone: {item['title']}", "save_phone")
+                custom_log(f"Saved phone: {item['title']}", "save_phone", color=Fore.RED)
             except Exception as e:
-                custom_log(f"Error saving phone: {str(e)}", str(e))
                 return
         return item
