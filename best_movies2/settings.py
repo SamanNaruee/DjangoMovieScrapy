@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     #thidd party apps:
     'rest_framework',
     'rest_framework_simplejwt',
+    'django_filters',
     
     # local apps:
     'movie',
