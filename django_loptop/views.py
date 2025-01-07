@@ -9,16 +9,16 @@ from .models import Laptop
 from .serializers import LoptopSerializer
 
 class LaptopFilter(filters.FilterSet):
-    brand = filters.CharFilter(field_name='brand', lookup_expr='icontains')
-    model = filters.CharFilter(field_name='model', lookup_expr='icontains')
-    name = filters.CharFilter(field_name='name', lookup_expr='icontains')
-    specs = filters.CharFilter(field_name='specs', lookup_expr='icontains')
-    min_price = filters.NumberFilter(field_name='price', lookup_expr='gte')
-    max_price = filters.NumberFilter(field_name='price', lookup_expr='lte')
+    brand = filters.CharFilter(field_name='brand', lookup_expr='icontains', help_text='Filter by brand name (e.g. Acer, Dell)')
+    model = filters.CharFilter(field_name='model', lookup_expr='icontains', help_text='Filter by model name (e.g. Aspire 5, Inspiron 15)')
+    title = filters.CharFilter(field_name='title', lookup_expr='icontains', help_text='Filter by Farsi title (e.g. مانند گیمینگ)')
+    specs = filters.CharFilter(field_name='specs', lookup_expr='icontains', help_text='Filter by specifications (e.g. 16GB RAM, 512GB SSD)')
+    min_price = filters.NumberFilter(field_name='price', lookup_expr='gte', help_text='Filter by lower than or equal to price (e.g. 1000000)')
+    max_price = filters.NumberFilter(field_name='price', lookup_expr='lte', help_text='Filter by upper than or equal to price (e.g. 2000000)')
     
     class Meta:
         model = Laptop
-        fields = ['brand', 'model', 'name', 'specs', 'min_price', 'max_price']
+        fields = ['brand', 'model', 'title', 'specs', 'min_price', 'max_price']
 
 
 class AcerLaptopListApiView(ListAPIView):  
@@ -35,8 +35,20 @@ class AcerLaptopListApiView(ListAPIView):
     def get_queryset(self):  
         return Laptop.objects.all() 
 
-    def get(self, request, *args, **kwargs):
-        return super().get(request, *args, **kwargs)
+    def get(self, request, *args, **kwargs):  
+        response = super().get(request, *args, **kwargs)  
+        
+        return Response({  
+            'help_text': {  
+                'brand': 'Filter by brand name (e.g. Acer, Dell)',  
+                'model': 'Filter by model name or number',  
+                'title': 'Filter by laptop name',  
+                'specs': 'Filter by specifications (e.g., RAM, HDD)',  
+                'min_price': 'Minimum price to filter laptops',  
+                'max_price': 'Maximum price to filter laptops',  
+            },  
+            'results': response.data  
+        })
 
     def post(self, request):  
         serializer = LoptopSerializer(data=request.data)  
