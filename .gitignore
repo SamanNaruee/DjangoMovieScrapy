@@ -10,3 +10,4 @@ __pycache__
 media
 get-pip.py
 *help.txt
+*help.json

@@ -28,8 +28,7 @@ class LaptopsSpider(scrapy.Spider):
 
         for product in products:  
             try:  
-                if not product:  
-                    custom_log(f"There is no product.", self)  
+                if not product or not product['default_variant']:  
                     continue  
                 
                 product_id = product.get('id', '')
@@ -66,33 +65,26 @@ class LaptopsSpider(scrapy.Spider):
 
         laptop = LaptopItem()  
         laptop['title'] = product.get('title_fa', 'بدون نام.')  
-        custom_log(f"\nproduct: {product}")
         
-        try:  
-            default_variant = product.get('default_variant', {})  
-            if isinstance(default_variant, dict):  
-                price = default_variant.get('price', {}).get('selling_price', 0)  
-                laptop['price'] = price if price else 0  
-            else:  
-                custom_log("default_variant is not a dictionary, means empty product")  
-                return   
-        except Exception as e:  
-            custom_log(f"Error getting price: {e}", str(e))  
-                
+
+        default_variant = product.get('default_variant', {})  
+        if default_variant and isinstance(default_variant, dict):  
+            price = default_variant.get('price', {}).get('selling_price', 0)  
+            laptop['price'] = price if price else 0  
+        else:  
+            return   
+
+            
         laptop['brand'] = brand.upper()  
         laptop['category'] = 'notebook-netbook-ultrabook'  
         laptop['model'] = product.get('title_en', 'Unknown Model')  
         laptop['specs'] = product.get('specifications', {})   
-            
-        try:  
-            images = product.get('images', {})  
-            laptop['image_urls'] = {  
-                "url": images.get("main", {}).get("url", []),  
-                "webp_url": images.get("main", {}).get("webp_url", []),  
-            }  
-        except Exception as e:  
-            custom_log(f"Error getting images: {e}", str(e))  
-            return
+              
+        images = product.get('images', {})  
+        laptop['image_urls'] = {  
+            "url": images.get("main", {}).get("url", []),  
+            "webp_url": images.get("main", {}).get("webp_url", []),  
+        }  
         laptop['product_id'] = product_id
         laptop['source_url'] = source_url  
         laptop['created_at'] = product.get('year', '2000/01/01')  
