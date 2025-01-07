@@ -1,0 +1,4 @@
+//  to leave an empty line at end of each file automatically
+{
+    "files.insertFinalNewline": true,
+}
