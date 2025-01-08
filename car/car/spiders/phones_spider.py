@@ -20,7 +20,7 @@ class PhonesSpider(scrapy.Spider):
     def parse(self, response):  
         brand = response.meta['brand']  
         current_page = response.meta['current_page']  
-        data = json.loads(response.body)  
+        data = json.loads(response.body)
         products = data.get('data', {}).get('products', []) if data else []  
 
         if not products:  
@@ -51,7 +51,8 @@ class PhonesSpider(scrapy.Spider):
                 )
 
             except Exception as e:  
-                return  
+                custom_log("exception in parse: " + str(e), "parse_exception")
+                continue  
 
         if products:  
             next_page = f"https://api.digikala.com/v1/categories/mobile-phone/brands/{brand}/search/?page={current_page + 1}"  
@@ -72,30 +73,38 @@ class PhonesSpider(scrapy.Spider):
             default_variant = product.get('default_variant', {})  
             if isinstance(default_variant, dict):  
                 price = default_variant.get('price', {}).get('selling_price', 0)  
-                phone['price'] = price if price else 0  
+                phone['price'] = int(price) if price else 0  
             else:  
-                return   
+                custom_log("Invalid default_variant format", "price_validation")
+                return None
         except Exception as e:  
-            custom_log(f"Error getting price: {e}", str(e))  
-            return 
+            custom_log(f"Error getting price in 'parse_phone' : {e}", str(e))  
+            return None
         
-        phone['brand'] = brand.upper()  
+        phone['brand'] = str(brand.upper())  
         phone['category'] = 'mobile-phone'  
-        phone['model'] = product.get('title_en', 'Unknown Model')  
-        phone['specs'] = product.get('specifications', {})  
-            
+        phone['model'] = str(product.get('title_en', 'Unknown Model'))  
+        phone['specs'] = dict(product.get('specifications', {}))  
+                
         try:  
             images = product.get('images', {})  
             phone['image_urls'] = {  
-                "url": images.get("main", {}).get("url", []),  
-                "webp_url": images.get("main", {}).get("webp_url", []),  
+                "url": str(images.get("main", {}).get("url", "")),  
+                "webp_url": str(images.get("main", {}).get("webp_url", "")),  
             }  
-        except Exception as e:  
-            return
-            
-        phone['source_url'] = source_url  
-        phone['created_at'] = product.get('year', '2000/01/01')  
-        phone['extra_data'] = product.get('extra_data', {})  
+        except Exception as e:
+            custom_log(f"Error getting images: {e}", "image_validation")
+            return None
+                
+        phone['source_url'] = str(source_url)  
+        phone['product_id'] = str(product.get('id', ''))
+        phone['created_at'] = str(product.get('year', '2000/01/01'))  
+        phone['extra_data'] = dict(product.get('extra_data', {}))  
         phone['crawled_at'] = str(timezone.now())  
-        
-        yield phone
+
+        if all([phone['title'], phone['price'], phone['brand'], phone['image_urls']]):
+            custom_log(f"Phone item: {phone}", "phone_item")
+            yield phone
+        else:
+            custom_log(f"Skipping incomplete phone item: {phone['title']}", "incomplete_item")
+

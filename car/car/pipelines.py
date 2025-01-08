@@ -87,7 +87,7 @@ class PhonePipeline:
                 }
             )
             return obj
-    async def process_item(self, item, spider):
+    async def process_item(self, item, spider):              
         if spider.name == "phones":
             try:
                 if 'price' not in item or not item['price']:
@@ -96,5 +96,6 @@ class PhonePipeline:
                 await self.save_item(item)
                 custom_log(f"Saved phone: {item['title']}", "save_phone", color=Fore.RED)
             except Exception as e:
+                custom_log("pipeline", str(e))
                 return
         return item
