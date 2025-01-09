@@ -4,6 +4,7 @@ from ..items import PhoneItem
 from scrapy.http import Request  
 from ..log import custom_log 
 from django.utils import timezone  
+from django_loptop.models import Phones
 from colorama import Fore
 
 class PhonesSpider(scrapy.Spider):  
@@ -16,7 +17,7 @@ class PhonesSpider(scrapy.Spider):
         for brand in self.all_brands:  
             url = f"https://api.digikala.com/v1/categories/mobile-phone/brands/{brand}/search/?page=1"  
             yield scrapy.Request(url, callback=self.parse, meta={'brand': brand, 'current_page': 1})  
-
+    
     def parse(self, response):  
         brand = response.meta['brand']  
         current_page = response.meta['current_page']  
@@ -45,8 +46,8 @@ class PhonesSpider(scrapy.Spider):
                     callback=self.parse_phone_details,
                     meta={
                         'brand': brand,
-                        'basic_product': product,
-                        'source_url': source_url
+                        'source_url': source_url,
+                        'product_id': product_id
                     }
                 )
 
@@ -61,12 +62,13 @@ class PhonesSpider(scrapy.Spider):
                 yield scrapy.Request(next_page, callback=self.parse, meta={'brand': brand, 'current_page': current_page + 1})
 
     def parse_phone_details(self, response):
-        data = json.loads(response.body)
-        product = response.meta['basic_product']
+        data = json.loads(response.body).get('data', {})
+        
+        product = data.get('product', {})
         brand = response.meta['brand']
         source_url = response.meta['source_url']
-
-        phone = PhoneItem()
+        
+        phone = PhoneItem() # PhoneItem()
         phone['title'] = product.get('title_fa', 'بدون نام.')
         
         try:  
@@ -75,16 +77,14 @@ class PhonesSpider(scrapy.Spider):
                 price = default_variant.get('price', {}).get('selling_price', 0)  
                 phone['price'] = int(price) if price else 0  
             else:  
-                custom_log("Invalid default_variant format", "price_validation")
                 return None
         except Exception as e:  
-            custom_log(f"Error getting price in 'parse_phone' : {e}", str(e))  
             return None
         
         phone['brand'] = str(brand.upper())  
         phone['category'] = 'mobile-phone'  
         phone['model'] = str(product.get('title_en', 'Unknown Model'))  
-        phone['specs'] = dict(product.get('specifications', {}))  
+        phone['specs'] = product.get('specifications', {})
                 
         try:  
             images = product.get('images', {})  
@@ -93,7 +93,6 @@ class PhonesSpider(scrapy.Spider):
                 "webp_url": str(images.get("main", {}).get("webp_url", "")),  
             }  
         except Exception as e:
-            custom_log(f"Error getting images: {e}", "image_validation")
             return None
                 
         phone['source_url'] = str(source_url)  
@@ -102,8 +101,7 @@ class PhonesSpider(scrapy.Spider):
         phone['extra_data'] = dict(product.get('extra_data', {}))  
         phone['crawled_at'] = str(timezone.now())  
 
-        if all([phone['title'], phone['price'], phone['brand'], phone['image_urls']]):
-            custom_log(f"Phone item: {phone}", "phone_item")
+        if all([phone['title'], phone['price'], phone['brand'], phone['image_urls'], phone['source_url']]):
             yield phone
         else:
             custom_log(f"Skipping incomplete phone item: {phone['title']}", "incomplete_item")

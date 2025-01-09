@@ -32,7 +32,7 @@ class LaptopsSpider(scrapy.Spider):
             try:  
                 if not product or not product['default_variant']:  
                     continue  
-                
+            
                 product_id = product.get('id', '')
                 source_url = f"https://digikala.com/product/dkp-{product_id}"
                 if source_url in self.crawled_urls:  
@@ -45,7 +45,6 @@ class LaptopsSpider(scrapy.Spider):
                     callback=self.parse_laptop_details,
                     meta={
                         'brand': brand,
-                        'basic_product': product,
                         'source_url': source_url,
                         'product_id': product_id,
                     }
@@ -59,7 +58,8 @@ class LaptopsSpider(scrapy.Spider):
                 self.crawled_urls.add(next_page)  
                 yield scrapy.Request(next_page, callback=self.parse, meta={'brand': brand, 'current_page': current_page + 1})
     def parse_laptop_details(self, response):
-        product = response.meta['basic_product']
+        data = json.loads(response.body).get('data', {})
+        product = data.get('product', {})
         brand = response.meta['brand']
         source_url = response.meta['source_url']
         product_id = response.meta['product_id']
@@ -73,14 +73,13 @@ class LaptopsSpider(scrapy.Spider):
             price = default_variant.get('price', {}).get('selling_price', 0)  
             laptop['price'] = price if price else 0  
         else:  
-            return   
+            return None
 
         laptop['product_id'] = product_id
         laptop['brand'] = brand.upper()  
         laptop['category'] = 'notebook-netbook-ultrabook'  
-        laptop['model'] = product.get('title_en', 'Unknown Model') 
-        specs = product.get('specifications')
-        laptop['specs'] = specs if specs else {'None':"None"} # TODO TypeError: object of type 'NoneType' has no len()
+        laptop['model'] = product.get('title_en', 'Unknown Model')
+        laptop['specs'] =  product.get('specifications')
               
         images = product.get('images', {})  
         laptop['image_urls'] = {  
@@ -93,5 +92,8 @@ class LaptopsSpider(scrapy.Spider):
         laptop['comments'] = product.get('last_comments', [])
         laptop['extra_data'] = product.get('extra_data', {})  
         laptop['crawled_at'] = str(timezone.now())  
+        if all([laptop['brand'], laptop['category'], laptop['price'], laptop['source_url'], laptop['specs']]):
+            yield laptop  
+        else:
+            custom_log(f"Error existing fields for laptop: {laptop}", Fore.RED)
         
-        yield laptop  

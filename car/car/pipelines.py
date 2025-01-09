@@ -42,6 +42,7 @@ class LaptopPipeline:
                     'crawled_at': item['crawled_at'],
                 }
             )
+            obj.save()
             return obj
 
     async def process_item(self, item, spider):
@@ -49,12 +50,11 @@ class LaptopPipeline:
             try:
                 if 'price' not in item or not item['price']:
                     custom_log(f"Missing or invalid price for laptop: {item['title']}", "price_validation")
-                    return
+                    return None
                     
                 await self.save_item(item)
-                custom_log(f"Saved laptop: {item['title']}", "save_laptop", color=Fore.RED)
             except Exception as e:
-                return
+                return None
         return item
 
 
@@ -69,7 +69,6 @@ class PhonePipeline:
     def save_item(self, item):
         with transaction.atomic():
             item['created_at'] = self.format_date(item.get('created_at'))
-            
             obj, created = Phones.objects.get_or_create(
                 title=item['title'],
                 defaults={
@@ -86,16 +85,14 @@ class PhonePipeline:
                     'crawled_at': item['crawled_at'],
                 }
             )
+            obj.save()
             return obj
-    async def process_item(self, item, spider):              
+    async def process_item(self, item, spider):   
         if spider.name == "phones":
             try:
                 if 'price' not in item or not item['price']:
-                    custom_log(f"Missing or invalid price for phone: {item['title']}", "price_validation")
-                    return
+                    return None
                 await self.save_item(item)
-                custom_log(f"Saved phone: {item['title']}", "save_phone", color=Fore.RED)
             except Exception as e:
-                custom_log("pipeline", str(e))
-                return
+                return None
         return item

@@ -36,8 +36,12 @@ class LaptopListApiView(ListAPIView):
         return Laptop.objects.all() 
 
     def get(self, request, *args, **kwargs):  
+        id = kwargs.get('id')
+        if id:
+            laptop = get_object_or_404(Laptop, id=id)
+            serializer = LoptopSerializer(laptop)
+            return Response(serializer.data)
         response = super().get(request, *args, **kwargs)  
-        
         return Response({  
             'help_text': {  
                 'brand': 'Filter by brand name (e.g. Acer, Dell)',  
