@@ -13,7 +13,6 @@ async def extract_categories():
         # Go to the website
         await page.goto(url, wait_until="networkidle")
 
-        # Wait for the main menu to load and click it
         try:
             await page.wait_for_selector("span[data-cro-id='header-main-menu']", timeout=10000)
             await page.click("span[data-cro-id='header-main-menu']")
@@ -23,7 +22,6 @@ async def extract_categories():
             await browser.close()
             return
 
-        # Now, select all categories (adjust selector based on Digikala's structure)
         try:
             categories = await page.query_selector_all("a[href*='/search/category-']")  # Example selector
             for category in categories:
@@ -34,9 +32,7 @@ async def extract_categories():
         except Exception as e:
             print(f"Error extracting categories: {e}")
 
-        await browser.close()
-    # to convert links into a json file;
-    
+        await browser.close()    
     
 
 asyncio.run(extract_categories())
