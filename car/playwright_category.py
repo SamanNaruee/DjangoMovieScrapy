@@ -33,6 +33,6 @@ async def extract_categories():
             print(f"Error extracting categories: {e}")
 
         await browser.close()    
-    
+
 
 asyncio.run(extract_categories())

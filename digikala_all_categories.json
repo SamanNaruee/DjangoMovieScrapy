@@ -1,983 +1,951 @@
 {
-گوشی آیفون: /search/category-mobile-phone/apple/
-گوشی سامسونگ: /search/category-mobile-phone/samsung/
-گوشی شیائومی: /search/category-mobile-phone/xiaomi/
-گوشی نوکیا: /search/category-mobile-phone/nokia/?sort=7
-گوشی آنر: /search/category-mobile-phone/honor/
-گوشی ناتینگ فون: /search/category-mobile-phone/nothing/
-گوشی ریلمی: /search/category-mobile-phone/realme/
-گوشی موتورولا: /search/category-mobile-phone/motorola/
-گوشی تی سی ال: /search/category-mobile-phone/TCL/
-گوشی هواوی: /search/category-mobile-phone/huawei/
-گوشی داریا: /search/category-mobile-phone/daria/
-گوشی گوگل پیکسل: /search/category-mobile-phone/google/
-گوشی اوپو: /search/category-mobile-phone/oppo-it/
-گوشی آلکاتل: /search/category-mobile-phone/alcatel/
-گوشی جی ال ایکس: /search/category-mobile-phone/glx/
-گوشی وکال: /search/category-mobile-phone/vocal/
-گوشی وان پلاس: /search/category-mobile-phone/oneplus/
-گوشی موبایل دوجی: /search/category-mobile-phone/doogee/
-گوشی بلک ویو: /search/category-mobile-phone/blackview/
-قیمت گوشی: /search/category-mobile-phone/
-برندهای برتر: /search/category-mobile-phone/
-گوشی تا 2 میلیون تومان: /search/category-mobile-phone/product-list/?price%5bmax%5d=20000000&price%5bmin%5d=0
-گوشی تا 5 میلیون تومان: /search/category-mobile-phone/product-list/?price%5bmax%5d=50000000&price%5bmin%5d=0
-گوشی تا 7 میلیون تومان: /search/category-mobile-phone/product-list/?price%5bmax%5d=70000000&price%5bmin%5d=0
-گوشی تا 15 میلیون تومان: /search/category-mobile-phone/product-list/?price%5bmax%5d=150000000&price%5bmin%5d=0
-گوشی بالای 15 میلیون تومان: /search/category-mobile-phone/product-list/?price%5bmax%5d=689890000&price%5bmin%5d=150000000
-گوشی دکمه‌ای: /search/category-mobile-phone/product-list/?attributes%5B7348%5D%5B0%5D=31344
-گوشی ضد آب: /search/category-mobile-phone/product-list/?attributes%5B7348%5D%5B0%5D=31349
-گوشی مناسب عکاسی: /search/category-mobile-phone/product-list/?attributes%5B7348%5D%5B0%5D=31352&sort=7
-گوشی دانش آموزی: /search/category-mobile-phone/product-list/?price%5bmax%5d=60000000&price%5bmin%5d=0&sort=4
-لوازم جانبی موبایل: /search/category-mobile-accessories/
-شارژر گوشی: /search/category-car-charger/
-قاب و کاور گوشی: /search/category-cell-phone-pouch-cover/
-گلس گوشی: /search/category-cell-phone-screen-guard/
-هولدر گوشی موبایل: /search/category-cell-phone-holder/
-کابل شارژ و مبدل: /search/category-cell-phone-data-cable/
-پاوربانک (شارژر همراه): /search/category-power-bank/
-تبلت: /search/category-tablet/
-تبلت سامسونگ: /search/category-tablet/samsung/
-تبلت اپل (آی پد): /search/category-tablet/apple/
-تبلت شیائومی: /search/category-tablet/xiaomi/
-تبلت لنوو: /search/category-tablet/lenovo/
-تبلت مایکروسافت: /search/category-tablet/microsoft/
-تبلت دانش آموزی: /search/category-tablet/?price%5Bmax%5D=150000000&price%5Bmin%5D=0&sort=20
-هدفون: /search/category-headphone/
-هدفون بی سیم: /search/category-headphone/?attributes%5B2352%5D%5B0%5D=21576&attributes%5B2352%5D%5B1%5D=31584&attributes%5B2352%5D%5B2%5D=21577&sort=21&types%5B0%5D=127
-هدفون اپل (ایرپاد): /search/category-headphone/apple/
-هدفون بیتس: /search/category-headphone/beats/
-هدفون سونی: /search/category-headphone/sony/
-هدفون سامسونگ (ایربادز): /search/category-headphone/samsung/
-هدفون شیائومی: /search/category-headphone/xiaomi/
-هدفون جی بی ال: /search/category-headphone/jbl/
-ساعت و مچ بند هوشمند: /search/category-wearable-gadget/
-ساعت هوشمند سامسونگ: /search/category-smart-watch/samsung/
-ساعت هوشمند شیائومی: /search/category-smart-watch/xiaomi/
-اپل واچ: /search/category-smart-watch/apple/
-داغ ترین‌ها: /search/category-mobile-phone/product-list/?sort=7
-لپ تاپ: /search/category-notebook-netbook-ultrabook/
-لپ‌تاپ ایسوس: /search/category-notebook-netbook-ultrabook/asus/
-لپ‌تاپ لنوو: /search/category-notebook-netbook-ultrabook/lenovo/
-مک بوک: /search/category-notebook-netbook-ultrabook/apple/
-لپ‌تاپ HP: /search/category-notebook-netbook-ultrabook/hp/
-لپ‌تاپ دل: /search/category-notebook-netbook-ultrabook/dell/
-لپ‌تاپ ایسر: /search/category-notebook-netbook-ultrabook/acer/
-لپ‌تاپ ام اس آی: /search/category-notebook-netbook-ultrabook/msi/
-لپ تاپ استوک: /search/category-used-laptop/
-لوازم جانبی لپ تاپ: /search/category-laptop-accessories/
-شارژر لپ‌تاپ: /search/category-laptop-charger/
-کیف لپ‌تاپ: /search/category-laptop-bag/
-کول پد: /search/category-stand-cooling-pad/
-استیکر لپ‌تاپ: /search/category-laptop-other-accessories/
-کنسول بازی: /search/category-game-console/
-ps5: /search/category-station-gaming-consoles/sony/
-ps4: /search/category-station-gaming-consoles/?brands%5B0%5D=1&has_selling_stock=1&types%5B0%5D=22124
-xbox: /search/category-station-gaming-consoles/microsoft/
-وسایل گیمینگ: /search/category-gaming-accessories/
-دسته بازی: /search/category-gamepad/
-بازی pc: /search/category-pc-game/
-دیسک های بازی: /search/category-home-console-games/
-فرمان بازی: /search/category-racing-wheel/
-کامپیوتر: /search/category-computer-parts/
-all in one: /search/category-all-in-pc/
-mini pc: /search/category-mini-pc/
-قلم نوری: /search/category-digital-pen/
-رم ریدر: /search/category-ram-reader/
-ماوس پد: /search/category-mouse-pad/
-کیس اسمبل شده: /search/category-assembled-cases/
-کیبورد: /search/category-keyboard/
-کیبورد گیمینگ: /search/category-keyboard/?types%5B0%5D=4584
-کیبورد بی سیم: /search/category-keyboard/?attributes%5B2352%5D%5B0%5D=21576
-کیبورد مکانیکال: /search/category-keyboard/?types%5B0%5D=5226
-کیس کامپیوتر: /search/category-computer-chassis/
-کیس گیمینگ: /search/category-computer-chassis/
-ماوس: /search/category-mouse/
-ماوس گیمینگ: /search/category-mouse/?types%5B0%5D=6170
-ماوس بی سیم: /search/category-mouse/?types%5B0%5D=1311
-مانیتور: /search/category-monitor/
-اسپیکر: /search/category-speaker/
-اسپیکر بلوتوثی: /search/category-speaker/?attributes%5B2204%5D%5B0%5D=16977&sort=7
-اسپیکر jbl: /search/category-speaker/jbl/
-اسپیکر سونی: /search/category-speaker/sony/
-اسپیکر تسکو: /search/category-speaker/tsco/
-اسپیکر مکسیدر: /search/category-speaker/maxeeder/
-اسپیکر میکرولب: /search/category-speaker/microlab/
-قطعات کامپیوتر: /search/category-computer-devices/
-پردازنده (cpu): /search/category-processor/
-کارت گرافیک: /search/category-graphics-card/
-مادربرد: /search/category-motherboard/
-دانگل بلوتوث: /search/category-bluetooth-dongle/
-رم کامپیوتر: /search/category-ram/
-هدفون: /search/category-headphone/
-هدفون بی سیم: /search/category-headphone/?attributes%5B2352%5D%5B0%5D=21576&attributes%5B2352%5D%5B1%5D=31584&attributes%5B2352%5D%5B2%5D=21577&sort=21&types%5B0%5D=127
-هدفون اپل (ایرپاد): /search/category-headphone/apple/
-هدفون بیتس: /search/category-headphone/beats/
-هدفون سونی: /search/category-headphone/sony/
-هدفون سامسونگ (ایربادز): /search/category-headphone/samsung/
-هدفون شیائومی: /search/category-headphone/xiaomi/
-هدفون جی بی ال: /search/category-headphone/jbl/
-هدفون ریزر: /search/category-headphone/razer/
-هدست: /search/category-headphone/?sort=7&types%5B0%5D=129
-ساعت و مچ بند هوشمند: /search/category-wearable-gadget/
-ساعت هوشمند سامسونگ: /search/category-smart-watch/samsung/
-ساعت هوشمند شیائومی: /search/category-smart-watch/xiaomi/
-اپل واچ: /search/category-smart-watch/apple/
-بند اپل واچ: /search/category-apple-watch-cover/
-بند ساعت هوشمند: /search/category-watch-band/
-لوازم جانبی ساعت هوشمند: /search/category-watch-accessorie/
-دوربین: /search/category-digital-camera/
-دوربین فیلمبرداری: /search/category-camcorder/
-دوربین کنون: /search/category-digital-camera/canon/
-دوربین سونی: /search/category-digital-camera/?brands%5B0%5D=1
-دوربین چاپ سریع: /search/category-digital-camera/?q=%da%86%d8%a7%d9%be%20%d8%b3%d8%b1%db%8c%d8%b9&entry=mm
-رینگ لایت: /search/category-studio-constant-light/
-پایه دوربین: /search/category-tripod-monopod/
-لنز دوربین: /search/category-camera-lens/
-کارت حافظه: /search/category-memory-cards/
-تجهیزات ذخیره‌سازی اطلاعات: /search/category-data-storage/
-هارد ssd: /search/category-internal-ssd/
-هارد اینترنال: /search/category-internal-hard-drive/
-هارد اکسترنال: /search/category-external-hard-disk/
-فلش: /search/category-usb-flash-memory/
-پاور بانک: /search/category-power-bank/
-فست شارژ: /search/category-power-bank/?attributes%5B5707%5D%5B0%5D=24970&sort=4
-پاور بانک شیائومی: /search/category-power-bank/xiaomi/
-پاور بانک انکر: /search/category-power-bank/anker/
-پاور بانک اپل: /search/category-power-bank/apple/
-پاور بانک سامسونگ: /search/category-power-bank/samsung/
-پاور بانک انرجایزر: /search/category-power-bank/energizer/
-باتری: /search/category-battery-charger-and-accesories/
-باتری لیتیومی: /search/category-camera-li-ion-battery/
-باتری قلمی: /search/category-standard-batteries/
-پرینتر: /search/category-printer/
-پرینتر سه بعدی: /search/category-3d-printer/
-پرینتر حرارتی: /search/category-lable-printer/
-پرینتر رنگی: /search/category-printer/?attributes%5B5735%5D%5B0%5D=25025
-پرینتر لیبل زن: /search/category-lable-printer/
-پرینتر اچ پی: /search/category-printer/hp/
-ماشین‌های اداری: /search/category-office-machines/
-کابل پرینتر: /search/category-printer-cable/
-کارتریج: /search/category-cartridge/
-اسکنر: /search/category-scanner/
-تلفن: /search/category-telephone/
-بارکدخوان: /search/category-barcode-reader/
-ویدئو وال: /search/category-video-wall/
-ویدئو پروژکتور: /search/category-data-video-projector/
-دستگاه حضور و غیاب: /search/category-employee-timeclock/
-تجهیزات شبکه و ارتباطات: /search/category-network/
-هاب USB: /search/category-usb-hub/
-سوییچ: /search/category-switch/
-هاب سوئیچ: /search/category-hub-switch/
-تجهیزات ویدئویی: /search/category-network-video-recorder/
-کارت شبکه: /search/category-antenna/
-کامپیوتر سرور: /search/category-server-computer/
-رک شبکه و سرور: /search/category-rack/
-پچ پنل: /search/category-patch-panel/
-پرینت سرور: /search/category-print-server/
-آداپتور شبکه: /search/category-adapter/
-اسپلیتر: /search/category-splitter/
-کابل شبکه (LAN): /search/category-lan-cable/
-کابل کمبو: /search/category-cable-combo/
-کارت و ماژول: /search/category-card-and-module/
-لوازم جانبی NAS و سرور: /search/category-nas-accessories/
-ذخیره ساز تحت شبکه (NAS): /search/category-nas/
-یو پی اس (UPS): /search/category-ups/
-ابزار شبکه: /search/category-network-utilities/
-آنتن تقویتی: /search/category-antenna/
-مبدل فیبر نوری: /search/category-fiber-converter/
-سیم آنتن: /search/category-antenna-cable/
-مودم: /search/category-modem-router-adsl/
-مودم جیبی: /search/category-3g-4g-and-5g-modem-router/
-مودم ایرانسل: /search/category-3g-4g-and-5g-modem-router/mtn-irancell/
-مودم همراه اول: /search/category-3g-4g-and-5g-modem-router/ir-mci/
-توسعه دهنده محدوده بی‌سیم: /search/category-wireless-range-extender/
-روتر و اکسس پوینت: /search/category-router-accesspoint/
-تجهیزات امنیتی و نظارتی: /search/category-security-and-surveillance-equipment/
-دوربین مدار بسته: /search/category-network-cam/
-تبلت: /search/category-tablet/
-ایپد: /search/category-tablet/apple/
-ظروف پخت و پز: /search/category-cooking-dishes/
-قابلمه و تابه: /search/category-pots-pans/
-زودپز: /search/category-pressurecooker/
-سرویس پخت و پز: /search/category-cookwareset/
-ابزار آشپزی: /search/category-cooking-tools/
-ست کفگیر و ملاقه: /search/category-spatulaladleset/
-چاقو: /search/category-Cooking-knife/
-تخته گوشت: /search/category-meat-board/
-ظرف و قالب یخ: /search/category-icetray/
-قیف: /search/category-funnel/
-صافی: /search/category-virgo-1/
-فندک آشپزخانه: /search/category-kitchenlighter/
-ترازوی آشپزخانه: /search/category-kitchen-weighing-scale/
-تهیه و سرو چای و قهوه: /search/category-kettleandteapot/
-ظروف آشپزخانه: /search/category-plateandetc/
-آبکش و آبگیر: /search/category-virgobasin/
-بطری: /search/category-bottle/
-ارگانایزر آشپزخانه: /search/category-organizer/
-جای ادویه: /search/category-spice-shaker/
-بانکه و ظروف بنشن: /search/category-legumecontainer/
-شکر پاش و نمک پاش: /search/category-salt-sugar-shaker/
-سبد آشپزخانه: /search/category-kitchenbasket/
-سبد سیب زمینی و پیاز: /search/category-basket-of-potatoes-and-onions/
-ظرف نگهدارنده: /search/category-container/
-سایر ظروف: /search/category-othercookwares/
-لوازم تهیه کیک و دسر: /search/category-pastry/
-سرو و پذیرایی: /search/category-serving/
-سفره: /search/category-table-cloth/
-ماگ: /search/category-mug/
-سینی: /search/category-tray/
-لیوان: /search/category-cupandmug/
-بشقاب: /search/category-plate/
-قندان: /search/category-sugarcubebowl/
-پارچ و بطری: /search/category-jug/
-بستنی خوری: /search/category-ice-cream-maker/
-سس خوری و آبلیمو خوری: /search/category-sausedish/
-کاسه و پیاله: /search/category-bowl/
-کلمن و فلاسک: /search/category-flasks/
-ظروف سرو و پذیرایی: /search/category-servingware/
-سرویس غذاخوری: /search/category-dinnerware-sets/
-قاشق، چنگال و کارد: /search/category-serving-catering-tools/
-زیر لیوانی، زیر بشقابی و زیر قابلمه ای: /search/category-coaster/
-ابزار مهمانی: /search/category-party-tools/
-منسوجات آشپزخانه: /search/category-towelhandkerchief/
-مبلمان و دکوراسیون خانگی: /search/category-household-furniture/
-پاف و بین بگ: /search/category-sofapouffeandbeanbag/
-مبل: /search/category-sofa/
-کتابخانه: /search/category-home-library/
-شلف و طبقه: /search/category-wall-shelf/
-کنسول: /search/category-console/
-صندلی: /search/category-counter-chair/
-میز ناهارخوری: /search/category-dining-table/
-مبلمان و دکوراسیون اداری: /search/category-office-furniture/
-نگهدارنده لباس و لوازم: /search/category-storagedresser/
-دکوراتیو: /search/category-decorative-ac/
-قاب عکس و تابلو: /search/category-photo-frames-paintings/
-کوسن، رومیزی و شال مبل: /search/category-Cushions-tablecloths-sofa-shawls/
-کفپوش و دیوارپوش: /search/category-wall-panel-flooring/
-نور و روشنایی: /search/category-light-brightness/
-فرش و گلیم: /search/category-carpet/
-گل و گیاه: /search/category-natural-flowers/
-حمام: /search/category-bathroom/
-سرویس بهداشتی: /search/category-watercloset/
-خواب: /search/category-bedandbath/
-شستشو و نظافت: /search/category-cleaning/
-نظافت لباس: /search/category-shoesandclothingcleaning/
-لوازم مصرفی خودرو: /search/category-consumable-parts/
-روغن موتور: /search/category-engine-oil/
-فیلترها: /search/category-car-filters/
-روغن گیربکس: /search/category-gearbox-oil/
-روغن هیدرولیک: /search/category-hydraulic-oil/
-ضدیخ و آب رادیاتور: /search/category-antifreeze/
-باتری: /search/category-automotive-battery/
-لاستیک: /search/category-tire/
-مکمل سوخت و روغن: /search/category-car-oil-and-fuel-additive/
-واکس و پولیش: /search/category-car-wash-spray-polish-and-wax/
-لوازم نظافت خودرو: /search/category-car-wash-pad-and--napkin/
-لوازم یدکی خودرو: /search/category-car-spare-parts/
-چراغ: /search/category-automotive-lighting/
-آینه جانبی: /search/category-side-mirrors/
-لوازم صوتی و تصویری: /search/category-car-stereo/
-دستگاه پخش: /search/category-car-player/
-بلندگو: /search/category-car-speaker/
-آمپلی فایر: /search/category-car-amplifier/
-اف ام پلیر: /search/category-fm-player/
-مسیریاب خودرو: /search/category-car-navigation/
-لوازم جانبی صوتی و تصویری: /search/category-incar-accessories/
-لوازم جانبی خودرو: /search/category-car-accessory-parts/
-روکش صندلی: /search/category-car-chair-covers/
-کفپوش خودرو: /search/category-car-coating/
-کفپوش صندوق خودرو: /search/category-car-trunk-coating/
-عایق کاپوت، صندوق و دربها: /search/category-car-hood-and-rear-insulated/
-چادر خودرو: /search/category-car-cover/
-تجهیزات نظم دهنده: /search/category-car-organizer-equipment/
-تجهیزات راحتی سرنشین: /search/category-passenger-comfort-equipment/
-زنجیر چرخ: /search/category-tire-chains/
-دوربین ثبت وقایع خودرو: /search/category-Dahboard-camera/
-پا رکابی: /search/category-side-skirt/
-اسپویلر و دیفیوزر: /search/category-spoiler-diffuser/
-هدلایت: /search/category-car-lamp/
-جاسوئیچی: /search/category-car-keyring/
-خوشبوکننده و تصفیه کننده هوای کابین: /search/category-car-air-freshener-air-purifier/
-سر دنده: /search/category-head-gear/
-تیونینگ و تقویت موتور: /search/category-tuning-motor-boost/
-جک خودرو: /search/category-jack/
-کمربند ایمنی: /search/category-Car-seat-belts-belt-accessories/
-آنتن خودرو: /search/category-Car-antenna/
-والف لاستیک: /search/category-valve-valvecap/
-بوق خودرو: /search/category-car-horn/
-غربیلک فرمان: /search/category-steering-wheel/
-سایر لوازم جانبی: /search/category-in-car-accessories/
-موتور سیکلت: /search/category-motorbike/
-موتورسیکلت چکی: /cheque/search/category-motorbike/
-خودرو: /search/category-cars/
-صوتی و تصویری: /search/category-video-audio-entertainment/
-تلویزیون: /search/category-tv2/
-ساندبار: /search/category-soundbar/
-ویدیو پروژکتور: /search/category-data-video-projector/
-اندروید باکس: /search/category-android-box/
-پخش کننده خانگی: /search/category-home-multimedia-player/?has_selling_stock=1&sort=27
-لوازم جانبی صوتی و تصویری: /search/category-multimedia-accessories/
-ریموت کنترل: /search/category-remote-control/
-میز تلویزیون: /search/category-tv-tables/
-تهویه، سرمایش و گرمایش: /search/category-airtreatment/
-بخاری: /search/category-gas-heater/
-تصفیه کننده هوا: /search/category-air-purifier/
-بخاری برقی: /search/category-heater/
-پکیج دیواری و رادیاتور: /search/category-wall-hung-combination-boiler/
-شوفاژ برقی: /search/category-radiator/
-آبگرمکن: /search/category-water-heater/
-پنکه: /search/category-fan/
-کولر آبی: /search/category-iranian-cooler/
-کولر گازی: /search/category-air-conditioner-2/
-تصفیه آب: /search/category-water-filters/
-یخچال فریزر: /search/category-refrigerator-freezer/
-یخچال فریزر ساید بای ساید: /search/category-refrigerator-freezer/?sort=7&types%5B0%5D=4669
-یخچال فریزر دوقلو: /search/category-refrigerator-freezer/?sort=7&types%5B0%5D=4671
-یخچال فریزر هتلی: /search/category-refrigerator-freezer/?sort=7&types%5B0%5D=9710
-یخچال فریزر کمبی: /search/category-refrigerator-freezer/?sort=7&types%5B0%5D=4670
-جاروبرقی: /search/category-vaccum-cleaner/
-جارو شارژی: /search/category-handheld-vacuum/
-لوازم جانبی جاروبرقی و بخارشور: /search/category-vacuum-cleaner-consumption/
-جارو رباتیک: /search/category-robotic-vacuum-cleaner/
-بخار شو: /search/category-steam-cleaner/
-ماشین لباسشویی: /search/category-washing-machines/
-ماشین لباسشویی دوو: /search/category-washing-machines/daewoo/
-ماشین لباسشویی پاکشوما: /search/category-washing-machines/pakshoma/
-ماشین لباسشویی اسنوا: /search/category-washing-machines/snowa/
-مینی واش: /search/category-diaper-cleaner/
-ماشین ظرفشویی: /search/category-dishwasher/
-ماشین ظرفشویی جی پلاس: /search/category-dishwasher/g-plus/
-اتو: /search/category-iron/
-اتو بخار ایستاده: /search/category-iron/?sort=7&types%5B0%5D=5528
-اتو بخار: /search/category-iron/?sort=7&types%5B0%5D=4680
-بخارگر: /search/category-iron/?sort=7&types%5B0%5D=5256
-چرخ خیاطی: /search/category-sewing-machine/
-چرخ خیاطی ژانومه: /search/category-sewing-machine/janome/
-چرخ خیاطی کاچیران: /search/category-sewing-machine/kachiran/
-لوازم پخت و پز: /search/category-cooking/
-سرخ کن بدون روغن (airfrier): /search/category-airfryer/
-مایکروویو، مایکروفر: /search/category-microwave/
-اجاق گاز: /search/category-oven/
-پلوپز: /search/category-electric-rice-cooker/
-ساندویچ ساز و وافل ساز: /search/category-sandwich-makers/
-آون توستر: /search/category-oven-toaster/
-گریل و باربیکیو: /search/category-grill-barbecue/
-توستر: /search/category-toaster/
-نوشیدنی ساز: /search/category-drink-maker/
-قهوه ساز: /search/category-coffee-makers/
-اسپرسو ساز: /search/category-espresso-makers/
-چای ساز: /search/category-tea-makers/
-کتری برقی: /search/category-boiler/
-سماور برقی: /search/category-electric-samovar/
-آبمیوه گیری: /search/category-juicer/
-آب مرکبات گیر: /search/category-citrus-juicer/
-خردکن و غذاساز: /search/category-chopper-foodprocessor/
-گوشت کوب برقی: /search/category-hand-blender/
-غذاساز: /search/category-food-processor/
-همزن: /search/category-mixer/
-مخلوط کن: /search/category-blenders/
-چرخ گوشت: /search/category-meat-mincers/
-خردکن: /search/category-chopper/
-آسیاب: /search/category-grinder/
-لوازم توکار: /search/category-built-in-appliances/
-فر: /search/category-built-in-oven/
-هود: /search/category-hood/
-گاز صفحه ای: /search/category-built-in-stove/
-سینک ظرفشویی: /search/category-sink/
-پوشاک مردانه: /search/category-mens-apparel/
-لباس مردانه: /search/category-men-clothing/
-هودی مردانه: /search/category-men-hoodie/
-سویشرت مردانه: /search/category-mens-sweatshirts/
-ژاکت و پلیور مردانه: /search/category-men-knitwear/
-تی شرت مردانه: /search/category-men-tee-shirts/
-پیراهن مردانه: /search/category-men-shirts/
-لباس زیر مردانه: /search/category-men-underwear/
-شلوار مردانه: /search/category-men-trousers/
-پالتو، بارانی و کاپشن مردانه: /search/category-men-outwear/
-پالتو مردانه: /search/category-men-coat/
-کاپشن مردانه: /search/category-men-warm-jacket/
-کت چرم مردانه: /search/category-men-leather-outwear/
-پافر مردانه: /search/category-men-puffer-vest/
-کت، جلیقه و ست رسمی مردانه: /search/category-men-blazers-suits/
-کت تک مردانه: /search/category-men-formal-jacket/
-کت شلوار مردانه: /search/category-men-suits-and-sets/
-جلیقه مردانه: /search/category-men-formal-vest/
-شلوار و سرهمی مردانه: /search/category-men-trousers-jumpsuits/
-شلوار جین مردانه: /search/category-men-jeans/
-لباس راحتی مردانه: /search/category-men-homewear/
-شلوارک مردانه: /search/category-men-shorts/
-جوراب مردانه: /search/category-men-socks-tights/
-کیف مردانه: /search/category-men-bags/
-کیف پول مردانه: /search/category-men-wallets-bags/
-کفش مردانه: /search/category-men-shoes/
-نیم بوت مردانه: /search/category-men-ankle-boots/
-بوت مردانه: /search/category-men-boots/
-کفش اسپرت مردانه: /search/category-men-sport-shoes-/
-کفش کالج مردانه: /search/category-men-driving-shoes/
-صندل مردانه: /search/category-men-sandals/
-دمپایی مردانه: /search/category-men-slippers/
-دمپایی لا انگشتی مردانه: /search/category-men-flip-flops/
-گیوه مردانه: /search/category-men-espadrilles/
-اکسسوری مردانه: /search/category-men-accessories/
-ساعت مردانه: /search/category-men-watches/
-عینک مردانه: /search/category-men-eyewear/
-کمربند و ساسبند مردانه: /search/category-men-belts/
-کلاه مردانه: /search/category-men-headwear/
-کراوات و پاپیون مردانه: /search/category-men-ties/
-ورزشی مردانه: /search/category-men-sports/
-لباس ورزشی مردانه: /search/category-men-sportswear/
-مایو مردانه: /search/category-men-swim-bottom/
-گرمکن و ست ورزشی مردانه: /search/category-men-tracksuits-sets/
-اکسسوری ورزشی مردانه: /search/category-men-sport-accessories/
-کفش ورزشی مردانه: /search/category-men-sport-shoes-/
-پک هدیه مردانه: /search/category-men-gifts-sets/
-لباس زیر مردانه: /search/category-men-underwear/
-زیرپوش مردانه: /search/category-men-undergarments/
-شورت مردانه: /search/category-men-underwear-bottom/
-پوشاک زنانه: /search/category-womens-apparel/
-لباس زنانه: /search/category-women-clothing/
-سویشرت زنانه: /search/category-womens-sweatshirts/
-هودی زنانه: /search/category-women-hoodie/
-مانتو پانچو رویه: /search/category-manteau-and-poncho/
-بلوز و شومیز زنانه: /search/category-women-shirts/
-تاپ و نیم تنه زنانه: /search/category-women-tops-and-croptops/
-لباس راحتی زنانه: /search/category-women-homewear-sets/
-لباس زیر زنانه: /search/category-women-underwear/
-دامن زنانه: /search/category-women-skirts/
-پیراهن و لباس مجلسی زنانه: /search/category-women-dresses/
-لباس خواب و راحتی زنانه: /search/category-women-homewear/
-لباس خواب زنانه: /search/category-women-homewear-sets-/
-بلوز و شومیز زنانه: /search/category-women-shirts/
-بادی زنانه: /search/category-women-bodysuit-/
-ژاکت و پلیور زنانه: /search/category-women-knitwear/
-تاپ و نیم تنه زنانه: /search/category-women-tops-and-croptops/
-تونیک زنانه: /search/category-women-tunic/
-تیشرت زنانه: /search/category-women-tee-shirts/
-پالتو، بارانی و کاپشن زنانه: /search/category-women-outwear/
-کاپشن زنانه: /search/category-women-warm-jacket/
-پالتو زنانه: /search/category-women-coat-/
-کت چرم زنانه: /search/category-women-leather-outwear/
-بارانی زنانه: /search/category-women-raincoat/
-کت، جلیقه و ست رسمی زنانه: /search/category-women-blazers-and-suits/
-لباس زیر زنانه: /search/category-women-underwear/
-شورت زنانه: /search/category-women-underwear-bottom/
-سوتین: /search/category-women-bra/
-شلوار و سرهمی زنانه: /search/category-women-trousers/
-شلوار جین زنانه: /search/category-women-jeans/
-لگینگ زنانه: /search/category-women-legging/
-شلوارک زنانه: /search/category-women-trousers/
-مانتو زنانه: /search/category-women-manto/
-مقنعه و پوشیه: /search/category-women-scarf-and-burka/
-لباس بارداری: /search/category-women-maternity/
-شلوار و سرهمی بارداری: /search/category-women-maternity-trousers-and-jumpsuits/
-پیراهن و لباس مجلسی بارداری: /search/category-women-maternity-dress/
-ورزشی زنانه: /search/category-women-sports/
-لباس ورزشی زنانه: /search/category-women-sportwear/
-گرمکن و ست ورزشی زنانه: /search/category-women-tracksuits-and-sets/
-تاپ و نیم تنه ورزشی زنانه: /search/category-women-sport-tops/
-شلوار و سرهمی ورزشی زنانه: /search/category-women-sport-trousers-and-jumpsuits/
-مایو زنانه: /search/category-women-swimwear/
-کفش زنانه: /search/category-women-shoes/
-نیم بوت زنانه: /search/category-women-ankle-boots/
-بوت زنانه: /search/category-women-boots/
-کفش اسپرت زنانه: /search/category-women-sport-shoes-/
-کفش کالج زنانه: /search/category-women-boat-shoes/
-صندل زنانه: /search/category-women-sandals/
-دمپایی زنانه: /search/category-women-slippers/
-کیف زنانه: /search/category-women-bags/
-اکسسوری زنانه: /search/category-women-accessories/
-ساعت زنانه: /search/category-women-watches/
-عینک زنانه: /search/category-women-eyewear/
-کمربند زنانه: /search/category-women-belts/
-ست هدیه زنانه: /search/category-women-gifts-and-sets/
-شمش و پلاک طلا: /search/category-bullion/
-سکه طلا: /search/category-gold-coin/
-سکه قسطی: /search/category-Installment-gold-coin/
-طلای کم اجرت: /search/category-economicgold/
-گردنبند طلا کم اجرت (دست اول): /search/category-women-economic-gold-necklace/
-النگو طلا کم اجرت (دست اول): /search/category-women-economic-gold-bangle/
-دستبند طلا کم اجرت (دست اول): /search/category-women-economic-gold-bracelet/
-گوشواره طلا کم اجرت (دست اول): /search/category-women-economic-gold-earrings/
-گردنبند طلا زنانه: /search/category-women-gold-necklace/
-زنجیر طلا: /search/category-women-gold-chain/
-گوشواره طلا: /search/category-women-gold-earrings/
-انگشتر طلا زنانه: /search/category-women-gold-ring/
-دستبند طلا زنانه: /search/category-women-gold-bracelet/
-پابند طلا: /search/category-women-gold-anklet/
-پیرسینگ طلا زنانه: /search/category-women-gold-piercing/
-ست زیورآلات طلا زنانه: /search/category-women-gold-jewelry-sets/
-آویز ساعت طلا زنانه: /search/category-women-gold-watch-pendant/
-زیورآلات طلا مردانه: /search/category-men-gold-jewelry/
-انگشتر طلا مردانه: /search/category-men-gold-ring/
-زنجیر طلا مردانه: /search/category-men-gold-chain/
-گردنبند طلا مردانه: /search/category-men-gold-necklace/
-دستبند طلا مردانه: /search/category-men-gold-bracelet/
-ست زیورآلات طلا مردانه: /search/category-men-gold-jewelry-sets/
-دکمه سردست طلا مردانه: /search/category-men-gold-cufflinks/
-جاکلیدی طلا مردانه: /search/category-men-gold-keychain/
-زیورآلات طلا زنانه و مردانه: /search/category-uni-gold-jewelry/
-زیورآلات طلا بچگانه: /search/category-kids-gold-jewelry/
-زیورآلات طلا دخترانه: /search/category-girls-gold-jewelry/
-دستبند طلا دخترانه: /search/category-girls-gold-bracelet/
-گوشواره طلا دخترانه: /search/category-girls-gold-earrings/
-ست زیورآلات طلا دخترانه: /search/category-girls-gold-jewelry-sets/
-گردنبند طلا دخترانه: /search/category-girls-gold-necklace/
-آویز طلا دخترانه: /search/category-girls-gold-pendants/
-انگشتر طلا دخترانه: /search/category-girls-gold-ring/
-زیورآلات طلا پسرانه: /search/category-boys-gold-jewelry/
-زیورآلات طلا دخترانه و پسرانه: /search/category-gold-jewelry-for-girls-and-boys/
-گل سینه طلا دخترانه و پسرانه: /search/category-gold-breasts-for-girls-and-boys/
-النگو طلا زنانه: /search/category-women-gold-bangle/
-گل سینه طلا زنانه: /search/category-women-gold-brooch/
-زیورآلات نقره زنانه: /search/category-women-silver-jewelry/
-انگشتر نقره زنانه: /search/category-women-silver-ring/
-دستبند نقره زنانه: /search/category-women-silver-bracelet/
-گردنبند نقره زنانه: /search/category-women-silver-necklace/
-زنجیر نقره زنانه: /search/category-women-silver-chain/
-گوشواره نقره زنانه: /search/category-women-silver-earrings/
-پابند نقره زنانه: /search/category-women-silver-anklet/
-پیرسینگ نقره زنانه: /search/category-women-silver-piercing/
-آویز نقره زنانه: /search/category-women-silver-pendants/
-آویز ساعت نقره زنانه: /search/category-women-silver-watch-pendant/
-زیورآلات نقره مردانه: /search/category-men-silver-jewelry/
-انگشتر نقره مردانه: /search/category-men-silver-ring/
-گردنبند نقره مردانه: /search/category-men-silver-necklace/
-زنجیر نقره مردانه: /search/category-men-silver-chain/
-دستبند نقره مردانه: /search/category-men-silver-bracelet/
-لوازم آرایشی: /search/category-beauty/
-آرایش صورت: /search/category-face/
-آرایش چشم: /search/category-eye-and-eyebrow/
-آرایش ابرو: /search/category-eyebrow-cosmetics/
-آرایش لب: /search/category-lip/
-بهداشت و زیبایی ناخن: /search/category-nail-care/
-ابزار آرایشی: /search/category-other-cosmetics/
-مراقبت پوست: /search/category-face-and-body-cream/
-ضد آفتاب: /search/category-sunscreen-cream/
-کرم مرطوب کننده و نرم کننده: /search/category-moisturizing-cream/
-ماسک صورت و بدن: /search/category-face-masque/
-پاک کننده صورت: /search/category-makeup-remover/
-تونر: /search/category-face-toner/
-مراقبت بدن: /search/category-body-care/
-ابزار مراقبت پوست: /search/category-skin-care-accessories/
-مراقبت و زیبایی مو: /search/category-hair-care/
-مراقبت مو: /search/category-hair-care/
-آرایش مو: /search/category-hair-products/
-نرم کننده مو: /search/category-hair-conditioner/
-شامپو مو: /search/category-hair-shampoo/
-لوازم بهداشتی: /search/category-personal-care/
-مراقبت دهان و دندان: /search/category-dental-hygienist/
-مسواک: /search/category-tooth-brush/
-خمیر دندان: /search/category-toothpaste/
-دئودورانت و ضد تعریق: /search/category-anti-sweat/
-محصولات بهداشت جنسی: /search/category-sexual-health/
-کاندوم: /search/category-condom/
-بهداشت و مراقبت شخصی: /search/category-body-care/
-نوار بهداشتی: /search/category-sanitary-pad/
-کاپ قاعدگی: /search/category-menstrual-cup/
-لوازم اصلاح مو: /search/category-hair-shaving-kit/
-تیغ و یدک اصلاح: /search/category-shave-blade/
-عطر و ادکلن: /search/category-perfume-all/
-عطر و ادکلن زنانه: /search/category-women-perfume/
-عطر و ادکلن مردانه: /search/category-perfume/
-بادی اسپلش: /search/category-body-splash/
-عطر جیبی: /search/category-pocket-perfumes/
-لوازم شخصی برقی: /search/category-electrical-personal-care/
-سشوار: /search/category-hair-drier/
-اتو و حالت دهنده‌ی مو: /search/category-hair-iron/
-اصلاح موی صورت: /search/category-shaver/
-اصلاح موی سر: /search/category-hair-trimmer/
-ابزار برقی: /search/category-power-tools/
-فرز و سنگ رومیزی: /search/category-anglegrinder/
-موتور برق: /search/category-electric-engine/
-مکنده - دمنده: /search/category-blower/
-جاروبرقی صنعتی: /search/category-industrial-vacuum-cleaner/
-کارواش: /search/category-carwash/
-دستگاه جوش: /search/category-welder/
-کمپرسور هوا: /search/category-air-compressor/
-مولتی متر: /search/category-multimeter/
-لوازم جانبی و یدکی ابزار برقی: /search/category-elec-charg-pneumatic-charg-accessories/
-اره زنجیری: /search/category-chain-saws/
-ابزار دستی: /search/category-hand-tools/
-مجموعه ابزار: /search/category-tools-set/
-نردبان: /search/category-ladders/
-پیچ گوشتی و فازمتر: /search/category-screwdriver/
-نظم دهنده ابزار: /search/category-tool-box/
-متر، تراز، اندازه‌گیری دقیق: /search/category-measurement/
-لوازم روانکاری: /search/category-oilcan/
-چسب صنعتی: /search/category-industrial-glue/
-پیچ و مهره، رول پلاک، میخ و پرچ: /search/category-screwandnutsanchoranstrud/
-مته و سری: /search/category-drillbit/
-اره: /search/category-saw/
-لوازم بسته بندی: /search/category-accessories-packing/
-لوازم الکتریکی و یراق آلات: /search/category-construction-tools-and-equipment/
-رنگ: /search/category-color/
-مصالح ساختمانی: /search/category-building-materials/
-لوازم باغبانی و کشاورزی: /search/category-gardening-tools/
-ابزار باغبانی: /search/category-gardening-tools-/
-ادوات کشاورزی: /search/category-agriculture-machines/
-بذر و تخم گیاهان: /search/category-plants-grain-and-seeds/
-خاک، کود و آفت کش: /search/category-soils-and-fertilizers/
-کاشت و پرورش گیاه: /search/category-planting-supplies/
-تجهیزات ایمنی و کار: /search/category-safety-tools/
-جعبه کمک‌های اولیه: /search/category-first-aid-kit/
-برچسب و علائم ایمنی: /search/category-environmental-controlling-equipment/
-گاوصندوق: /search/category-safe/
-قفل: /search/category-lock/
-قطعات یدکی ماشین آلات صنعتی: /search/category-spare-parts-for-industrial-machinery/
-تجهیزات کارگاهی: /search/category-workshop/
-شیرآلات: /search/category-faucets-valves/
-ست شیرآلات: /search/category-Faucet-set/
-شیر ظرفشویی: /search/category-kitchen-tap/
-شیر روشویی: /search/category-basin-faucet/
-شیرآلات حمام: /search/category-bathroom-faucet/
-شیر توالت: /search/category-toilet-faucet/
-اتصالات جانبی: /search/category-faucets/?sort=7
-کتاب و مجله: /search/category-book-and-magazines/
-کتاب چاپی: /search/category-book/
-مجلات خارجی و داخلی: /search/category-magazines/
-کتاب صوتی: /search/category-audio-book/
-محتوای آموزشی: /search/category-multimedia-training-pack/
-آموزش موسیقی: /search/category-music-training/
-آموزش ورزش و سرگرمی: /search/category-sport-and-entertainment/
-آموزش زبان: /search/category-language-learning-software/
-آموزش نرم افزار و کامپیوتر: /search/category-software-computer/
-نرم افزار: /search/category-software/
-بازی کنسول و کامپیوتر: /search/category-pc-game/
-فیلم سینمایی، سریال و مستند: /search/category-film-video-content/
-آلبوم موسیقی: /search/category-music-audio-content/
-لوازم تحریر: /search/category-stationery/
-لوازم اداری و اقلام مصرفی: /search/category-office-supplies/
-کیف، کوله پشتی و جامدادی: /search/category-bags-backpacks/
-چراغ مطالعه: /search/category-light/
-کاغذ کادو، پاکت و کارت هدیه: /search/category-gift-tools/
-نوشت افزار: /search/category-stationery-sub/
-دفتر و کاغذ: /search/category-paper-notebook/
-خودکار و روان نویس: /search/category-pen/
-ابزار نقاشی و رنگ آمیزی: /search/category-drawing-painting-tools/
-میز تحریر: /search/category-writing-desk/
-آلبوم عکس: /search/category-photo-box/
-کاغذ چاپ و پرینتر: /search/category-paper/?type[0]=5072&pageno=1&last_filter=type&last_value=5072&sortby=4&entry=mm
-مداد و مداد رنگی: /search/category-pencil/
-آلات موسیقی: /search/category-musicalinstruments/
-لوازم جانبی آلات موسیقی: /search/category-musicinstrumentsaccessories/
-گیتار: /search/category-guitar/
-کیبورد و ارگ: /search/category-keybord-organ/
-پیانو دیجیتال: /search/category-pianos/
-درام، پرکاشن، دف: /search/category-percussion-instruments/
-تجهیزات استودیویی: /search/category-studio-equipment/
-ویولن: /search/category-violin/
-سازهای ایرانی: /search/category-tombak/
-فرش ماشینی، دستبافت، تابلو: /search/category-carpet/
-فرش ماشینی: /search/category-machine-made-carpet/
-فرش دستبافت: /search/category-handmade-carpet/
-تابلو: /search/category-pictorial-carpet/
-صنایع دستی: /search/category-handicraft/
-کالاهای مس: /search/category-copper-products/
-سفال، سرامیک و چینی: /search/category-clay-and-ceramic/
-کیف چرمی: /search/category-leatherbag/
-ترمه، قلمکار و دستبافت: /search/category-textile-industry/
-خاتم، منبت، حصیری و چوبی: /search/category-woodcraft/
-تابلو و ساعت: /search/category-panel/
-میناکاری: /search/category-enamels/
-فیروزه کوبی: /search/category-turquoise-tattoo/
-سوزن دوزی: /search/category-needle-sewing/
-محصولات استخوانی: /search/category-bone-product/
-جعبه و دست سازه های هنری: /search/category-art-structures/
-تجهیزات پزشکی: /search/category-medical-equipment/
-کنترل دیابت: /search/category-diabetes-control/
-تجهیزات پزشکی تنفسی: /search/category-respiratory-medical-equipment/
-تجهیزات پزشکی حرفه ای: /search/category-professional-medical-equipment/
-لوازم پزشک: /search/category-doctor-supplies/
-ماساژور: /search/category-massagers/
-فشارسنج: /search/category-digital-sphygmomanometer/
-ترازو: /search/category-digital-scale/
-پد و کیسه آب گرم: /search/category-tot-water-bag/
-تشک و پتوی برقی: /search/category-electric-underblankets-and-blanket/
-تب سنج و دماسنج: /search/category-thermometers/
-دماسنج محیطی: /search/category-enviroment-thermometer/
-دستگاه های عمومی پزشکی: /search/category-general-medical-devices/
-لوازم جانبی پزشکی: /search/category-medical-accessories/
-سلامت محیط: /search/category-environment-care/
-رطوبت‌ گیر: /search/category-dehumidifier/
-بی بی چک: /search/category-baby-check/
-مکمل غذایی: /search/category-nutritional-supplements/
-مکمل ورزشی: /search/category-sports-and_fitness-supplements/
-پروتئین: /search/category-protein/
-آمینو اسید: /search/category-amino-acid/
-کراتین: /search/category-keratin/
-مکمل افزایش وزن: /search/category-weight-gain-supplement/
-مکمل کاهش وزن: /search/category-weight-loss-supplement/
-ارتوپدی و کمک درمانی: /search/category-support/
-لوازم پزشکی مصرفی: /search/category-consumable-medical-supplies/
-تجهیزات دندانپزشکی: /search/category-dental-equipment/
-پوشاک ورزشی مردانه: /search/category-men-sportswear/
-پوشاک ورزشی زنانه: /search/category-women-sportwear/
-کفش ورزشی مردانه: /search/category-men-sport-shoes-/
-کفش ورزشی زنانه: /search/category-women-sport-shoes-/
-پوشاک ورزشی پسرانه: /search/category-boys-sportswear/
-پوشاک ورزشی دخترانه: /search/category-girls-sportswear/
-کفش ورزشی پسرانه: /search/category-boys-sport-shoes/
-کفش ورزشی دخترانه: /search/category-girls-sport-shoes/
-تجهیزات سفر: /search/category-traveling-equipment/
-ساک و چمدان: /search/category-trolley-case-and-luggage/
-کیف و کوله پشتی: /search/category-bag-and-backpack/
-دوچرخه: /search/category-bicycle/
-لوازم جانبی دوچرخه: /search/category-bicycles-accessories/
-کوهنوردی و کمپینگ: /search/category-hiking-and-camping/
-عصای کوهنوردی: /search/category-staff/
-چراغ قوه و چراغ پیشانی: /search/category-flashlight/
-چاقو و ابزار چندکاره: /search/category-camping-knife/
-قمقمه و فلاسک: /search/category-flask/
-چادر: /search/category-tent/
-کیسه خواب: /search/category-sleeping-bag/
-زیرانداز سفری: /search/category-mat/
-تجهیزات جانبی سفر و کمپینگ: /search/category-travel-accessories/
-چتر: /search/category-umbrella-1/
-قمقمه و شیکر: /search/category-sport-entertainment/?q=%d8%b4%db%8c%da%a9%d8%b1&entry=mm
-لوازم ورزشی: /search/category-sport/
-ورزش های هوازی و بدنسازی: /search/category-aerobic/
-تجهیزات جانبی ایروبیک و تناسب اندام: /search/category-stretching-tools/
-دمبل: /search/category-dumbbell/
-طناب: /search/category-rope/
-بارفیکس: /search/category-pullup/
-تردمیل: /search/category-treadmill/
-لوازم پوششی و محافظتی ورزشی: /search/category-cover-and-safety-equipment/
-ورزش های توپی: /search/category-ball-sports/
-توپ: /search/category-ball/
-راکت: /search/category-racquet/
-ورزش های آبی: /search/category-water-games/
-ورزش های رزمی: /search/category-martial-arts/
-اسکوتر برقی: /search/category-sports-hoverboard/
-اسکیت و اسکوتر: /search/category-skate/
-کارت هدیه فیزیکی دیجی کالا: /search/category-digikala-gift-card/
-کارت هدیه براساس مناسبت: /search/category-digikala-gift-card/?types%5B0%5D=7619
-کارت هدیه تولد: /search/category-digikala-gift-card/?types%5B0%5D=19660
-کارت هدیه روز مادر: /search/category-digikala-gift-card/?types%5B0%5D=21910&types%5B1%5D=19442
-کارت هدیه روز معلم: /search/category-digikala-gift-card/?search=%D9%85%D8%B9%D9%84%D9%85&types%5B0%5D=19545
-کارت هدیه سالگرد: /search/category-digikala-gift-card/?types%5B0%5D=19531&types%5B1%5D=19440&types%5B2%5D=19684&types%5B3%5D=19544&types%5B4%5D=19441
-کارت هدیه تشکر: /search/category-digikala-gift-card/?types%5B0%5D=19546
-کارت هدیه براساس قیمت: /search/category-digikala-gift-card/?sort=20
-کارت هدیه الکترونیکی دیجی کالا: /search/category-e-gift/
-کارت هدیه الکترونیکی براساس مناسبت: /search/category-e-gift/?sort=1
-کارت هدیه دیجی استایل: /search/category-digistyle-gift-card/
-گیفت کارت اپلیکیشن و نرم افزار: /search/category-application-and-software-giftcard/
-گیفت کارت پلتفرم‌های بازی: /search/category-gaming-platforms-giftcard/
-گیفت کارت پرداخت‌های درون بازی: /search/category-in-game-payments-giftcard/
-گیفت کارت فروشگاه آنلاین: /search/category-online-shop-giftcard/
-گیفت کارت فیلم و سریال: /search/category-movie-and-series-giftcard/
-کالاهای اساسی و خواربار: /search/category-groceries/
-ماکارونی: /search/category-spaghetti-pasta/
-برنج: /search/category-rice/
-نبات: /search/category-candy/
-قند: /search/category-sugar-cube/
-شکر: /search/category-sugar/
-رب گوجه: /search/category-tomato-paste/
-رب انار: /search/category-pomegranate-paste/
-روغن: /search/category-oil/
-روغن مایع: /search/category-liquid-sunflower-oil/
-روغن جامد و نیمه جامد: /search/category-solid-semi-solid-vegetable-oils/
-روغن زیتون: /search/category-olive-oil/
-روغن ذرت: /search/category-corn-oil/
-روغن کنجد: /search/category-sesame-oil/
-روغن حیوانی: /search/category-animal-oil/
-چای و دمنوش: /search/category-tea/
-قهوه: /search/category-coffee/
-دانه قهوه: /search/category-coffee-bean/
-قهوه فوری: /search/category-instant-coffee/
-قهوه اسپرسو: /search/category-espresso-coffee/
-غذاهای آماده و نیمه آماده: /search/category-ready-made-canned-food/
-تن ماهی: /search/category-tuna-fish/
-نودل: /search/category-noodles/
-غذاهای آماده کنسروی: /search/category-pre-cooked-meals/
-حبوبات و سویا: /search/category-cereals-soy/
-ادویه و افزودنی: /search/category-spices-seasonings/
-زعفران: /search/category-saffron/
-زرشک: /search/category-barberries/
-فلفل: /search/category-pepper/
-نمک: /search/category-salt/
-هل: /search/category-true-cardamom/
-زنجبیل: /search/category-ginger/
-زردچوبه: /search/category-easoning/
-صبحانه: /search/category-breakfast/
-کره بادام زمینی: /search/category-peanut-butter/
-شکلات صبحانه: /search/category-breakfast-chocolates/
-غلات صبحانه: /search/category-breakfast-cereal/
-عسل: /search/category-honey/
-نوشیدنی: /search/category-beverages/
-آب معدنی: /search/category-mineral-water/
-نوشابه: /search/category-soft-drink/
-ماء الشعیر: /search/category-non-alcoholic-beer/
-انرژی زا: /search/category-sport-energy-drink/
-شربت و آبمیوه: /search/category-fruit-juice/
-ترشی و شور: /search/category-salts-and-pickles/
-تنقلات: /search/category-snacks/
-چیپس: /search/category-chips/
-پفک: /search/category-cheese-puffs/
-تخمه: /search/category-nuts-trail-mix/
-لواشک: /search/category-fruit-rolls/
-کیک و کلوچه: /search/category-cookies/
-شکلات: /search/category-chocolate-and-cocoa-products/
-پاستیل: /search/category-gummi-candy/
-آدامس: /search/category-chewing-gum-breath-fresheners/
-بیسکویت: /search/category-biscuits-wafers/
-آجیل: /search/category-nuts/
-فندق: /search/category-hazelnuts/
-پسته: /search/category-pistachio/
-بادام درختی: /search/category-almond/
-بادام هندی: /search/category-cashew/
-بادام زمینی: /search/category-peanuts/
-انجیر: /search/category-fig/
-شیرینی: /search/category-sweets/
-مواد پروتئینی و تخم مرغ: /search/category-protein-foods/
-خاویار: /search/category-caviar/
-سوسیس: /search/category-sausages/
-میوه و سبزیجات: /search/category-fruits-and-vegetables/
-بهداشت و نظافت خانگی: /search/category-home-hygiene/
-اسکاچ و سیم ظرفشویی: /search/category-scouringpad/
-دستکش نظافت: /search/category-glove/
-مواد شوینده: /search/category-detergents/
-شوینده لباس: /search/category-clothes-detergents/
-شوینده ظروف: /search/category-dishes-detergents/
-شوینده سطوح: /search/category-surface-cleaner/
-مایع دستشویی: /search/category-washing-liquid/
-شوینده فرش و مبل: /search/category-carpet-and-furniture-shampoo/
-لوازم یکبار مصرف آشپزخانه: /search/category-disposablecontainer/
-بهداشت و خوراک کودک: /search/category-baby-and-mother/
-غذای کودک: /search/category-baby-foods/
-پوشک کودک: /search/category-diaper/
-دهانشویه و خمیردندان کودک: /search/category-children-and-baby-toothpaste/
-مسواک کودک: /search/category-baby-toothbrush/
-دستمال مرطوب کودک: /search/category-babywetwipes/
-کرم،‌ بالم و لوسیون کودک: /search/category-creams-balms-and-lotions/
-شامپو کودک: /search/category-baby-shampoo/
-شوینده لباس کودک: /search/category-cloths-cleaner/
-بهداشت شخصی: /search/category-personal-hygiene/
-بهداشت و حمام کودک و نوزاد: /search/category-health-and-bathroom-tools/
-پوشک: /search/category-diaper/
-دستمال مرطوب: /search/category-wet-wipes/
-حوله: /search/category-baby-towel/
-وان حمام نوزاد: /search/category-baby-bath-tub/
-مینی واش: /search/category-diaper-cleaner/
-شامپو کودک و نوزاد: /search/category-baby-shampoo/
-پوشاک و کفش کودک و نوزاد: /search/category-kids-apparel/
-لباس نوزادی: /search/category-kids-clothes/
-کفش: /search/category-boys-shoes/
-جوراب و پاپوش کودک و نوزاد: /search/category-kids-socks-/
-کلاه و پیش بند نوزاد: /search/category-kids-napkin-and-apron/
-پوشاک بچگانه: /search/category-kids-apparel/
-پوشاک پسرانه: /search/category-boys-clothing/
-لباس پسرانه: /search/category-boys-clothes/
-لباس و کفش ورزشی پسرانه: /search/category-boys-sports/
-کفش پسرانه: /search/category-boys-shoes/
-کوله پشتی پسرانه: /search/category-boys-backpacks/
-لباس دخترانه: /search/category-girls-clothes/
-کفش دخترانه: /search/category-girls-footwear/
-کوله پشتی دخترانه: /search/category-girls-backpacks/
-تبلت: /search/category-tablet/
-پلی استیشن، ایکس باکس و بازی: /search/category-game-console/
-اسباب بازی: /search/category-toys/
-فکری و آموزشی: /search/category-intellectual-and-educational/
-پازل، لگو و ساختنی: /search/category-puzzle/
-عروسک و فیگور: /search/category-toy-and-model/
-اسپینر، ابزار شوخی و سرگرمی: /search/category-humor-and-entertainment/
-تفنگ، تیر و لوازم جنگی: /search/category-guns-and-combat/
-بازی و سرگرمی کودک: /search/category-entertainment-and-games-equipment/
-ماشین بازی، موتور و سه چرخه: /search/category-tricycle-and-motorcycle/
-دوچرخه: /search/category-bicycles/
-تشک بازی و پارک بازی: /search/category-play-gym/
-تاب و سرسره: /search/category-swings-and-slides/
-سلامت، ایمنی و مراقبت: /search/category-safety-and-care/
-تصفیه هوا: /search/category-air-purifier/
-ترازو: /search/category-digital-scale/
-دوربین و پیجر اتاق کودک: /search/category-baby-monitor-and-pager/
-تب سنج و دماسنج: /search/category-baby-thermometer/
-محافظ و ابزار ایمنی: /search/category-safety-tools-for-children-and-babies/
-خواب کودک: /search/category-baby-bedding/
-مبلمان اتاق کودک: /search/category-childrens-bedroom-furniture/
-چراغ خواب کودک: /search/category-baby-decorative-lamp/
-تشک کودک: /search/category-baby-mat/
-سرویس خواب: /search/category-bed-set/
-پتو: /search/category-blanket/
-بالش شیردهی: /search/category-feeding-pillow/
-داغ ترین ها: /search/category-entertainment-and-games-equipment/
-ملزومات گردش و سفر: /search/category-promenade-and-travel-accessories/
-کالسکه و کریر: /search/category-stroller-and-carrier/
-صندلی خودرو کودک و نوزاد: /search/category-chair-species/
-ساک لوازم نوزاد: /search/category-diaper-bag/
-لوازم جانبی گردش و سفر: /search/category-children-and-baby-promenade-and-travel-accessories/
-آغوشی: /search/category-baby-carrier/
-لوازم شخصی: /search/category-personal-accessories/
-پستانک و ملزومات: /search/category-pacifier-and-accessories/
-شیردوش: /search/category-milking/
-شورت آموزشی: /search/category-training-short/
-غذا خوری: /search/category-dining-accessories/
-صندلی غذاخوری: /search/category-booster-seat/
-شیشه شیر، سرلاک و داروخوری: /search/category-baby-bottle/
-خواروبار محلی: /search/category-rural-groceries/
-برنج محلی: /search/category-rural-rice/
-روغن محلی: /search/category-rural-oil/
-صبحانه محلی: /search/category-rural-breakfast/
-عسل طبیعی: /search/category-rural-honey/
-حلوا شکری، ارده و کنجد سنتی: /search/category-rural-halva-and-sesame/
-کیک و شیرینی خانگی: /search/category-rural-sweets/
-شیرینی خانگی: /search/category-homemade-sweets/
-کیک و کلوچه محلی: /search/category-rural-cakes-and-cookies/
-تنقلات خانگی: /search/category-rural-nuts-and-dried-fruits/
-لواشک، برگه و آلوچه خانگی: /search/category-organic-fruit-leather-and-dried-fruit/
-تخمه و مغز طعم‌دار محلی: /search/category-rural-flavored-seeds-and-nuts/
-لبنیات سنتی: /search/category-rural-dairy/
-کره گیاهی و حیوانی محلی: /search/category-rural-butter/
-خشکبار و آجیل سنتی: /search/category-dried-fruits-nuts/
-آجیل سنتی: /search/category-rural-nuts/
-خرمای محلی: /search/category-rural-date/
-غلات و حبوبات ارگانیک: /search/category-cereals-legumes/
-غلات ارگانیک: /search/category-organic-cereals/
-حبوبات و سویا ارگانیک: /search/category-organic-beans-and-soy/
-ادویه و چاشنی ارگانیک: /search/category-seasoning-spices/
-ادویه‌های ارگانیک: /search/category-rural-flavors-and-spices/
-زعفران و زرشک ارگانیک: /search/category-organic-rural-saffron-and-barberry/
-عطاری: /search/category-herbal/
-ترشیجات و شور خانگی: /search/category-pickles-salt/
-دکوراتیو سنتی: /search/category-rural-decorative/
-لوستر و چراغ آویز دست ساز: /search/category-rural-hanging-lamp/
-مجسمه دست ساز: /search/category-rural-sculpture/
-گلدان دست ساز: /search/category-rural-flower-pot/
-تابلو سنتی: /search/category-tableau/
-ست هدیه سنتی: /search/category-rural-gift-set/
-ست هفت سین سنتی: /search/category-rural-haftsin-set/
-کاشی سنتی: /search/category-rural-tile/
-آینه سنتی: /search/category-rural-mirror/
-محصولات بافتنی: /search/category-knitwear/
-خانه و کاشانه: /search/category-rural-home/
-نوشیدنی‌های ارگانیک: /search/category-herbal-spirits-rose-water/
-چای ارگانیک ایرانی: /search/category-rural-tea/
-دمنوش گیاهی: /search/category-rural-herbal-tea/
-نوشیدنی‌های ارگانیک: /search/category-herbal-hot-drink/
-اکسسوری و زیورآلات دست ساز: /search/category-rural-accessories/
-پوشاک بومی و محلی: /search/category-rural-cloth-and-apparel/
-قالی و قالیچه: /search/category-rural-carpets-and-rugs/
-ظروف سنتی: /search/category-rural-dishes/
-آجیل خوری سنتی: /search/category-rural-nuts-pot/
-دیس و سینی سنتی: /search/category-rural-tray/
-قندان سنتی: /search/category-rural-sugar-container/
-بشقاب سنتی: /search/category-rural-plate/
-لیوان سنتی: /search/category-rural-glass/
-دیگ و قابلمه سنتی: /search/category-rural-pot-dig/
-لوازم آشپزخانه سنتی: /search/category-rural-kitchen-utensils/
-سبد دستبافت: /search/category-rural-hand-made-basket/
-هاون سنتی: /search/category-rural-mortar/
-تخته سرو دست ساز: /search/category-rural-serve-board/
-رومیزی، رانر و زیربشقابی سنتی: /search/category-traditional-tablecloth-and-under-plate/
-گوشی سامسونگ: https://www.digikala.com/search/category-mobile-phone/samsung/
-گوشی نوکیا: https://www.digikala.com/search/category-mobile-phone/nokia/
-گوشی شیائومی: https://www.digikala.com/search/category-mobile-phone/xiaomi/
-گوشی هواوی: https://www.digikala.com/search/category-mobile-phone/huawei/
-تبلت سامسونگ: https://www.digikala.com/search/category-tablet/samsung/
-هندزفری بی سیم: https://www.digikala.com/search/category-headphone/
-تلوزیون: https://www.digikala.com/search/category-tv2/
-تبلت: https://www.digikala.com/search/category-tablet/
-اسباب‌بازی: https://www.digikala.com/search/category-toys/
-کرم ضد آفتاب: "https://www.digikala.com/search/category-sunscreen-cream/"
-کرم پودر: "https://www.digikala.com/search/category-foundation/"
+  "گوشی آلکاتل": "/search/category-mobile-phone/alcatel/",
+  "گوشی آنر": "/search/category-mobile-phone/honor/",
+  "گوشی آیفون": "/search/category-mobile-phone/apple/",
+  "گوشی اوپو": "/search/category-mobile-phone/oppo-it/",
+  "گوشی تی سی ال": "/search/category-mobile-phone/TCL/",
+  "گوشی جی ال ایکس": "/search/category-mobile-phone/glx/",
+  "گوشی داریا": "/search/category-mobile-phone/daria/",
+  "گوشی ریلمی": "/search/category-mobile-phone/realme/",
+  "گوشی سامسونگ": "https://www.digikala.com/search/category-mobile-phone/samsung/",
+  "گوشی شیائومی": "https://www.digikala.com/search/category-mobile-phone/xiaomi/",
+  "گوشی گوگل پیکسل": "/search/category-mobile-phone/google/",
+  "گوشی موتورولا": "/search/category-mobile-phone/motorola/",
+  "گوشی ناتینگ فون": "/search/category-mobile-phone/nothing/",
+  "گوشی نوکیا": "https://www.digikala.com/search/category-mobile-phone/nokia/",
+  "گوشی هواوی": "https://www.digikala.com/search/category-mobile-phone/huawei/",
+  "گوشی وکال": "/search/category-mobile-phone/vocal/",
+  "گوشی وان پلاس": "/search/category-mobile-phone/oneplus/",
+  "گوشی موبایل دوجی": "/search/category-mobile-phone/doogee/",
+  "گوشی بلک ویو": "/search/category-mobile-phone/blackview/",
+  "قیمت گوشی": "/search/category-mobile-phone/",
+  "برندهای برتر": "/search/category-mobile-phone/",
+  "گوشی تا 2 میلیون تومان": "/search/category-mobile-phone/product-list/?price%5bmax%5d=20000000&price%5bmin%5d=0",
+  "گوشی تا 5 میلیون تومان": "/search/category-mobile-phone/product-list/?price%5bmax%5d=50000000&price%5bmin%5d=0",
+  "گوشی تا 7 میلیون تومان": "/search/category-mobile-phone/product-list/?price%5bmax%5d=70000000&price%5bmin%5d=0",
+  "گوشی تا 15 میلیون تومان": "/search/category-mobile-phone/product-list/?price%5bmax%5d=150000000&price%5bmin%5d=0",
+  "گوشی بالای 15 میلیون تومان": "/search/category-mobile-phone/product-list/?price%5bmax%5d=689890000&price%5bmin%5d=150000000",
+  "گوشی دکمه‌ای": "/search/category-mobile-phone/product-list/?attributes%5B7348%5D%5B0%5D=31344",
+  "گوشی ضد آب": "/search/category-mobile-phone/product-list/?attributes%5B7348%5D%5B0%5D=31349",
+  "گوشی مناسب عکاسی": "/search/category-mobile-phone/product-list/?attributes%5B7348%5D%5B0%5D=31352&sort=7",
+  "گوشی دانش آموزی": "/search/category-mobile-phone/product-list/?price%5bmax%5d=60000000&price%5bmin%5d=0&sort=4",
+  "لوازم جانبی موبایل": "/search/category-mobile-accessories/",
+  "شارژر گوشی": "/search/category-car-charger/",
+  "قاب و کاور گوشی": "/search/category-cell-phone-pouch-cover/",
+  "گلس گوشی": "/search/category-cell-phone-screen-guard/",
+  "هولدر گوشی موبایل": "/search/category-cell-phone-holder/",
+  "کابل شارژ و مبدل": "/search/category-cell-phone-data-cable/",
+  "پاوربانک (شارژر همراه)": "/search/category-power-bank/",
+  "تبلت": "https://www.digikala.com/search/category-tablet/",
+  "تبلت سامسونگ": "https://www.digikala.com/search/category-tablet/samsung/",
+  "تبلت اپل (آی پد)": "/search/category-tablet/apple/",
+  "تبلت شیائومی": "/search/category-tablet/xiaomi/",
+  "تبلت لنوو": "/search/category-tablet/lenovo/",
+  "تبلت مایکروسافت": "/search/category-tablet/microsoft/",
+  "تبلت دانش آموزی": "/search/category-tablet/?price%5Bmax%5D=150000000&price%5Bmin%5D=0&sort=20",
+  "هدفون": "/search/category-headphone/",
+  "هدفون بی سیم": "/search/category-headphone/?attributes%5B2352%5D%5B0%5D=21576&attributes%5B2352%5D%5B1%5D=31584&attributes%5B2352%5D%5B2%5D=21577&sort=21&types%5B0%5D=127",
+  "هدفون اپل (ایرپاد)": "/search/category-headphone/apple/",
+  "هدفون بیتس": "/search/category-headphone/beats/",
+  "هدفون سونی": "/search/category-headphone/sony/",
+  "هدفون سامسونگ (ایربادز)": "/search/category-headphone/samsung/",
+  "هدفون شیائومی": "/search/category-headphone/xiaomi/",
+  "هدفون جی بی ال": "/search/category-headphone/jbl/",
+  "ساعت و مچ بند هوشمند": "/search/category-wearable-gadget/",
+  "ساعت هوشمند سامسونگ": "/search/category-smart-watch/samsung/",
+  "ساعت هوشمند شیائومی": "/search/category-smart-watch/xiaomi/",
+  "اپل واچ": "/search/category-smart-watch/apple/",
+  "داغ ترین‌ها": "/search/category-mobile-phone/product-list/?sort=7",
+  "لپ تاپ": "/search/category-notebook-netbook-ultrabook/",
+  "لپ‌تاپ ایسوس": "/search/category-notebook-netbook-ultrabook/asus/",
+  "لپ‌تاپ لنوو": "/search/category-notebook-netbook-ultrabook/lenovo/",
+  "مک بوک": "/search/category-notebook-netbook-ultrabook/apple/",
+  "لپ‌تاپ HP": "/search/category-notebook-netbook-ultrabook/hp/",
+  "لپ‌تاپ دل": "/search/category-notebook-netbook-ultrabook/dell/",
+  "لپ‌تاپ ایسر": "/search/category-notebook-netbook-ultrabook/acer/",
+  "لپ‌تاپ ام اس آی": "/search/category-notebook-netbook-ultrabook/msi/",
+  "لپ تاپ استوک": "/search/category-used-laptop/",
+  "لوازم جانبی لپ تاپ": "/search/category-laptop-accessories/",
+  "شارژر لپ‌تاپ": "/search/category-laptop-charger/",
+  "کیف لپ‌تاپ": "/search/category-laptop-bag/",
+  "کول پد": "/search/category-stand-cooling-pad/",
+  "استیکر لپ‌تاپ": "/search/category-laptop-other-accessories/",
+  "کنسول بازی": "/search/category-game-console/",
+  "ps5": "/search/category-station-gaming-consoles/sony/",
+  "ps4": "/search/category-station-gaming-consoles/?brands%5B0%5D=1&has_selling_stock=1&types%5B0%5D=22124",
+  "xbox": "/search/category-station-gaming-consoles/microsoft/",
+  "وسایل گیمینگ": "/search/category-gaming-accessories/",
+  "دسته بازی": "/search/category-gamepad/",
+  "بازی pc": "/search/category-pc-game/",
+  "دیسک های بازی": "/search/category-home-console-games/",
+  "فرمان بازی": "/search/category-racing-wheel/",
+  "کامپیوتر": "/search/category-computer-parts/",
+  "all in one": "/search/category-all-in-pc/",
+  "mini pc": "/search/category-mini-pc/",
+  "قلم نوری": "/search/category-digital-pen/",
+  "رم ریدر": "/search/category-ram-reader/",
+  "ماوس پد": "/search/category-mouse-pad/",
+  "کیس اسمبل شده": "/search/category-assembled-cases/",
+  "کیبورد": "/search/category-keyboard/",
+  "کیبورد گیمینگ": "/search/category-keyboard/?types%5B0%5D=4584",
+  "کیبورد بی سیم": "/search/category-keyboard/?attributes%5B2352%5D%5B0%5D=21576",
+  "کیبورد مکانیکال": "/search/category-keyboard/?types%5B0%5D=5226",
+  "کیس کامپیوتر": "/search/category-computer-chassis/",
+  "کیس گیمینگ": "/search/category-computer-chassis/",
+  "ماوس": "/search/category-mouse/",
+  "ماوس گیمینگ": "/search/category-mouse/?types%5B0%5D=6170",
+  "ماوس بی سیم": "/search/category-mouse/?types%5B0%5D=1311",
+  "مانیتور": "/search/category-monitor/",
+  "اسپیکر": "/search/category-speaker/",
+  "اسپیکر بلوتوثی": "/search/category-speaker/?attributes%5B2204%5D%5B0%5D=16977&sort=7",
+  "اسپیکر jbl": "/search/category-speaker/jbl/",
+  "اسپیکر سونی": "/search/category-speaker/sony/",
+  "اسپیکر تسکو": "/search/category-speaker/tsco/",
+  "اسپیکر مکسیدر": "/search/category-speaker/maxeeder/",
+  "اسپیکر میکرولب": "/search/category-speaker/microlab/",
+  "قطعات کامپیوتر": "/search/category-computer-devices/",
+  "پردازنده (cpu)": "/search/category-processor/",
+  "کارت گرافیک": "/search/category-graphics-card/",
+  "مادربرد": "/search/category-motherboard/",
+  "دانگل بلوتوث": "/search/category-bluetooth-dongle/",
+  "رم کامپیوتر": "/search/category-ram/",
+  "هدفون ریزر": "/search/category-headphone/razer/",
+  "هدست": "/search/category-headphone/?sort=7&types%5B0%5D=129",
+  "بند اپل واچ": "/search/category-apple-watch-cover/",
+  "بند ساعت هوشمند": "/search/category-watch-band/",
+  "لوازم جانبی ساعت هوشمند": "/search/category-watch-accessorie/",
+  "دوربین": "/search/category-digital-camera/",
+  "دوربین فیلمبرداری": "/search/category-camcorder/",
+  "دوربین کنون": "/search/category-digital-camera/canon/",
+  "دوربین سونی": "/search/category-digital-camera/?brands%5B0%5D=1",
+  "دوربین چاپ سریع": "/search/category-digital-camera/?q=%da%86%d8%a7%d9%be%20%d8%b3%d8%b1%db%8c%d8%b9&entry=mm",
+  "رینگ لایت": "/search/category-studio-constant-light/",
+  "پایه دوربین": "/search/category-tripod-monopod/",
+  "لنز دوربین": "/search/category-camera-lens/",
+  "کارت حافظه": "/search/category-memory-cards/",
+  "تجهیزات ذخیره‌سازی اطلاعات": "/search/category-data-storage/",
+  "هارد ssd": "/search/category-internal-ssd/",
+  "هارد اینترنال": "/search/category-internal-hard-drive/",
+  "هارد اکسترنال": "/search/category-external-hard-disk/",
+  "فلش": "/search/category-usb-flash-memory/",
+  "پاور بانک": "/search/category-power-bank/",
+  "فست شارژ": "/search/category-power-bank/?attributes%5B5707%5D%5B0%5D=24970&sort=4",
+  "پاور بانک شیائومی": "/search/category-power-bank/xiaomi/",
+  "پاور بانک انکر": "/search/category-power-bank/anker/",
+  "پاور بانک اپل": "/search/category-power-bank/apple/",
+  "پاور بانک سامسونگ": "/search/category-power-bank/samsung/",
+  "پاور بانک انرجایزر": "/search/category-power-bank/energizer/",
+  "باتری": "/search/category-automotive-battery/",
+  "باتری لیتیومی": "/search/category-camera-li-ion-battery/",
+  "باتری قلمی": "/search/category-standard-batteries/",
+  "پرینتر": "/search/category-printer/",
+  "پرینتر سه بعدی": "/search/category-3d-printer/",
+  "پرینتر حرارتی": "/search/category-lable-printer/",
+  "پرینتر رنگی": "/search/category-printer/?attributes%5B5735%5D%5B0%5D=25025",
+  "پرینتر لیبل زن": "/search/category-lable-printer/",
+  "پرینتر اچ پی": "/search/category-printer/hp/",
+  "ماشین‌های اداری": "/search/category-office-machines/",
+  "کابل پرینتر": "/search/category-printer-cable/",
+  "کارتریج": "/search/category-cartridge/",
+  "اسکنر": "/search/category-scanner/",
+  "تلفن": "/search/category-telephone/",
+  "بارکدخوان": "/search/category-barcode-reader/",
+  "ویدئو وال": "/search/category-video-wall/",
+  "ویدئو پروژکتور": "/search/category-data-video-projector/",
+  "دستگاه حضور و غیاب": "/search/category-employee-timeclock/",
+  "تجهیزات شبکه و ارتباطات": "/search/category-network/",
+  "هاب USB": "/search/category-usb-hub/",
+  "سوییچ": "/search/category-switch/",
+  "هاب سوئیچ": "/search/category-hub-switch/",
+  "تجهیزات ویدئویی": "/search/category-network-video-recorder/",
+  "کارت شبکه": "/search/category-antenna/",
+  "کامپیوتر سرور": "/search/category-server-computer/",
+  "رک شبکه و سرور": "/search/category-rack/",
+  "پچ پنل": "/search/category-patch-panel/",
+  "پرینت سرور": "/search/category-print-server/",
+  "آداپتور شبکه": "/search/category-adapter/",
+  "اسپلیتر": "/search/category-splitter/",
+  "کابل شبکه (LAN)": "/search/category-lan-cable/",
+  "کابل کمبو": "/search/category-cable-combo/",
+  "کارت و ماژول": "/search/category-card-and-module/",
+  "لوازم جانبی NAS و سرور": "/search/category-nas-accessories/",
+  "ذخیره ساز تحت شبکه (NAS)": "/search/category-nas/",
+  "یو پی اس (UPS)": "/search/category-ups/",
+  "ابزار شبکه": "/search/category-network-utilities/",
+  "آنتن تقویتی": "/search/category-antenna/",
+  "مبدل فیبر نوری": "/search/category-fiber-converter/",
+  "سیم آنتن": "/search/category-antenna-cable/",
+  "مودم": "/search/category-modem-router-adsl/",
+  "مودم جیبی": "/search/category-3g-4g-and-5g-modem-router/",
+  "مودم ایرانسل": "/search/category-3g-4g-and-5g-modem-router/mtn-irancell/",
+  "مودم همراه اول": "/search/category-3g-4g-and-5g-modem-router/ir-mci/",
+  "توسعه دهنده محدوده بی‌سیم": "/search/category-wireless-range-extender/",
+  "روتر و اکسس پوینت": "/search/category-router-accesspoint/",
+  "تجهیزات امنیتی و نظارتی": "/search/category-security-and-surveillance-equipment/",
+  "دوربین مدار بسته": "/search/category-network-cam/",
+  "ایپد": "/search/category-tablet/apple/",
+  "ظروف پخت و پز": "/search/category-cooking-dishes/",
+  "قابلمه و تابه": "/search/category-pots-pans/",
+  "زودپز": "/search/category-pressurecooker/",
+  "سرویس پخت و پز": "/search/category-cookwareset/",
+  "ابزار آشپزی": "/search/category-cooking-tools/",
+  "ست کفگیر و ملاقه": "/search/category-spatulaladleset/",
+  "چاقو": "/search/category-Cooking-knife/",
+  "تخته گوشت": "/search/category-meat-board/",
+  "ظرف و قالب یخ": "/search/category-icetray/",
+  "قیف": "/search/category-funnel/",
+  "صافی": "/search/category-virgo-1/",
+  "فندک آشپزخانه": "/search/category-kitchenlighter/",
+  "ترازوی آشپزخانه": "/search/category-kitchen-weighing-scale/",
+  "تهیه و سرو چای و قهوه": "/search/category-kettleandteapot/",
+  "ظروف آشپزخانه": "/search/category-plateandetc/",
+  "آبکش و آبگیر": "/search/category-virgobasin/",
+  "بطری": "/search/category-bottle/",
+  "ارگانایزر آشپزخانه": "/search/category-organizer/",
+  "جای ادویه": "/search/category-spice-shaker/",
+  "بانکه و ظروف بنشن": "/search/category-legumecontainer/",
+  "شکر پاش و نمک پاش": "/search/category-salt-sugar-shaker/",
+  "سبد آشپزخانه": "/search/category-kitchenbasket/",
+  "سبد سیب زمینی و پیاز": "/search/category-basket-of-potatoes-and-onions/",
+  "ظرف نگهدارنده": "/search/category-container/",
+  "سایر ظروف": "/search/category-othercookwares/",
+  "لوازم تهیه کیک و دسر": "/search/category-pastry/",
+  "سرو و پذیرایی": "/search/category-serving/",
+  "سفره": "/search/category-table-cloth/",
+  "ماگ": "/search/category-mug/",
+  "سینی": "/search/category-tray/",
+  "لیوان": "/search/category-cupandmug/",
+  "بشقاب": "/search/category-plate/",
+  "قندان": "/search/category-sugarcubebowl/",
+  "پارچ و بطری": "/search/category-jug/",
+  "بستنی خوری": "/search/category-ice-cream-maker/",
+  "سس خوری و آبلیمو خوری": "/search/category-sausedish/",
+  "کاسه و پیاله": "/search/category-bowl/",
+  "کلمن و فلاسک": "/search/category-flasks/",
+  "ظروف سرو و پذیرایی": "/search/category-servingware/",
+  "سرویس غذاخوری": "/search/category-dinnerware-sets/",
+  "قاشق، چنگال و کارد": "/search/category-serving-catering-tools/",
+  "زیر لیوانی، زیر بشقابی و زیر قابلمه ای": "/search/category-coaster/",
+  "ابزار مهمانی": "/search/category-party-tools/",
+  "منسوجات آشپزخانه": "/search/category-towelhandkerchief/",
+  "مبلمان و دکوراسیون خانگی": "/search/category-household-furniture/",
+  "پاف و بین بگ": "/search/category-sofapouffeandbeanbag/",
+  "مبل": "/search/category-sofa/",
+  "کتابخانه": "/search/category-home-library/",
+  "شلف و طبقه": "/search/category-wall-shelf/",
+  "کنسول": "/search/category-console/",
+  "صندلی": "/search/category-counter-chair/",
+  "میز ناهارخوری": "/search/category-dining-table/",
+  "مبلمان و دکوراسیون اداری": "/search/category-office-furniture/",
+  "نگهدارنده لباس و لوازم": "/search/category-storagedresser/",
+  "دکوراتیو": "/search/category-decorative-ac/",
+  "قاب عکس و تابلو": "/search/category-photo-frames-paintings/",
+  "کوسن، رومیزی و شال مبل": "/search/category-Cushions-tablecloths-sofa-shawls/",
+  "کفپوش و دیوارپوش": "/search/category-wall-panel-flooring/",
+  "نور و روشنایی": "/search/category-light-brightness/",
+  "فرش و گلیم": "/search/category-carpet/",
+  "گل و گیاه": "/search/category-natural-flowers/",
+  "حمام": "/search/category-bathroom/",
+  "سرویس بهداشتی": "/search/category-watercloset/",
+  "خواب": "/search/category-bedandbath/",
+  "شستشو و نظافت": "/search/category-cleaning/",
+  "نظافت لباس": "/search/category-shoesandclothingcleaning/",
+  "لوازم مصرفی خودرو": "/search/category-consumable-parts/",
+  "روغن موتور": "/search/category-engine-oil/",
+  "فیلترها": "/search/category-car-filters/",
+  "روغن گیربکس": "/search/category-gearbox-oil/",
+  "روغن هیدرولیک": "/search/category-hydraulic-oil/",
+  "ضدیخ و آب رادیاتور": "/search/category-antifreeze/",
+  "لاستیک": "/search/category-tire/",
+  "مکمل سوخت و روغن": "/search/category-car-oil-and-fuel-additive/",
+  "واکس و پولیش": "/search/category-car-wash-spray-polish-and-wax/",
+  "لوازم نظافت خودرو": "/search/category-car-wash-pad-and--napkin/",
+  "لوازم یدکی خودرو": "/search/category-car-spare-parts/",
+  "چراغ": "/search/category-automotive-lighting/",
+  "آینه جانبی": "/search/category-side-mirrors/",
+  "لوازم صوتی و تصویری": "/search/category-car-stereo/",
+  "دستگاه پخش": "/search/category-car-player/",
+  "بلندگو": "/search/category-car-speaker/",
+  "آمپلی فایر": "/search/category-car-amplifier/",
+  "اف ام پلیر": "/search/category-fm-player/",
+  "مسیریاب خودرو": "/search/category-car-navigation/",
+  "لوازم جانبی صوتی و تصویری": "/search/category-multimedia-accessories/",
+  "لوازم جانبی خودرو": "/search/category-car-accessory-parts/",
+  "روکش صندلی": "/search/category-car-chair-covers/",
+  "کفپوش خودرو": "/search/category-car-coating/",
+  "کفپوش صندوق خودرو": "/search/category-car-trunk-coating/",
+  "عایق کاپوت، صندوق و دربها": "/search/category-car-hood-and-rear-insulated/",
+  "چادر خودرو": "/search/category-car-cover/",
+  "تجهیزات نظم دهنده": "/search/category-car-organizer-equipment/",
+  "تجهیزات راحتی سرنشین": "/search/category-passenger-comfort-equipment/",
+  "زنجیر چرخ": "/search/category-tire-chains/",
+  "دوربین ثبت وقایع خودرو": "/search/category-Dahboard-camera/",
+  "پا رکابی": "/search/category-side-skirt/",
+  "اسپویلر و دیفیوزر": "/search/category-spoiler-diffuser/",
+  "هدلایت": "/search/category-car-lamp/",
+  "جاسوئیچی": "/search/category-car-keyring/",
+  "خوشبوکننده و تصفیه کننده هوای کابین": "/search/category-car-air-freshener-air-purifier/",
+  "سر دنده": "/search/category-head-gear/",
+  "تیونینگ و تقویت موتور": "/search/category-tuning-motor-boost/",
+  "جک خودرو": "/search/category-jack/",
+  "کمربند ایمنی": "/search/category-Car-seat-belts-belt-accessories/",
+  "آنتن خودرو": "/search/category-Car-antenna/",
+  "والف لاستیک": "/search/category-valve-valvecap/",
+  "بوق خودرو": "/search/category-car-horn/",
+  "غربیلک فرمان": "/search/category-steering-wheel/",
+  "سایر لوازم جانبی": "/search/category-in-car-accessories/",
+  "موتور سیکلت": "/search/category-motorbike/",
+  "موتورسیکلت چکی": "/cheque/search/category-motorbike/",
+  "خودرو": "/search/category-cars/",
+  "صوتی و تصویری": "/search/category-video-audio-entertainment/",
+  "تلویزیون": "/search/category-tv2/",
+  "ساندبار": "/search/category-soundbar/",
+  "ویدیو پروژکتور": "/search/category-data-video-projector/",
+  "اندروید باکس": "/search/category-android-box/",
+  "پخش کننده خانگی": "/search/category-home-multimedia-player/?has_selling_stock=1&sort=27",
+  "ریموت کنترل": "/search/category-remote-control/",
+  "میز تلویزیون": "/search/category-tv-tables/",
+  "تهویه، سرمایش و گرمایش": "/search/category-airtreatment/",
+  "بخاری": "/search/category-gas-heater/",
+  "تصفیه کننده هوا": "/search/category-air-purifier/",
+  "بخاری برقی": "/search/category-heater/",
+  "پکیج دیواری و رادیاتور": "/search/category-wall-hung-combination-boiler/",
+  "شوفاژ برقی": "/search/category-radiator/",
+  "آبگرمکن": "/search/category-water-heater/",
+  "پنکه": "/search/category-fan/",
+  "کولر آبی": "/search/category-iranian-cooler/",
+  "کولر گازی": "/search/category-air-conditioner-2/",
+  "تصفیه آب": "/search/category-water-filters/",
+  "یخچال فریزر": "/search/category-refrigerator-freezer/",
+  "یخچال فریزر ساید بای ساید": "/search/category-refrigerator-freezer/?sort=7&types%5B0%5D=4669",
+  "یخچال فریزر دوقلو": "/search/category-refrigerator-freezer/?sort=7&types%5B0%5D=4671",
+  "یخچال فریزر هتلی": "/search/category-refrigerator-freezer/?sort=7&types%5B0%5D=9710",
+  "یخچال فریزر کمبی": "/search/category-refrigerator-freezer/?sort=7&types%5B0%5D=4670",
+  "جاروبرقی": "/search/category-vaccum-cleaner/",
+  "جارو شارژی": "/search/category-handheld-vacuum/",
+  "لوازم جانبی جاروبرقی و بخارشور": "/search/category-vacuum-cleaner-consumption/",
+  "جارو رباتیک": "/search/category-robotic-vacuum-cleaner/",
+  "بخار شو": "/search/category-steam-cleaner/",
+  "ماشین لباسشویی": "/search/category-washing-machines/",
+  "ماشین لباسشویی دوو": "/search/category-washing-machines/daewoo/",
+  "ماشین لباسشویی پاکشوما": "/search/category-washing-machines/pakshoma/",
+  "ماشین لباسشویی اسنوا": "/search/category-washing-machines/snowa/",
+  "مینی واش": "/search/category-diaper-cleaner/",
+  "ماشین ظرفشویی": "/search/category-dishwasher/",
+  "ماشین ظرفشویی جی پلاس": "/search/category-dishwasher/g-plus/",
+  "اتو": "/search/category-iron/",
+  "اتو بخار ایستاده": "/search/category-iron/?sort=7&types%5B0%5D=5528",
+  "اتو بخار": "/search/category-iron/?sort=7&types%5B0%5D=4680",
+  "بخارگر": "/search/category-iron/?sort=7&types%5B0%5D=5256",
+  "چرخ خیاطی": "/search/category-sewing-machine/",
+  "چرخ خیاطی ژانومه": "/search/category-sewing-machine/janome/",
+  "چرخ خیاطی کاچیران": "/search/category-sewing-machine/kachiran/",
+  "لوازم پخت و پز": "/search/category-cooking/",
+  "سرخ کن بدون روغن (airfrier)": "/search/category-airfryer/",
+  "مایکروویو، مایکروفر": "/search/category-microwave/",
+  "اجاق گاز": "/search/category-oven/",
+  "پلوپز": "/search/category-electric-rice-cooker/",
+  "ساندویچ ساز و وافل ساز": "/search/category-sandwich-makers/",
+  "آون توستر": "/search/category-oven-toaster/",
+  "گریل و باربیکیو": "/search/category-grill-barbecue/",
+  "توستر": "/search/category-toaster/",
+  "نوشیدنی ساز": "/search/category-drink-maker/",
+  "قهوه ساز": "/search/category-coffee-makers/",
+  "اسپرسو ساز": "/search/category-espresso-makers/",
+  "چای ساز": "/search/category-tea-makers/",
+  "کتری برقی": "/search/category-boiler/",
+  "سماور برقی": "/search/category-electric-samovar/",
+  "آبمیوه گیری": "/search/category-juicer/",
+  "آب مرکبات گیر": "/search/category-citrus-juicer/",
+  "خردکن و غذاساز": "/search/category-chopper-foodprocessor/",
+  "گوشت کوب برقی": "/search/category-hand-blender/",
+  "غذاساز": "/search/category-food-processor/",
+  "همزن": "/search/category-mixer/",
+  "مخلوط کن": "/search/category-blenders/",
+  "چرخ گوشت": "/search/category-meat-mincers/",
+  "خردکن": "/search/category-chopper/",
+  "آسیاب": "/search/category-grinder/",
+  "لوازم توکار": "/search/category-built-in-appliances/",
+  "فر": "/search/category-built-in-oven/",
+  "هود": "/search/category-hood/",
+  "گاز صفحه ای": "/search/category-built-in-stove/",
+  "سینک ظرفشویی": "/search/category-sink/",
+  "پوشاک مردانه": "/search/category-mens-apparel/",
+  "لباس مردانه": "/search/category-men-clothing/",
+  "هودی مردانه": "/search/category-men-hoodie/",
+  "سویشرت مردانه": "/search/category-mens-sweatshirts/",
+  "ژاکت و پلیور مردانه": "/search/category-men-knitwear/",
+  "تی شرت مردانه": "/search/category-men-tee-shirts/",
+  "پیراهن مردانه": "/search/category-men-shirts/",
+  "لباس زیر مردانه": "/search/category-men-underwear/",
+  "شلوار مردانه": "/search/category-men-trousers/",
+  "پالتو، بارانی و کاپشن مردانه": "/search/category-men-outwear/",
+  "پالتو مردانه": "/search/category-men-coat/",
+  "کاپشن مردانه": "/search/category-men-warm-jacket/",
+  "کت چرم مردانه": "/search/category-men-leather-outwear/",
+  "پافر مردانه": "/search/category-men-puffer-vest/",
+  "کت، جلیقه و ست رسمی مردانه": "/search/category-men-blazers-suits/",
+  "کت تک مردانه": "/search/category-men-formal-jacket/",
+  "کت شلوار مردانه": "/search/category-men-suits-and-sets/",
+  "جلیقه مردانه": "/search/category-men-formal-vest/",
+  "شلوار و سرهمی مردانه": "/search/category-men-trousers-jumpsuits/",
+  "شلوار جین مردانه": "/search/category-men-jeans/",
+  "لباس راحتی مردانه": "/search/category-men-homewear/",
+  "شلوارک مردانه": "/search/category-men-shorts/",
+  "جوراب مردانه": "/search/category-men-socks-tights/",
+  "کیف مردانه": "/search/category-men-bags/",
+  "کیف پول مردانه": "/search/category-men-wallets-bags/",
+  "کفش مردانه": "/search/category-men-shoes/",
+  "نیم بوت مردانه": "/search/category-men-ankle-boots/",
+  "بوت مردانه": "/search/category-men-boots/",
+  "کفش اسپرت مردانه": "/search/category-men-sport-shoes-/",
+  "کفش کالج مردانه": "/search/category-men-driving-shoes/",
+  "صندل مردانه": "/search/category-men-sandals/",
+  "دمپایی مردانه": "/search/category-men-slippers/",
+  "دمپایی لا انگشتی مردانه": "/search/category-men-flip-flops/",
+  "گیوه مردانه": "/search/category-men-espadrilles/",
+  "اکسسوری مردانه": "/search/category-men-accessories/",
+  "ساعت مردانه": "/search/category-men-watches/",
+  "عینک مردانه": "/search/category-men-eyewear/",
+  "کمربند و ساسبند مردانه": "/search/category-men-belts/",
+  "کلاه مردانه": "/search/category-men-headwear/",
+  "کراوات و پاپیون مردانه": "/search/category-men-ties/",
+  "ورزشی مردانه": "/search/category-men-sports/",
+  "لباس ورزشی مردانه": "/search/category-men-sportswear/",
+  "مایو مردانه": "/search/category-men-swim-bottom/",
+  "گرمکن و ست ورزشی مردانه": "/search/category-men-tracksuits-sets/",
+  "اکسسوری ورزشی مردانه": "/search/category-men-sport-accessories/",
+  "کفش ورزشی مردانه": "/search/category-men-sport-shoes-/",
+  "پک هدیه مردانه": "/search/category-men-gifts-sets/",
+  "زیرپوش مردانه": "/search/category-men-undergarments/",
+  "شورت مردانه": "/search/category-men-underwear-bottom/",
+  "پوشاک زنانه": "/search/category-womens-apparel/",
+  "لباس زنانه": "/search/category-women-clothing/",
+  "سویشرت زنانه": "/search/category-womens-sweatshirts/",
+  "هودی زنانه": "/search/category-women-hoodie/",
+  "مانتو پانچو رویه": "/search/category-manteau-and-poncho/",
+  "بلوز و شومیز زنانه": "/search/category-women-shirts/",
+  "تاپ و نیم تنه زنانه": "/search/category-women-tops-and-croptops/",
+  "لباس راحتی زنانه": "/search/category-women-homewear-sets/",
+  "لباس زیر زنانه": "/search/category-women-underwear/",
+  "دامن زنانه": "/search/category-women-skirts/",
+  "پیراهن و لباس مجلسی زنانه": "/search/category-women-dresses/",
+  "لباس خواب و راحتی زنانه": "/search/category-women-homewear/",
+  "لباس خواب زنانه": "/search/category-women-homewear-sets-/",
+  "بادی زنانه": "/search/category-women-bodysuit-/",
+  "ژاکت و پلیور زنانه": "/search/category-women-knitwear/",
+  "تونیک زنانه": "/search/category-women-tunic/",
+  "تیشرت زنانه": "/search/category-women-tee-shirts/",
+  "پالتو، بارانی و کاپشن زنانه": "/search/category-women-outwear/",
+  "کاپشن زنانه": "/search/category-women-warm-jacket/",
+  "پالتو زنانه": "/search/category-women-coat-/",
+  "کت چرم زنانه": "/search/category-women-leather-outwear/",
+  "بارانی زنانه": "/search/category-women-raincoat/",
+  "کت، جلیقه و ست رسمی زنانه": "/search/category-women-blazers-and-suits/",
+  "شورت زنانه": "/search/category-women-underwear-bottom/",
+  "سوتین": "/search/category-women-bra/",
+  "شلوار و سرهمی زنانه": "/search/category-women-trousers/",
+  "شلوار جین زنانه": "/search/category-women-jeans/",
+  "لگینگ زنانه": "/search/category-women-legging/",
+  "شلوارک زنانه": "/search/category-women-trousers/",
+  "مانتو زنانه": "/search/category-women-manto/",
+  "مقنعه و پوشیه": "/search/category-women-scarf-and-burka/",
+  "لباس بارداری": "/search/category-women-maternity/",
+  "شلوار و سرهمی بارداری": "/search/category-women-maternity-trousers-and-jumpsuits/",
+  "پیراهن و لباس مجلسی بارداری": "/search/category-women-maternity-dress/",
+  "ورزشی زنانه": "/search/category-women-sports/",
+  "لباس ورزشی زنانه": "/search/category-women-sportwear/",
+  "گرمکن و ست ورزشی زنانه": "/search/category-women-tracksuits-and-sets/",
+  "تاپ و نیم تنه ورزشی زنانه": "/search/category-women-sport-tops/",
+  "شلوار و سرهمی ورزشی زنانه": "/search/category-women-sport-trousers-and-jumpsuits/",
+  "مایو زنانه": "/search/category-women-swimwear/",
+  "کفش زنانه": "/search/category-women-shoes/",
+  "نیم بوت زنانه": "/search/category-women-ankle-boots/",
+  "بوت زنانه": "/search/category-women-boots/",
+  "کفش اسپرت زنانه": "/search/category-women-sport-shoes-/",
+  "کفش کالج زنانه": "/search/category-women-boat-shoes/",
+  "صندل زنانه": "/search/category-women-sandals/",
+  "دمپایی زنانه": "/search/category-women-slippers/",
+  "کیف زنانه": "/search/category-women-bags/",
+  "اکسسوری زنانه": "/search/category-women-accessories/",
+  "ساعت زنانه": "/search/category-women-watches/",
+  "عینک زنانه": "/search/category-women-eyewear/",
+  "کمربند زنانه": "/search/category-women-belts/",
+  "ست هدیه زنانه": "/search/category-women-gifts-and-sets/",
+  "شمش و پلاک طلا": "/search/category-bullion/",
+  "سکه طلا": "/search/category-gold-coin/",
+  "سکه قسطی": "/search/category-Installment-gold-coin/",
+  "طلای کم اجرت": "/search/category-economicgold/",
+  "گردنبند طلا کم اجرت (دست اول)": "/search/category-women-economic-gold-necklace/",
+  "النگو طلا کم اجرت (دست اول)": "/search/category-women-economic-gold-bangle/",
+  "دستبند طلا کم اجرت (دست اول)": "/search/category-women-economic-gold-bracelet/",
+  "گوشواره طلا کم اجرت (دست اول)": "/search/category-women-economic-gold-earrings/",
+  "گردنبند طلا زنانه": "/search/category-women-gold-necklace/",
+  "زنجیر طلا": "/search/category-women-gold-chain/",
+  "گوشواره طلا": "/search/category-women-gold-earrings/",
+  "انگشتر طلا زنانه": "/search/category-women-gold-ring/",
+  "دستبند طلا زنانه": "/search/category-women-gold-bracelet/",
+  "پابند طلا": "/search/category-women-gold-anklet/",
+  "پیرسینگ طلا زنانه": "/search/category-women-gold-piercing/",
+  "ست زیورآلات طلا زنانه": "/search/category-women-gold-jewelry-sets/",
+  "آویز ساعت طلا زنانه": "/search/category-women-gold-watch-pendant/",
+  "زیورآلات طلا مردانه": "/search/category-men-gold-jewelry/",
+  "انگشتر طلا مردانه": "/search/category-men-gold-ring/",
+  "زنجیر طلا مردانه": "/search/category-men-gold-chain/",
+  "گردنبند طلا مردانه": "/search/category-men-gold-necklace/",
+  "دستبند طلا مردانه": "/search/category-men-gold-bracelet/",
+  "ست زیورآلات طلا مردانه": "/search/category-men-gold-jewelry-sets/",
+  "دکمه سردست طلا مردانه": "/search/category-men-gold-cufflinks/",
+  "جاکلیدی طلا مردانه": "/search/category-men-gold-keychain/",
+  "زیورآلات طلا زنانه و مردانه": "/search/category-uni-gold-jewelry/",
+  "زیورآلات طلا بچگانه": "/search/category-kids-gold-jewelry/",
+  "زیورآلات طلا دخترانه": "/search/category-girls-gold-jewelry/",
+  "دستبند طلا دخترانه": "/search/category-girls-gold-bracelet/",
+  "گوشواره طلا دخترانه": "/search/category-girls-gold-earrings/",
+  "ست زیورآلات طلا دخترانه": "/search/category-girls-gold-jewelry-sets/",
+  "گردنبند طلا دخترانه": "/search/category-girls-gold-necklace/",
+  "آویز طلا دخترانه": "/search/category-girls-gold-pendants/",
+  "انگشتر طلا دخترانه": "/search/category-girls-gold-ring/",
+  "زیورآلات طلا پسرانه": "/search/category-boys-gold-jewelry/",
+  "زیورآلات طلا دخترانه و پسرانه": "/search/category-gold-jewelry-for-girls-and-boys/",
+  "گل سینه طلا دخترانه و پسرانه": "/search/category-gold-breasts-for-girls-and-boys/",
+  "النگو طلا زنانه": "/search/category-women-gold-bangle/",
+  "گل سینه طلا زنانه": "/search/category-women-gold-brooch/",
+  "زیورآلات نقره زنانه": "/search/category-women-silver-jewelry/",
+  "انگشتر نقره زنانه": "/search/category-women-silver-ring/",
+  "دستبند نقره زنانه": "/search/category-women-silver-bracelet/",
+  "گردنبند نقره زنانه": "/search/category-women-silver-necklace/",
+  "زنجیر نقره زنانه": "/search/category-women-silver-chain/",
+  "گوشواره نقره زنانه": "/search/category-women-silver-earrings/",
+  "پابند نقره زنانه": "/search/category-women-silver-anklet/",
+  "پیرسینگ نقره زنانه": "/search/category-women-silver-piercing/",
+  "آویز نقره زنانه": "/search/category-women-silver-pendants/",
+  "آویز ساعت نقره زنانه": "/search/category-women-silver-watch-pendant/",
+  "زیورآلات نقره مردانه": "/search/category-men-silver-jewelry/",
+  "انگشتر نقره مردانه": "/search/category-men-silver-ring/",
+  "گردنبند نقره مردانه": "/search/category-men-silver-necklace/",
+  "زنجیر نقره مردانه": "/search/category-men-silver-chain/",
+  "دستبند نقره مردانه": "/search/category-men-silver-bracelet/",
+  "لوازم آرایشی": "/search/category-beauty/",
+  "آرایش صورت": "/search/category-face/",
+  "آرایش چشم": "/search/category-eye-and-eyebrow/",
+  "آرایش ابرو": "/search/category-eyebrow-cosmetics/",
+  "آرایش لب": "/search/category-lip/",
+  "بهداشت و زیبایی ناخن": "/search/category-nail-care/",
+  "ابزار آرایشی": "/search/category-other-cosmetics/",
+  "مراقبت پوست": "/search/category-face-and-body-cream/",
+  "ضد آفتاب": "/search/category-sunscreen-cream/",
+  "کرم مرطوب کننده و نرم کننده": "/search/category-moisturizing-cream/",
+  "ماسک صورت و بدن": "/search/category-face-masque/",
+  "پاک کننده صورت": "/search/category-makeup-remover/",
+  "تونر": "/search/category-face-toner/",
+  "مراقبت بدن": "/search/category-body-care/",
+  "ابزار مراقبت پوست": "/search/category-skin-care-accessories/",
+  "مراقبت و زیبایی مو": "/search/category-hair-care/",
+  "مراقبت مو": "/search/category-hair-care/",
+  "آرایش مو": "/search/category-hair-products/",
+  "نرم کننده مو": "/search/category-hair-conditioner/",
+  "شامپو مو": "/search/category-hair-shampoo/",
+  "لوازم بهداشتی": "/search/category-personal-care/",
+  "مراقبت دهان و دندان": "/search/category-dental-hygienist/",
+  "مسواک": "/search/category-tooth-brush/",
+  "خمیر دندان": "/search/category-toothpaste/",
+  "دئودورانت و ضد تعریق": "/search/category-anti-sweat/",
+  "محصولات بهداشت جنسی": "/search/category-sexual-health/",
+  "کاندوم": "/search/category-condom/",
+  "بهداشت و مراقبت شخصی": "/search/category-body-care/",
+  "نوار بهداشتی": "/search/category-sanitary-pad/",
+  "کاپ قاعدگی": "/search/category-menstrual-cup/",
+  "لوازم اصلاح مو": "/search/category-hair-shaving-kit/",
+  "تیغ و یدک اصلاح": "/search/category-shave-blade/",
+  "عطر و ادکلن": "/search/category-perfume-all/",
+  "عطر و ادکلن زنانه": "/search/category-women-perfume/",
+  "عطر و ادکلن مردانه": "/search/category-perfume/",
+  "بادی اسپلش": "/search/category-body-splash/",
+  "عطر جیبی": "/search/category-pocket-perfumes/",
+  "لوازم شخصی برقی": "/search/category-electrical-personal-care/",
+  "سشوار": "/search/category-hair-drier/",
+  "اتو و حالت دهنده‌ی مو": "/search/category-hair-iron/",
+  "اصلاح موی صورت": "/search/category-shaver/",
+  "اصلاح موی سر": "/search/category-hair-trimmer/",
+  "ابزار برقی": "/search/category-power-tools/",
+  "فرز و سنگ رومیزی": "/search/category-anglegrinder/",
+  "موتور برق": "/search/category-electric-engine/",
+  "مکنده - دمنده": "/search/category-blower/",
+  "جاروبرقی صنعتی": "/search/category-industrial-vacuum-cleaner/",
+  "کارواش": "/search/category-carwash/",
+  "دستگاه جوش": "/search/category-welder/",
+  "کمپرسور هوا": "/search/category-air-compressor/",
+  "مولتی متر": "/search/category-multimeter/",
+  "لوازم جانبی و یدکی ابزار برقی": "/search/category-elec-charg-pneumatic-charg-accessories/",
+  "اره زنجیری": "/search/category-chain-saws/",
+  "ابزار دستی": "/search/category-hand-tools/",
+  "مجموعه ابزار": "/search/category-tools-set/",
+  "نردبان": "/search/category-ladders/",
+  "پیچ گوشتی و فازمتر": "/search/category-screwdriver/",
+  "نظم دهنده ابزار": "/search/category-tool-box/",
+  "متر، تراز، اندازه‌گیری دقیق": "/search/category-measurement/",
+  "لوازم روانکاری": "/search/category-oilcan/",
+  "چسب صنعتی": "/search/category-industrial-glue/",
+  "پیچ و مهره، رول پلاک، میخ و پرچ": "/search/category-screwandnutsanchoranstrud/",
+  "مته و سری": "/search/category-drillbit/",
+  "اره": "/search/category-saw/",
+  "لوازم بسته بندی": "/search/category-accessories-packing/",
+  "لوازم الکتریکی و یراق آلات": "/search/category-construction-tools-and-equipment/",
+  "رنگ": "/search/category-color/",
+  "مصالح ساختمانی": "/search/category-building-materials/",
+  "لوازم باغبانی و کشاورزی": "/search/category-gardening-tools/",
+  "ابزار باغبانی": "/search/category-gardening-tools-/",
+  "ادوات کشاورزی": "/search/category-agriculture-machines/",
+  "بذر و تخم گیاهان": "/search/category-plants-grain-and-seeds/",
+  "خاک، کود و آفت کش": "/search/category-soils-and-fertilizers/",
+  "کاشت و پرورش گیاه": "/search/category-planting-supplies/",
+  "تجهیزات ایمنی و کار": "/search/category-safety-tools/",
+  "جعبه کمک‌های اولیه": "/search/category-first-aid-kit/",
+  "برچسب و علائم ایمنی": "/search/category-environmental-controlling-equipment/",
+  "گاوصندوق": "/search/category-safe/",
+  "قفل": "/search/category-lock/",
+  "قطعات یدکی ماشین آلات صنعتی": "/search/category-spare-parts-for-industrial-machinery/",
+  "تجهیزات کارگاهی": "/search/category-workshop/",
+  "شیرآلات": "/search/category-faucets-valves/",
+  "ست شیرآلات": "/search/category-Faucet-set/",
+  "شیر ظرفشویی": "/search/category-kitchen-tap/",
+  "شیر روشویی": "/search/category-basin-faucet/",
+  "شیرآلات حمام": "/search/category-bathroom-faucet/",
+  "شیر توالت": "/search/category-toilet-faucet/",
+  "اتصالات جانبی": "/search/category-faucets/?sort=7",
+  "کتاب و مجله": "/search/category-book-and-magazines/",
+  "کتاب چاپی": "/search/category-book/",
+  "مجلات خارجی و داخلی": "/search/category-magazines/",
+  "کتاب صوتی": "/search/category-audio-book/",
+  "محتوای آموزشی": "/search/category-multimedia-training-pack/",
+  "آموزش موسیقی": "/search/category-music-training/",
+  "آموزش ورزش و سرگرمی": "/search/category-sport-and-entertainment/",
+  "آموزش زبان": "/search/category-language-learning-software/",
+  "آموزش نرم افزار و کامپیوتر": "/search/category-software-computer/",
+  "نرم افزار": "/search/category-software/",
+  "بازی کنسول و کامپیوتر": "/search/category-pc-game/",
+  "فیلم سینمایی، سریال و مستند": "/search/category-film-video-content/",
+  "آلبوم موسیقی": "/search/category-music-audio-content/",
+  "لوازم تحریر": "/search/category-stationery/",
+  "لوازم اداری و اقلام مصرفی": "/search/category-office-supplies/",
+  "کیف، کوله پشتی و جامدادی": "/search/category-bags-backpacks/",
+  "چراغ مطالعه": "/search/category-light/",
+  "کاغذ کادو، پاکت و کارت هدیه": "/search/category-gift-tools/",
+  "نوشت افزار": "/search/category-stationery-sub/",
+  "دفتر و کاغذ": "/search/category-paper-notebook/",
+  "خودکار و روان نویس": "/search/category-pen/",
+  "ابزار نقاشی و رنگ آمیزی": "/search/category-drawing-painting-tools/",
+  "میز تحریر": "/search/category-writing-desk/",
+  "آلبوم عکس": "/search/category-photo-box/",
+  "کاغذ چاپ و پرینتر": "/search/category-paper/?type[0]=5072&pageno=1&last_filter=type&last_value=5072&sortby=4&entry=mm",
+  "مداد و مداد رنگی": "/search/category-pencil/",
+  "آلات موسیقی": "/search/category-musicalinstruments/",
+  "لوازم جانبی آلات موسیقی": "/search/category-musicinstrumentsaccessories/",
+  "گیتار": "/search/category-guitar/",
+  "کیبورد و ارگ": "/search/category-keybord-organ/",
+  "پیانو دیجیتال": "/search/category-pianos/",
+  "درام، پرکاشن، دف": "/search/category-percussion-instruments/",
+  "تجهیزات استودیویی": "/search/category-studio-equipment/",
+  "ویولن": "/search/category-violin/",
+  "سازهای ایرانی": "/search/category-tombak/",
+  "فرش ماشینی، دستبافت، تابلو": "/search/category-carpet/",
+  "فرش ماشینی": "/search/category-machine-made-carpet/",
+  "فرش دستبافت": "/search/category-handmade-carpet/",
+  "تابلو": "/search/category-pictorial-carpet/",
+  "صنایع دستی": "/search/category-handicraft/",
+  "کالاهای مس": "/search/category-copper-products/",
+  "سفال، سرامیک و چینی": "/search/category-clay-and-ceramic/",
+  "کیف چرمی": "/search/category-leatherbag/",
+  "ترمه، قلمکار و دستبافت": "/search/category-textile-industry/",
+  "خاتم، منبت، حصیری و چوبی": "/search/category-woodcraft/",
+  "تابلو و ساعت": "/search/category-panel/",
+  "میناکاری": "/search/category-enamels/",
+  "فیروزه کوبی": "/search/category-turquoise-tattoo/",
+  "سوزن دوزی": "/search/category-needle-sewing/",
+  "محصولات استخوانی": "/search/category-bone-product/",
+  "جعبه و دست سازه های هنری": "/search/category-art-structures/",
+  "تجهیزات پزشکی": "/search/category-medical-equipment/",
+  "کنترل دیابت": "/search/category-diabetes-control/",
+  "تجهیزات پزشکی تنفسی": "/search/category-respiratory-medical-equipment/",
+  "تجهیزات پزشکی حرفه ای": "/search/category-professional-medical-equipment/",
+  "لوازم پزشک": "/search/category-doctor-supplies/",
+  "ماساژور": "/search/category-massagers/",
+  "فشارسنج": "/search/category-digital-sphygmomanometer/",
+  "ترازو": "/search/category-digital-scale/",
+  "پد و کیسه آب گرم": "/search/category-tot-water-bag/",
+  "تشک و پتوی برقی": "/search/category-electric-underblankets-and-blanket/",
+  "تب سنج و دماسنج": "/search/category-baby-thermometer/",
+  "دماسنج محیطی": "/search/category-enviroment-thermometer/",
+  "دستگاه های عمومی پزشکی": "/search/category-general-medical-devices/",
+  "لوازم جانبی پزشکی": "/search/category-medical-accessories/",
+  "سلامت محیط": "/search/category-environment-care/",
+  "رطوبت‌ گیر": "/search/category-dehumidifier/",
+  "بی بی چک": "/search/category-baby-check/",
+  "مکمل غذایی": "/search/category-nutritional-supplements/",
+  "مکمل ورزشی": "/search/category-sports-and_fitness-supplements/",
+  "پروتئین": "/search/category-protein/",
+  "آمینو اسید": "/search/category-amino-acid/",
+  "کراتین": "/search/category-keratin/",
+  "مکمل افزایش وزن": "/search/category-weight-gain-supplement/",
+  "مکمل کاهش وزن": "/search/category-weight-loss-supplement/",
+  "ارتوپدی و کمک درمانی": "/search/category-support/",
+  "لوازم پزشکی مصرفی": "/search/category-consumable-medical-supplies/",
+  "تجهیزات دندانپزشکی": "/search/category-dental-equipment/",
+  "پوشاک ورزشی مردانه": "/search/category-men-sportswear/",
+  "پوشاک ورزشی زنانه": "/search/category-women-sportwear/",
+  "کفش ورزشی زنانه": "/search/category-women-sport-shoes-/",
+  "پوشاک ورزشی پسرانه": "/search/category-boys-sportswear/",
+  "پوشاک ورزشی دخترانه": "/search/category-girls-sportswear/",
+  "کفش ورزشی پسرانه": "/search/category-boys-sport-shoes/",
+  "کفش ورزشی دخترانه": "/search/category-girls-sport-shoes/",
+  "تجهیزات سفر": "/search/category-traveling-equipment/",
+  "ساک و چمدان": "/search/category-trolley-case-and-luggage/",
+  "کیف و کوله پشتی": "/search/category-bag-and-backpack/",
+  "دوچرخه": "/search/category-bicycles/",
+  "لوازم جانبی دوچرخه": "/search/category-bicycles-accessories/",
+  "کوهنوردی و کمپینگ": "/search/category-hiking-and-camping/",
+  "عصای کوهنوردی": "/search/category-staff/",
+  "چراغ قوه و چراغ پیشانی": "/search/category-flashlight/",
+  "چاقو و ابزار چندکاره": "/search/category-camping-knife/",
+  "قمقمه و فلاسک": "/search/category-flask/",
+  "چادر": "/search/category-tent/",
+  "کیسه خواب": "/search/category-sleeping-bag/",
+  "زیرانداز سفری": "/search/category-mat/",
+  "تجهیزات جانبی سفر و کمپینگ": "/search/category-travel-accessories/",
+  "چتر": "/search/category-umbrella-1/",
+  "قمقمه و شیکر": "/search/category-sport-entertainment/?q=%d8%b4%db%8c%da%a9%d8%b1&entry=mm",
+  "لوازم ورزشی": "/search/category-sport/",
+  "ورزش های هوازی و بدنسازی": "/search/category-aerobic/",
+  "تجهیزات جانبی ایروبیک و تناسب اندام": "/search/category-stretching-tools/",
+  "دمبل": "/search/category-dumbbell/",
+  "طناب": "/search/category-rope/",
+  "بارفیکس": "/search/category-pullup/",
+  "تردمیل": "/search/category-treadmill/",
+  "لوازم پوششی و محافظتی ورزشی": "/search/category-cover-and-safety-equipment/",
+  "ورزش های توپی": "/search/category-ball-sports/",
+  "توپ": "/search/category-ball/",
+  "راکت": "/search/category-racquet/",
+  "ورزش های آبی": "/search/category-water-games/",
+  "ورزش های رزمی": "/search/category-martial-arts/",
+  "اسکوتر برقی": "/search/category-sports-hoverboard/",
+  "اسکیت و اسکوتر": "/search/category-skate/",
+  "کارت هدیه فیزیکی دیجی کالا": "/search/category-digikala-gift-card/",
+  "کارت هدیه براساس مناسبت": "/search/category-digikala-gift-card/?types%5B0%5D=7619",
+  "کارت هدیه تولد": "/search/category-digikala-gift-card/?types%5B0%5D=19660",
+  "کارت هدیه روز مادر": "/search/category-digikala-gift-card/?types%5B0%5D=21910&types%5B1%5D=19442",
+  "کارت هدیه روز معلم": "/search/category-digikala-gift-card/?search=%D9%85%D8%B9%D9%84%D9%85&types%5B0%5D=19545",
+  "کارت هدیه سالگرد": "/search/category-digikala-gift-card/?types%5B0%5D=19531&types%5B1%5D=19440&types%5B2%5D=19684&types%5B3%5D=19544&types%5B4%5D=19441",
+  "کارت هدیه تشکر": "/search/category-digikala-gift-card/?types%5B0%5D=19546",
+  "کارت هدیه براساس قیمت": "/search/category-digikala-gift-card/?sort=20",
+  "کارت هدیه الکترونیکی دیجی کالا": "/search/category-e-gift/",
+  "کارت هدیه الکترونیکی براساس مناسبت": "/search/category-e-gift/?sort=1",
+  "کارت هدیه دیجی استایل": "/search/category-digistyle-gift-card/",
+  "گیفت کارت اپلیکیشن و نرم افزار": "/search/category-application-and-software-giftcard/",
+  "گیفت کارت پلتفرم‌های بازی": "/search/category-gaming-platforms-giftcard/",
+  "گیفت کارت پرداخت‌های درون بازی": "/search/category-in-game-payments-giftcard/",
+  "گیفت کارت فروشگاه آنلاین": "/search/category-online-shop-giftcard/",
+  "گیفت کارت فیلم و سریال": "/search/category-movie-and-series-giftcard/",
+  "کالاهای اساسی و خواربار": "/search/category-groceries/",
+  "ماکارونی": "/search/category-spaghetti-pasta/",
+  "برنج": "/search/category-rice/",
+  "نبات": "/search/category-candy/",
+  "قند": "/search/category-sugar-cube/",
+  "شکر": "/search/category-sugar/",
+  "رب گوجه": "/search/category-tomato-paste/",
+  "رب انار": "/search/category-pomegranate-paste/",
+  "روغن": "/search/category-oil/",
+  "روغن مایع": "/search/category-liquid-sunflower-oil/",
+  "روغن جامد و نیمه جامد": "/search/category-solid-semi-solid-vegetable-oils/",
+  "روغن زیتون": "/search/category-olive-oil/",
+  "روغن ذرت": "/search/category-corn-oil/",
+  "روغن کنجد": "/search/category-sesame-oil/",
+  "روغن حیوانی": "/search/category-animal-oil/",
+  "چای و دمنوش": "/search/category-tea/",
+  "قهوه": "/search/category-coffee/",
+  "دانه قهوه": "/search/category-coffee-bean/",
+  "قهوه فوری": "/search/category-instant-coffee/",
+  "قهوه اسپرسو": "/search/category-espresso-coffee/",
+  "غذاهای آماده و نیمه آماده": "/search/category-ready-made-canned-food/",
+  "تن ماهی": "/search/category-tuna-fish/",
+  "نودل": "/search/category-noodles/",
+  "غذاهای آماده کنسروی": "/search/category-pre-cooked-meals/",
+  "حبوبات و سویا": "/search/category-cereals-soy/",
+  "ادویه و افزودنی": "/search/category-spices-seasonings/",
+  "زعفران": "/search/category-saffron/",
+  "زرشک": "/search/category-barberries/",
+  "فلفل": "/search/category-pepper/",
+  "نمک": "/search/category-salt/",
+  "هل": "/search/category-true-cardamom/",
+  "زنجبیل": "/search/category-ginger/",
+  "زردچوبه": "/search/category-easoning/",
+  "صبحانه": "/search/category-breakfast/",
+  "کره بادام زمینی": "/search/category-peanut-butter/",
+  "شکلات صبحانه": "/search/category-breakfast-chocolates/",
+  "غلات صبحانه": "/search/category-breakfast-cereal/",
+  "عسل": "/search/category-honey/",
+  "نوشیدنی": "/search/category-beverages/",
+  "آب معدنی": "/search/category-mineral-water/",
+  "نوشابه": "/search/category-soft-drink/",
+  "ماء الشعیر": "/search/category-non-alcoholic-beer/",
+  "انرژی زا": "/search/category-sport-energy-drink/",
+  "شربت و آبمیوه": "/search/category-fruit-juice/",
+  "ترشی و شور": "/search/category-salts-and-pickles/",
+  "تنقلات": "/search/category-snacks/",
+  "چیپس": "/search/category-chips/",
+  "پفک": "/search/category-cheese-puffs/",
+  "تخمه": "/search/category-nuts-trail-mix/",
+  "لواشک": "/search/category-fruit-rolls/",
+  "کیک و کلوچه": "/search/category-cookies/",
+  "شکلات": "/search/category-chocolate-and-cocoa-products/",
+  "پاستیل": "/search/category-gummi-candy/",
+  "آدامس": "/search/category-chewing-gum-breath-fresheners/",
+  "بیسکویت": "/search/category-biscuits-wafers/",
+  "آجیل": "/search/category-nuts/",
+  "فندق": "/search/category-hazelnuts/",
+  "پسته": "/search/category-pistachio/",
+  "بادام درختی": "/search/category-almond/",
+  "بادام هندی": "/search/category-cashew/",
+  "بادام زمینی": "/search/category-peanuts/",
+  "انجیر": "/search/category-fig/",
+  "شیرینی": "/search/category-sweets/",
+  "مواد پروتئینی و تخم مرغ": "/search/category-protein-foods/",
+  "خاویار": "/search/category-caviar/",
+  "سوسیس": "/search/category-sausages/",
+  "میوه و سبزیجات": "/search/category-fruits-and-vegetables/",
+  "بهداشت و نظافت خانگی": "/search/category-home-hygiene/",
+  "اسکاچ و سیم ظرفشویی": "/search/category-scouringpad/",
+  "دستکش نظافت": "/search/category-glove/",
+  "مواد شوینده": "/search/category-detergents/",
+  "شوینده لباس": "/search/category-clothes-detergents/",
+  "شوینده ظروف": "/search/category-dishes-detergents/",
+  "شوینده سطوح": "/search/category-surface-cleaner/",
+  "مایع دستشویی": "/search/category-washing-liquid/",
+  "شوینده فرش و مبل": "/search/category-carpet-and-furniture-shampoo/",
+  "لوازم یکبار مصرف آشپزخانه": "/search/category-disposablecontainer/",
+  "بهداشت و خوراک کودک": "/search/category-baby-and-mother/",
+  "غذای کودک": "/search/category-baby-foods/",
+  "پوشک کودک": "/search/category-diaper/",
+  "دهانشویه و خمیردندان کودک": "/search/category-children-and-baby-toothpaste/",
+  "مسواک کودک": "/search/category-baby-toothbrush/",
+  "دستمال مرطوب کودک": "/search/category-babywetwipes/",
+  "کرم،‌ بالم و لوسیون کودک": "/search/category-creams-balms-and-lotions/",
+  "شامپو کودک": "/search/category-baby-shampoo/",
+  "شوینده لباس کودک": "/search/category-cloths-cleaner/",
+  "بهداشت شخصی": "/search/category-personal-hygiene/",
+  "بهداشت و حمام کودک و نوزاد": "/search/category-health-and-bathroom-tools/",
+  "پوشک": "/search/category-diaper/",
+  "دستمال مرطوب": "/search/category-wet-wipes/",
+  "حوله": "/search/category-baby-towel/",
+  "وان حمام نوزاد": "/search/category-baby-bath-tub/",
+  "شامپو کودک و نوزاد": "/search/category-baby-shampoo/",
+  "پوشاک و کفش کودک و نوزاد": "/search/category-kids-apparel/",
+  "لباس نوزادی": "/search/category-kids-clothes/",
+  "کفش": "/search/category-boys-shoes/",
+  "جوراب و پاپوش کودک و نوزاد": "/search/category-kids-socks-/",
+  "کلاه و پیش بند نوزاد": "/search/category-kids-napkin-and-apron/",
+  "پوشاک بچگانه": "/search/category-kids-apparel/",
+  "پوشاک پسرانه": "/search/category-boys-clothing/",
+  "لباس پسرانه": "/search/category-boys-clothes/",
+  "لباس و کفش ورزشی پسرانه": "/search/category-boys-sports/",
+  "کفش پسرانه": "/search/category-boys-shoes/",
+  "کوله پشتی پسرانه": "/search/category-boys-backpacks/",
+  "لباس دخترانه": "/search/category-girls-clothes/",
+  "کفش دخترانه": "/search/category-girls-footwear/",
+  "کوله پشتی دخترانه": "/search/category-girls-backpacks/",
+  "پلی استیشن، ایکس باکس و بازی": "/search/category-game-console/",
+  "اسباب بازی": "/search/category-toys/",
+  "فکری و آموزشی": "/search/category-intellectual-and-educational/",
+  "پازل، لگو و ساختنی": "/search/category-puzzle/",
+  "عروسک و فیگور": "/search/category-toy-and-model/",
+  "اسپینر، ابزار شوخی و سرگرمی": "/search/category-humor-and-entertainment/",
+  "تفنگ، تیر و لوازم جنگی": "/search/category-guns-and-combat/",
+  "بازی و سرگرمی کودک": "/search/category-entertainment-and-games-equipment/",
+  "ماشین بازی، موتور و سه چرخه": "/search/category-tricycle-and-motorcycle/",
+  "تشک بازی و پارک بازی": "/search/category-play-gym/",
+  "تاب و سرسره": "/search/category-swings-and-slides/",
+  "سلامت، ایمنی و مراقبت": "/search/category-safety-and-care/",
+  "تصفیه هوا": "/search/category-air-purifier/",
+  "دوربین و پیجر اتاق کودک": "/search/category-baby-monitor-and-pager/",
+  "محافظ و ابزار ایمنی": "/search/category-safety-tools-for-children-and-babies/",
+  "خواب کودک": "/search/category-baby-bedding/",
+  "مبلمان اتاق کودک": "/search/category-childrens-bedroom-furniture/",
+  "چراغ خواب کودک": "/search/category-baby-decorative-lamp/",
+  "تشک کودک": "/search/category-baby-mat/",
+  "سرویس خواب": "/search/category-bed-set/",
+  "پتو": "/search/category-blanket/",
+  "بالش شیردهی": "/search/category-feeding-pillow/",
+  "داغ ترین ها": "/search/category-entertainment-and-games-equipment/",
+  "ملزومات گردش و سفر": "/search/category-promenade-and-travel-accessories/",
+  "کالسکه و کریر": "/search/category-stroller-and-carrier/",
+  "صندلی خودرو کودک و نوزاد": "/search/category-chair-species/",
+  "ساک لوازم نوزاد": "/search/category-diaper-bag/",
+  "لوازم جانبی گردش و سفر": "/search/category-children-and-baby-promenade-and-travel-accessories/",
+  "آغوشی": "/search/category-baby-carrier/",
+  "لوازم شخصی": "/search/category-personal-accessories/",
+  "پستانک و ملزومات": "/search/category-pacifier-and-accessories/",
+  "شیردوش": "/search/category-milking/",
+  "شورت آموزشی": "/search/category-training-short/",
+  "غذا خوری": "/search/category-dining-accessories/",
+  "صندلی غذاخوری": "/search/category-booster-seat/",
+  "شیشه شیر، سرلاک و داروخوری": "/search/category-baby-bottle/",
+  "خواروبار محلی": "/search/category-rural-groceries/",
+  "برنج محلی": "/search/category-rural-rice/",
+  "روغن محلی": "/search/category-rural-oil/",
+  "صبحانه محلی": "/search/category-rural-breakfast/",
+  "عسل طبیعی": "/search/category-rural-honey/",
+  "حلوا شکری، ارده و کنجد سنتی": "/search/category-rural-halva-and-sesame/",
+  "کیک و شیرینی خانگی": "/search/category-rural-sweets/",
+  "شیرینی خانگی": "/search/category-homemade-sweets/",
+  "کیک و کلوچه محلی": "/search/category-rural-cakes-and-cookies/",
+  "تنقلات خانگی": "/search/category-rural-nuts-and-dried-fruits/",
+  "لواشک، برگه و آلوچه خانگی": "/search/category-organic-fruit-leather-and-dried-fruit/",
+  "تخمه و مغز طعم‌دار محلی": "/search/category-rural-flavored-seeds-and-nuts/",
+  "لبنیات سنتی": "/search/category-rural-dairy/",
+  "کره گیاهی و حیوانی محلی": "/search/category-rural-butter/",
+  "خشکبار و آجیل سنتی": "/search/category-dried-fruits-nuts/",
+  "آجیل سنتی": "/search/category-rural-nuts/",
+  "خرمای محلی": "/search/category-rural-date/",
+  "غلات و حبوبات ارگانیک": "/search/category-cereals-legumes/",
+  "غلات ارگانیک": "/search/category-organic-cereals/",
+  "حبوبات و سویا ارگانیک": "/search/category-organic-beans-and-soy/",
+  "ادویه و چاشنی ارگانیک": "/search/category-seasoning-spices/",
+  "ادویه‌های ارگانیک": "/search/category-rural-flavors-and-spices/",
+  "زعفران و زرشک ارگانیک": "/search/category-organic-rural-saffron-and-barberry/",
+  "عطاری": "/search/category-herbal/",
+  "ترشیجات و شور خانگی": "/search/category-pickles-salt/",
+  "دکوراتیو سنتی": "/search/category-rural-decorative/",
+  "لوستر و چراغ آویز دست ساز": "/search/category-rural-hanging-lamp/",
+  "مجسمه دست ساز": "/search/category-rural-sculpture/",
+  "گلدان دست ساز": "/search/category-rural-flower-pot/",
+  "تابلو سنتی": "/search/category-tableau/",
+  "ست هدیه سنتی": "/search/category-rural-gift-set/",
+  "ست هفت سین سنتی": "/search/category-rural-haftsin-set/",
+  "کاشی سنتی": "/search/category-rural-tile/",
+  "آینه سنتی": "/search/category-rural-mirror/",
+  "محصولات بافتنی": "/search/category-knitwear/",
+  "خانه و کاشانه": "/search/category-rural-home/",
+  "نوشیدنی‌های ارگانیک": "/search/category-herbal-hot-drink/",
+  "چای ارگانیک ایرانی": "/search/category-rural-tea/",
+  "دمنوش گیاهی": "/search/category-rural-herbal-tea/",
+  "اکسسوری و زیورآلات دست ساز": "/search/category-rural-accessories/",
+  "پوشاک بومی و محلی": "/search/category-rural-cloth-and-apparel/",
+  "قالی و قالیچه": "/search/category-rural-carpets-and-rugs/",
+  "ظروف سنتی": "/search/category-rural-dishes/",
+  "آجیل خوری سنتی": "/search/category-rural-nuts-pot/",
+  "دیس و سینی سنتی": "/search/category-rural-tray/",
+  "قندان سنتی": "/search/category-rural-sugar-container/",
+  "بشقاب سنتی": "/search/category-rural-plate/",
+  "لیوان سنتی": "/search/category-rural-glass/",
+  "دیگ و قابلمه سنتی": "/search/category-rural-pot-dig/",
+  "لوازم آشپزخانه سنتی": "/search/category-rural-kitchen-utensils/",
+  "سبد دستبافت": "/search/category-rural-hand-made-basket/",
+  "هاون سنتی": "/search/category-rural-mortar/",
+  "تخته سرو دست ساز": "/search/category-rural-serve-board/",
+  "رومیزی، رانر و زیربشقابی سنتی": "/search/category-traditional-tablecloth-and-under-plate/",
+  "هندزفری بی سیم": "https://www.digikala.com/search/category-headphone/",
+  "تلوزیون": "https://www.digikala.com/search/category-tv2/",
+  "اسباب‌بازی": "https://www.digikala.com/search/category-toys/",
+  "کرم ضد آفتاب": "https://www.digikala.com/search/category-sunscreen-cream/",
+  "کرم پودر": "https://www.digikala.com/search/category-foundation/"
 }
