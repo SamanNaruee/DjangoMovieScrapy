@@ -25,7 +25,7 @@ class PhonesSpider(scrapy.Spider):
         products = data.get('data', {}).get('products', []) if data else []  
 
         if not products:  
-            return  
+            return None
 
         for product in products:  
             try:  
