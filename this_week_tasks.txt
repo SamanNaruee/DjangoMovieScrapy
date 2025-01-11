@@ -1,4 +1,0 @@
-1. set specs for products
-2. solve won't saving items in django models
-3. find tree structure of website
-4. 
