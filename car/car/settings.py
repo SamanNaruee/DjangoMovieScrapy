@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = "car.spiders"
 #USER_AGENT = "car (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -102,11 +102,17 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'best_movies2.settings')
 
 django.setup()  
 
-ITEM_PIPELINES = {  
-    'car.pipelines.CarPipeline': 300,
-}
 ITEM_PIPELINES = {
     'car.pipelines.LaptopPipeline': 300,
+    'car.pipelines.PhonePipeline': 300,
 }
 
-# TWISTED_REACTOR = 'twisted.internet.asyncio.AsyncioSelectorReactor'
+
+FEEDS = {
+    'laptops.json': {
+        'format': 'json',
+        'encoding': 'utf8',
+        'store_empty': False,
+        'indent': 4,
+    }
+}

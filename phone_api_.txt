@@ -1,0 +1,17 @@
+api for all phone:
+https://api.digikala.com/v1/categories/mobile-phone/brands/samsung/search/?page=1
+
+api for one speciefic phone:
+    get the 'api for all phone' and put it to the parse then: 
+    product_id = data['products'][pk of product]['id']
+    https://api.digikala.com/v2/product/{ product_id }/
+
+after of getting a product save it's specifications in a json field, how to get it:
+          in single product details:    
+	specifications = data['product']['specifications']
+	my_django_model(specifications=specifications)
+
+
+
+the url to find that target product
+    https://www.digikala.com/product/dkp-{ product_id }/-/
